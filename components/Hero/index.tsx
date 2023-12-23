@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 // dark:bg-gray-dark
-import {useEffect} from "react";
+import React, {useEffect} from "react";
 
 import {motion} from 'framer-motion';
 
@@ -20,20 +20,20 @@ const Hero = () => {
                     className="mx-auto max-w-[900px] text-center"
                 >
                   <motion.h1
-                      initial={{opacity: 0}}
-                      animate={{opacity: 1}}
-                      transition={{duration: 1}}
-                      className=" mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    className=" mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
                   >
-                    IEEE HKN (Eta Kappu Nu) <br/> SRI SAIRAM ENGINEERING COLLEGE
+                    <br /> IEEE- HKN Nu Eta Chapter
                   </motion.h1>
-                  <motion.p
-                      initial={{opacity: 0}}
-                      animate={{opacity: 1}}
-                      transition={{delay: 1, duration: 1}}
-                      className="font-bold dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-dark md:text-5xl">
-                    Nu Eta Chapter
-                  </motion.p>
+                  {/*<motion.p*/}
+                  {/*    initial={{opacity: 0}}*/}
+                  {/*    animate={{opacity: 1}}*/}
+                  {/*    transition={{delay: 1, duration: 1}}*/}
+                  {/*    className="font-bold dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-dark md:text-5xl">*/}
+                  {/*  Nu Eta Chapter*/}
+                  {/*</motion.p>*/}
 
                 </div>
               </div>

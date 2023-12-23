@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image className="hidden w-full dark:block" width={"125"} height={"100"} src="/images/logo/3.png" alt={"SEC HKN NU ETA CHAPTER"}/>
+                  <Image className="hidden w-full dark:block" width={"125"} height={"100"} src="/images/logo/3-dark.png" alt={"SEC HKN NU ETA CHAPTER"}/>
                   <Image className="w-full dark:hidden" width={"125"} height={"100"} src="/images/logo/3-dark.png" alt={"SEC HKN NU ETA CHAPTER"}/>
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
