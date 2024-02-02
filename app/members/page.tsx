@@ -7,8 +7,8 @@ const professionalMembers: Members[] = [
     id: 1,
     name: "Dr. Sai Prakash Leomuthu",
     designation: "Chairman & CEO of Sairam Institutions",
-    content:
-        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    linkedin:"https://www.linkedin.com/in/sairamceo/",
+    mailid:"ceo@sairamgroup.in",
     image: "/images/members/ceo.jpg",
     //
   },
@@ -16,8 +16,8 @@ const professionalMembers: Members[] = [
     id: 2,
     name: "Dr. Soma Prathibha",
     designation: "Faculty Advisor",
-    content:
-        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    linkedin:"https://www.linkedin.com/in/dr-soma-prathibha-a7884167/",
+    mailid:"prathibha.IT@sairam.edu.in",
     image: "/images/members/soma-mam.webp",
     //
   },
@@ -27,8 +27,8 @@ const studentMembers: Members[] = [
     id: 1,
     name: "Dineshkumar S",
     designation: "President",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    linkedin:"https://www.linkedin.com/in/dineshkumar-sankar-81761a205/",
+    mailid:"dineshkumar.s@ieee.org",
     image: "/images/members/Dineshkumar_Sankar.jpg",
     //
   },
@@ -36,8 +36,8 @@ const studentMembers: Members[] = [
     id: 2,
     name: "Anushree U",
     designation: "Vice President",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    linkedin:"https://www.linkedin.com/in/anushree-udhayakumar-088797204/",
+    mailid:"anushree.udhayakumar@ieee.org",
     image: "/images/members/Anushree.png",
     //
   },
@@ -45,8 +45,8 @@ const studentMembers: Members[] = [
     id: 3,
     name: "Gnana Padmesh M K",
     designation: "Treasurer",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    linkedin:"https://www.linkedin.com/in/gnana-padmesh-c-k-2002/",
+    mailid:"gnanapadmesh.ck@ieee.org ",
     image: "/images/members/Gnana_Padmesh.jpg",
 
   },
@@ -54,32 +54,32 @@ const studentMembers: Members[] = [
     id: 4,
     name: "Tapasya K",
     designation: "Corresponding Scretary",
-    content:
-      "TBD",
+    linkedin:"https://www.linkedin.com/in/tapasya-k/",
+    mailid:"tapasyak@ieee.org",
     image: "/images/members/tapasya_k.jpg",
   },
   {
     id: 5,
     name: "Kishore M A",
     designation: "Recording Secretary",
-    content:
-        "TBD",
+    linkedin:"https://www.linkedin.com/in/kishore2003/",
+    mailid:"kishorema@ieee.org",
     image: "/images/members/Kishore.png",
   },
   {
     id: 6,
     name: "Raghul D",
     designation: "Volunteer Director",
-    content:
-        "TBD",
+    linkedin:"",
+    mailid:"raghul.dayanithi@ieee.org",
     image: "/images/members/Raghul_d.jpg",
   },
   {
     id: 7,
     name: "Solaiganesh S",
     designation: "Event Director",
-    content:
-        "TBD",
+    linkedin:"https://www.linkedin.com/in/solaiganesh-s-47379b239/",
+    mailid:"solaiganesh@ieee.org",
     image: "/images/members/Solaiganesh.jpg",
 
   },
@@ -87,8 +87,8 @@ const studentMembers: Members[] = [
     id: 8,
     name: "Jai Akash S",
     designation: "Public Relations Director",
-    content:
-        "TBD",
+    linkedin:"https://www.linkedin.com/in/jai-akash-s-017289224/",
+    mailid:"jaiakash@ieee.org",
     image: "/images/members/Jaiakash.jpg",
 
   },
@@ -96,24 +96,24 @@ const studentMembers: Members[] = [
     id: 9,
     name: "Suvigshaa S",
     designation: "Recruitment Director",
-    content:
-        "TBD",
+    linkedin:"https://www.linkedin.com/in/s-suvigshaa-b47177229/",
+    mailid:"ssuvigshaa@ieee.org",
     image: "/images/members/Suvigshaa.jpg",
   },
   {
     id: 10,
     name: "Yashwanth J",
     designation: "Operational Director",
-    content:
-        "TBD",
+    linkedin:"https://www.linkedin.com/in/yashwanth-j-118678226/",
+    mailid:"yashwanthj@ieee.org",
     image: "/images/members/Yashwanth_J.jpg",
   },
   {
     id: 11,
     name: "Venkatapathi K",
     designation: "Webmaster",
-    content:
-        "TBD",
+    linkedin:"",
+    mailid:"Venkatapathi@ieee.org",
     image: "/images/members/Venkatapathi_K.png",
   }
 ];

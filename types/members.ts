@@ -2,7 +2,8 @@ export type Members = {
   id: number;
   name: string;
   designation: string;
-  content: string;
+  linkedin: string;
+  mailid:string;
   image: string;
   // star: number;
 };

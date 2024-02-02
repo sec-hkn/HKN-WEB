@@ -14,7 +14,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About"
-        description="Where innovation meets humanity, IEEE pioneers technology, shaping a better future through excellence, collaboration, and global impact."
+        description=""
       />
       <AboutSectionOne />
       <AboutSectionTwo />

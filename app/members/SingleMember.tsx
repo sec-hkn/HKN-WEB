@@ -3,7 +3,7 @@ import Image from "next/image";
 import './style.css';
 
 const SingleMember = ({member, className = ""}: { member: Members, className?: string }) => {
-    const {name, image, content, designation} = member;
+    const {name, image, linkedin, mailid, designation} = member;
 
 
     return (
@@ -25,7 +25,7 @@ const SingleMember = ({member, className = ""}: { member: Members, className?: s
                         <div className="flex items-center gap-2">
 
                             <a
-                                href="#"
+                                href={linkedin}
                                 aria-label="social-link"
                                 className="dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                             >
@@ -40,29 +40,34 @@ const SingleMember = ({member, className = ""}: { member: Members, className?: s
                                 </svg>
                             </a>
                             <a
-                                href="#"
-                                aria-label="social-link"
-                                className="dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                              href={mailid}
+                              aria-label="social-link"
+                              className="dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                             >
 
                                 <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="28"
+                                  height="28"
+                                  viewBox="0 -5.5 26 26"
+                                  fill="none"
+                                  stroke="currentColor"
                                 >
+                                    {/*<path*/}
+                                    {/*    d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zM8 6l4 3 4-3"></path>*/}
                                     <path
-                                        d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zM8 6l4 3 4-3"></path>
-                                </svg>
-                            </a>
-                        </div>
+                                      d="m 13,3.25 0,7.5 c 0,0.425 -0.325,0.75 -0.75,0.75 l -0.75,0 0,-6.8065 L 7,7.925 2.5,4.6935 2.5,11.5 1.75,11.5 C 1.3245,11.5 1,11.175 1,10.75 L 1,3.25 C 1,3.0375 1.081,2.85 1.2155,2.716 1.35,2.58 1.538,2.5 1.75,2.5 L 2,2.5 7,6.125 12,2.5 l 0.25,0 c 0.2125,0 0.4,0.081 0.5345,0.216 C 12.9195,2.85 13,3.0375 13,3.25 Z" />
+
+
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    );
+</div>
+)
+    ;
 };
 
 export default SingleMember;

@@ -16,8 +16,8 @@ const Footer = () => {
                   <Image className="hidden w-full dark:block" width={"125"} height={"100"} src="/images/logo/3-dark.png" alt={"SEC HKN NU ETA CHAPTER"}/>
                   <Image className="w-full dark:hidden" width={"125"} height={"100"} src="/images/logo/3-dark.png" alt={"SEC HKN NU ETA CHAPTER"}/>
                 </Link>
-                <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
-                  Attitude . Scholarship . Character
+                <p className="dark:text-body-color-dark mb-9 text-base text-justify leading-relaxed text-body-color">
+                  Where Innovation meets Humanity ,<br/> IEEE Pioneers Technology shaping a better future through Excellence, Collaboration, and Global impact
                 </p>
                 <div className="flex items-center">
                   <a

@@ -16,39 +16,31 @@ const Hero = () => {
           <div className="container">
             <div className="-mx-4 flex flex-wrap">
               <div className="w-full px-4">
-                <div
-                    className="mx-auto max-w-[900px] text-center"
-                >
+                <div className="mx-auto max-w-[1500px] text-center relative">
                   <motion.h1
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1 }}
-                    className=" mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
+                    className="mb-5 text-4xl font-extrabold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-8xl md:leading-tight relative z-10"
                   >
                     <br /> IEEE- HKN Nu Eta Chapter
                   </motion.h1>
-                  {/*<motion.p*/}
-                  {/*    initial={{opacity: 0}}*/}
-                  {/*    animate={{opacity: 1}}*/}
-                  {/*    transition={{delay: 1, duration: 1}}*/}
-                  {/*    className="font-bold dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-dark md:text-5xl">*/}
-                  {/*  Nu Eta Chapter*/}
-                  {/*</motion.p>*/}
 
-                </div>
               </div>
+
             </div>
           </div>
-          <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        </div>
+        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
             <svg
-                width="450"
-                height="556"
-                viewBox="0 0 450 556"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+              width="450"
+              height="556"
+              viewBox="0 0 450 556"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                  cx="277"
+                cx="277"
                   cy="63"
                   r="225"
                   fill="url(#paint0_linear_25:217)"
