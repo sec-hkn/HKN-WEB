@@ -60,6 +60,8 @@ const eventData: Event[] = [
 
     tags: [""],
     date: "November 30th 2023",
+  },tags: [""],
+    date: "December 18th 2023",
   },
   {
     id: 4,
