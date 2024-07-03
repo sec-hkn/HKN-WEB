@@ -116,29 +116,65 @@ const eventData: Event[] = [
     },
     tags: [""],
     date: "December 18th 2023",
-  },{id: 5,
-    title: "SEC IEEE HKN Nu Eta Chapter Inauguration Ceremony",
+  },{
+    id: 5,
+    title: "Outreach Program for High School Girls – IX Std",
     paragraph:
-      "On September 29, 2023, the IEEE HKN Nu Eta Chapter was inaugurated at Sri Sairam Engineering\n" +
-        "                      College in Chennai, India. The ceremony began with a prayer song and the lighting of the\n" +
-        "                      Kuthuvilakku. Dr. Sai Prakash Leo Muthu, Chairman & CEO of Sairam Institutions, gave the welcome\n" +
-        "                      address, followed by felicitation of the Chief Guests. Mr. Sampathkumar Veeraraghavan, Global\n" +
-        "                      President of IEEE Eta Kappa Nu and 2023 IEEE HTB Partnership Chair, delivered a keynote address on\n" +
-        "                      the role of IEEE HKN in shaping the future of technology. Dr. Prokumaran, Chairman IEEE Madras\n" +
-        "                      Section and Principal, Sri Sairam Engineering College, gave a special address on the importance of\n" +
-        "                      establishing HKN chapters. The highlight of the ceremony was the induction of the IEEE HKN Nu Eta\n" +
-        "                      Founding Members. A fireside chat with IEEE Global Leaders followed, with a discussion on the role\n" +
-        "                      of IEEE in advancing technology for the betterment of society, the challenges and opportunities in\n" +
-        "                      the field of engineering, and the importance of global collaboration in technological advancement.",
-    cover_image: "/images/events/1/cover-image.jpg",
-    main_image: "/images/events/1/inauguaration.jpg",
+    `<style type="text/css">
+      #eventOverview{
+      color:black;
+      text-align: justify;
+      text-justify: inter-word;
+      }
+      img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      div{
+      margin-bottom:50px;
+      }
+</style>
+<div id="eventOverview">
+
+      <div>The IEEE HKN Nu Eta Chapter of Sri Sairam Engineering College conducted a two-day hands-on training event on Web Development on June 20-21, 2024. The event, attended by 9th standard students of Sairam Matriculation Higher Secondary School, aimed to empower high school girls through interactive sessions and hands-on activities in HTML, CSS, JavaScript, and no-code web development platforms. 
+
+</div>
+
+ <div> <strong>Objective:</strong></div>
+ <div>The objective of the event was to
+introduce high school girls to the field of
+web development and provide them with
+hands-on training and experience in
+creating their own website designs, while
+also empowering them with knowledge
+on STEM-related fields like engineering,
+with the aim of promoting their interest
+and skills in these areas.</div>
+ <div><img src="/images/events/5/c2.png"></div>
+             <div><strong>HONORED GUEST:</strong></div>
+             <div><b>Mr. Navaneetha Krishnan Ramananthan - STEM enthusiast</b></div>
+              <div>Navaneetha Krishnan Ramanathan is a multifaceted professional with expertise in entrepreneurship, academia, research, and innovation. He delivered an inspiring talk on current technologies, encouraging students to explore them, and distributed prizes to the winners as part of the valedictory ceremony.</div>
+              <div><strong>KEY HIGHLIGHTS OF THE SESSION:</strong></div>
+              <div>The two-day hands-on training event on Web Development for high school girls, organized by the IEEE HKN Nu Eta Chapter of Sri Sairam Engineering College, included several key sessions designed to empower participants and encourage their involvement in STEM-related activities. The event began with an introduction to HTML basics, covering tags, attributes, and syntax, enabling participants to create a basic HTML structure for a webpage. Hands-on sessions involved tasks such as adding images, links, and text content to create basic web pages. The participants also created their own login pages using HTML, learning to add basic form elements, styles, and validation. Students had the freedom to design their own websites, unleashing their creativity. CSS basics were introduced, teaching participants how to style their websites using selectors, properties, and values. JavaScript basics were also covered, allowing students to add interactivity to their websites and understand their functionality. Additionally, an introduction to no-code web development platforms and tools provided insights into building web applications without writing code. The event concluded with prize distribution, recognizing the volunteers and awarding prizes to winners of various activities and challenges. Fun activities were conducted throughout the sessions to keep the students engaged and motivated.</div>
+              
+              <div><img src="/images/events/5/c1.png"></div>
+        
+        <div><strong>Vote of Thanks:</strong></div>
+        <div>Dr. Soma Prathiba, professor of the IT Department and Faculty Advisor of the Nu Eta Chapter, expressed heartfelt gratitude to all participants, honored guests, speakers, and organizers. She thanked Dr. T Sheela and Mr. Delhi Ganesh for their inspiring addresses and the continuous support of the IT Department. Special thanks were extended to Mr. Navaneetha Krishnan Ramanathan for his valuable insights and encouragement. Dr. Prathiba also acknowledged the tireless efforts of the student volunteers and faculty members who ensured the smooth execution of the event.</div>
+        
+        <div>The two-day hands-on Web Development training by IEEE HKN Nu Eta Chapter was a resounding success, empowering 9th standard students with valuable skills in HTML, CSS, JavaScript, and no-code platforms, and fostering creativity and enthusiasm in STEM fields.</div>
+    </div>
+    `,
+    cover_image: "/images/events/5/Poster.jpg",
+    main_image: "/images/events/5/Poster.jpg",
     venue: {
-      name: "Sigma Stadium",
+      name: "Sairam Matriculation Higher Secondary School, Sirukalathur",
       image: "/images/events/location-icon.jpg",
-      location: "Sri Sairam Engineering College, Chennai, Tamil Nadu",
+      location: "Chennai",
     },
-    tags: ["computer"],
-    date: "September 29th 2023",
+    tags: [""],
+    date: "June 20th & 21st 2024",
   }
 ];
 export default eventData;
