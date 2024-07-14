@@ -118,6 +118,191 @@ const eventData: Event[] = [
     date: "December 18th 2023",
   },{
     id: 5,
+    title: "IEEE HKN Nu Eta Chapter's 119th Founder's Day Celebration",
+    paragraph:
+    `<style type="text/css">
+      #eventOverview{
+      color:black;
+      text-align: justify;
+      text-justify: inter-word;
+      }
+      img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      div{
+      margin-bottom:50px;
+      }
+</style>
+<div id="eventOverview">
+
+      <div>The IEEE HKN Nu Eta Chapter celebrated its 119th Founder’s Day with a significant event that underscored the institution’s dedication to excellence in engineering and technology. The celebration featured prominent speakers and marked the launch of the chapter’s website and social media handles, fostering a sense of community and inspiring future innovations.</div>
+             <div><strong>Event Overview:</strong></div>
+              <div>'The IEEE HKN Nu Eta Chapter’s 119th Founder’s Day Celebration was a remarkable event that showcased the chapter’s commitment to excellence in engineering and technology. Notable moments included Dr. K Porkumaran’s warm welcome, Dineshkumar S’s concise history of IEEE HKN, and the official launch of the chapter’s website and social media handles by Dr. Sai Prakash Leo Muthu. Mr. Sampathkumar Veeraraghavan’s virtual keynote emphasized innovation, while Dr. Soma Prathibha expressed gratitude for the event’s success. Overall, the celebration fostered community spirit and inspired attendees to strive for academic and professional greatness, marking a new era of visibility and engagement within the engineering community.</div>
+              <div><img src="/images/events/5/FLYER.png"></div>
+              <div><strong>Objective: </strong></div>
+              <div>The objective of the IEEE HKN Nu Eta Chapter’s 119th Founder’s Day Celebration was to highlight the chapter’s commitment to excellence in engineering and technology. The event aimed to celebrate the establishment of the new chapter and foster connections within the engineering community.</div>
+              <div><strong>Website and Social Media Launch</strong></div>
+              <div>During the celebration, Dr. Sai Prakash Leo Muthu, Chairman & CEO of Sairam Institutions, officially launched the Nu Eta Chapter’s website and social media handles. Jai Akash S, Public Relations Director, presented the new social media platforms, explaining their role in connecting with the engineering community. This significant step ensures ongoing visibility and engagement within the engineering community, marking a new era for the chapter.</div>
+              
+        <div><strong>Vote of Thanks:</strong></div>
+        <div>the 119th Founder’s Day Celebration brought together leaders, students, and faculty to celebrate engineering excellence and innovation. Beyond historical significance and future aspirations, the event fostered a sense of community and inspired attendees to continue striving for greatness. </div>
+        
+        <div>Beyond historical significance and future aspirations, the event fostered a sense of community and inspired attendees to continue striving for academic and professional greatness. The launch of the chapter’s website and social media handles marks a new era of visibility and engagement, ensuring ongoing connection and collaboration within the engineering community.</div>
+    </div>
+    `,
+    cover_image: "/images/events/5/FLYER.png",
+    main_image: "/images/events/5/MAIN.png",
+    venue: {
+      name: "Sri Sairam Engineering College",
+      image: "/images/events/location-icon.jpg",
+      location: "Chennai",
+    },
+    tags: [""],
+    date: "september 11th 2023",
+  },{
+    id: 6,
+    title: "CIPHERCORE - A SERIES UNRAVELING COMPUTER VISION",
+    paragraph:
+    `<style type="text/css">
+      #eventOverview{
+      color:black;
+      text-align: justify;
+      text-justify: inter-word;
+      }
+      img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      div{
+      margin-bottom:50px;
+      }
+</style>
+<div id="eventOverview">
+
+      <div>CipherCore, a series focused on computer vision, commenced with an inaugural session on January 5, 2024.
+Approximately 50 participants actively engaged in the session, which aimed to introduce fundamental concepts of computer vision and explore the innovative YOLO (You Only Look Once) object detection methodology.
+</div>
+
+ <div> <strong>Objective:</strong></div>
+ <div>The CipherCore focused on computer vision fundamentals and introduced participants to the YOLO (You Only Look Once) object detection methodology. Approximately 50 attendees actively engaged with the material, fostering a dynamic learning environment. The session aimed to enhance understanding and skills in the field of computer vision.</div>
+             
+              <div><strong>KEY HIGHLIGHTS OF THE SESSION:</strong></div>
+              <div><strong>Inaugural session and foundational concepts:</strong></div>
+             <div>The event marked the official inauguration of CipherCore, a series dedicated to exploring computer vision.</div>
+              <div>Participants received insights into essential computer vision concepts. These foundational topics laid the groundwork for deeper exploration in subsequent sessions.</div>
+              <div><strong>YOLO Object Detection</strong></div>
+              <div>The session specifically focused on the YOLO (You Only Look Once) object detection methodology. Attendees learned about its efficiency in analyzing visual data and its applications.
+Approximately 50 participants actively engaged with the material. Their enthusiasm and participation underscored the importance of such initiatives in fostering knowledge and skills in cutting-edge technology.</div>
+              <div><img src="/images/events/6/main.png"></div>
+        
+        <div>The inaugural session successfully achieved its goal of introducing computer vision fundamentals and YOLO object detection.
+Attendees received valuable insights, setting a robust foundation for future sessions in the series.
+The enthusiasm and participation highlighted the importance of such initiatives in advancing knowledge and skills in cutting-edge technology.</div>
+    `,
+    cover_image: "/images/events/6/flyer.png",
+    main_image: "/images/events/6/flyer.png",
+    venue: {
+      name: "Sairam Matriculation Higher Secondary School, Sirukalathur",
+      image: "/images/events/location-icon.jpg",
+      location: "Chennai",
+    },
+    tags: [""],
+    date: "January 5th 2024",
+  },{
+    id: 7,
+    title: "Vilakku Bimonthly Brainstorming on STEM-2",
+    paragraph:
+    `<style type="text/css">
+      #eventOverview{
+      color:black;
+      text-align: justify;
+      text-justify: inter-word;
+      }
+      img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      div{
+      margin-bottom:50px;
+      }
+</style>
+<div id="eventOverview">
+<div>The 'Vilakku' Bimonthly Brainstorming on STEM event, hosted by the IEEE-HKN Nu Eta chapter at Sri Sairam Engineering College, was a strategic initiative aimed at identifying exceptional talents, fostering collaboration, and offering insights into diverse STEM opportunities. Held on February 20, 2024, the event focused on departments like CSBS, MTECH CSE , ECE, EIE and EEE with the goal of identifying potential recruitment candidates for the upcoming year. 
+
+ </div>
+ <div> <strong>Objective:</strong></div>
+ <div>The objective of the ‘Vilakku’ Bimonthly Brainstorming on STEM event was to target engagement and discussions within the CSBS, MTECH CSE, ECE, EIE, and EEE departments to identify exceptional talents for potential recruitment candidates. The goal was to promote a hands-on approach to exploring STEM subjects, fostering collaboration, and showcasing diverse opportunities within STEM fields. Recommendations for future iterations included expanding interactive activities to encourage participant engagement and ensuring broader representation from various departments to enhance the overall experience. </div>
+
+              <div><strong>KEY HIGHLIGHTS OF THE SESSION:</strong></div>
+              <div>The event commenced with keynote address from Dr. Soma Prathibha, setting a tone of prestige and enlightenment. Participants from the departments such CSBS, MTECH CSE , ECE, EIE and EEE, divided into 8 teams, engaged in dynamic team-based activities and interactive discussions on STEM topics, promoting collaboration and meaningful exploration. Attendees had the opportunity to explore various aspects of STEM, gain insights into potential career paths, and understand the nuances and distinctions within STEM fields. Dr. Soma Prathibha expressed gratitude to all participants, guests, and organizers for their contributions to the success of the event, highlighting the collaborative and insightful nature of the 'Vilakku' session. </div>
+             
+<div><img src="/images/events/7/main.png"></div>
+
+        <div>The 'Vilakku' event at Sri Sairam Engineering College conducted by the IEEE HKN Nu Eta Chapter successfully illuminated minds, promoted collaboration, and identified exceptional talents within the STEM community. Through engaging activities, interactive discussions, and valuable insights, the event fostered teamwork, knowledge exchange, and a deeper understanding of STEM fields. </div>
+    `,
+    cover_image: "/images/events/7/flyer.png",
+    main_image: "/images/events/7/flyer.png",
+    venue: {
+      name: "Sairam Matriculation Higher Secondary School, Sirukalathur",
+      image: "/images/events/location-icon.jpg",
+      location: "Chennai",
+    },
+    tags: [""],
+    date: "Febraury 20th 2024",
+  },{
+    id: 8,
+    title: "CipherCore Session 2: Advanced Computer Vision Techniques",
+    paragraph:
+    `<style type="text/css">
+      #eventOverview{
+      color:black;
+      text-align: justify;
+      text-justify: inter-word;
+      }
+      img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      div{
+      margin-bottom:50px;
+      }
+</style>
+<div id="eventOverview">
+<div>The second session of CipherCore - A Series Unravelling Computer Vision was held on March 13, 2024, continuing the exploration of computer vision techniques from the inaugural session. This session focused on advanced topics, specifically object detection using custom datasets, attracting an engaged audience eager to deepen their knowledge and skills.
+
+ </div>
+ <div> <strong>Objective:</strong></div>
+ <div>The objective of the second session of CipherCore - A Series Unravelling Computer Vision was to advance participants' understanding of computer vision techniques, with a specific focus on object detection using custom datasets.</div>
+              <div><strong>KEY HIGHLIGHTS OF THE SESSION:</strong></div>
+              <div>The session focused on advanced computer vision techniques, building on the foundational concepts introduced in the first session. It Featured a detailed presentation and hands-on workshop on object detection using custom datasets. Participants revisited key concepts from the inaugural session to reinforce their understanding. Participants  delved deeper into the practical aspects of customizing datasets for specific applications in computer vision. The session Encouraged a collaborative approach, with high engagement levels, interactive discussions, and valuable insights exchanged among attendees. On whole the session provided participants with practical, hands-on experience in customizing datasets and applying object detection methodologies.       
+</div>
+<div><img src="/images/events/8/main.png"></div>
+
+        <div>The second session of CipherCore - A Series Unravelling Computer Vision successfully advanced    
+     participants' knowledge and skills in computer vision, focusing on the practical implementation of 
+     object detection using custom datasets. With high levels of engagement and collaborative learning, 
+    the session reinforced the series' commitment to exploring the latest advancements in computer  
+    vision. Attendees left with a deeper understanding and enhanced capability to apply cutting-edge 
+    techniques in their own projects, setting the stage for continued exploration in future sessions
+
+ </div>
+    `,
+    cover_image: "/images/events/8/flyer.png",
+    main_image: "/images/events/8/flyer.png",
+    venue: {
+      name: "Sairam Matriculation Higher Secondary School, Sirukalathur",
+      image: "/images/events/location-icon.jpg",
+      location: "Chennai",
+    },
+    tags: [""],
+    date: "March 13th 2024",
+  },{
+    id: 9,
     title: "Outreach Program for High School Girls – IX Std",
     paragraph:
     `<style type="text/css">
@@ -151,14 +336,14 @@ also empowering them with knowledge
 on STEM-related fields like engineering,
 with the aim of promoting their interest
 and skills in these areas.</div>
- <div><img src="/images/events/5/c2.png"></div>
+ <div><img src="/images/events/9/c2.png"></div>
              <div><strong>HONORED GUEST:</strong></div>
              <div><b>Mr. Navaneetha Krishnan Ramananthan - STEM enthusiast</b></div>
               <div>Navaneetha Krishnan Ramanathan is a multifaceted professional with expertise in entrepreneurship, academia, research, and innovation. He delivered an inspiring talk on current technologies, encouraging students to explore them, and distributed prizes to the winners as part of the valedictory ceremony.</div>
               <div><strong>KEY HIGHLIGHTS OF THE SESSION:</strong></div>
               <div>The two-day hands-on training event on Web Development for high school girls, organized by the IEEE HKN Nu Eta Chapter of Sri Sairam Engineering College, included several key sessions designed to empower participants and encourage their involvement in STEM-related activities. The event began with an introduction to HTML basics, covering tags, attributes, and syntax, enabling participants to create a basic HTML structure for a webpage. Hands-on sessions involved tasks such as adding images, links, and text content to create basic web pages. The participants also created their own login pages using HTML, learning to add basic form elements, styles, and validation. Students had the freedom to design their own websites, unleashing their creativity. CSS basics were introduced, teaching participants how to style their websites using selectors, properties, and values. JavaScript basics were also covered, allowing students to add interactivity to their websites and understand their functionality. Additionally, an introduction to no-code web development platforms and tools provided insights into building web applications without writing code. The event concluded with prize distribution, recognizing the volunteers and awarding prizes to winners of various activities and challenges. Fun activities were conducted throughout the sessions to keep the students engaged and motivated.</div>
               
-              <div><img src="/images/events/5/c1.png"></div>
+              <div><img src="/images/events/9/c1.png"></div>
         
         <div><strong>Vote of Thanks:</strong></div>
         <div>Dr. Soma Prathiba, professor of the IT Department and Faculty Advisor of the Nu Eta Chapter, expressed heartfelt gratitude to all participants, honored guests, speakers, and organizers. She thanked Dr. T Sheela and Mr. Delhi Ganesh for their inspiring addresses and the continuous support of the IT Department. Special thanks were extended to Mr. Navaneetha Krishnan Ramanathan for his valuable insights and encouragement. Dr. Prathiba also acknowledged the tireless efforts of the student volunteers and faculty members who ensured the smooth execution of the event.</div>
@@ -166,8 +351,8 @@ and skills in these areas.</div>
         <div>The two-day hands-on Web Development training by IEEE HKN Nu Eta Chapter was a resounding success, empowering 9th standard students with valuable skills in HTML, CSS, JavaScript, and no-code platforms, and fostering creativity and enthusiasm in STEM fields.</div>
     </div>
     `,
-    cover_image: "/images/events/5/Poster.jpg",
-    main_image: "/images/events/5/Poster.jpg",
+    cover_image: "/images/events/9/Poster.jpg",
+    main_image: "/images/events/9/Poster.jpg",
     venue: {
       name: "Sairam Matriculation Higher Secondary School, Sirukalathur",
       image: "/images/events/location-icon.jpg",
