@@ -517,7 +517,7 @@ and skills in these areas.</div>
             <h1>IEEE HKN Nu Eta Chapter</h1>
 
             <h5>presents</h5>
-            <img src="/images/events/10/gene.png">
+            <center><img src="/images/events/10/gene.png"></center>
             <h2>A 2 Days Annual Symposium</h2>
             <h1>Sponsored by IEEE Humanitarian Technologies Board</h1>
         </div>
@@ -539,7 +539,7 @@ and skills in these areas.</div>
                 <h3>
                   Our Sponsors
                 </h3>
-                <img src="/images/events/10/logo.png" width="300px" height="200px"  style="margin-left:30%;">
+               <center> <img src="/images/events/10/logo.png" width="300px" height="200px"></center>
               </div>
             </section>
             <section id="evens">
