@@ -360,6 +360,236 @@ and skills in these areas.</div>
     },
     tags: [""],
     date: "June 20th & 21st 2024",
+  },{
+    id: 10,
+    title: "Genesis 1.0",
+    paragraph:
+    `
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENESIS 1.0</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FDFEFD;
+            color: #0C1326;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+      
+        .eve {
+            background-color: white;
+            color: #0C1326;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 60px; /* Adjust for fixed navbar */
+        }
+        .eve h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .eve h2 {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+        .eve p {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        main {
+            margin: 20px 0;
+        }
+        main h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #0C1326;
+            background-color: #FFC52B;
+            padding: 10px;
+            text-align: center;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { background-color: #FFC52B; }
+            50% { background-color: #E6C104; }
+            100% { background-color: #FFC52B; }
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .even-day {
+            background-color: #FFC52B;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 5px solid #0C1326;
+            animation: slideIn 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+        .even-day h4 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #0C1326;
+        }
+        .even {
+            background-color:white ;
+            color: #0C1326;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .even:hover {
+            transform: scale(1.05);
+            background-color: #0C1326;
+            color: white;
+        }
+        .even h5 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+        .even p {
+            font-size: 1.2em;
+        }
+        footer {
+            background-color: #0C1326;
+            color: #FFC52B;
+            text-align: center;
+            padding: 10px 0;
+        }
+        @media (max-width: 768px) {
+            .eve h1 {
+                font-size: 2em;
+            }
+            .eve h2 {
+                font-size: 1.5em;
+            }
+            .eve p {
+                font-size: 1em;
+            }
+            main h3 {
+                font-size: 1.5em;
+            }
+            .even-day h4 {
+                font-size: 1.5em;
+            }
+            .even h5 {
+                font-size: 1.2em;
+            }
+            .even p {
+                font-size: 1em;
+            }
+        }
+        .pdf-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #FFC52B;
+            color: #0C1326;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .pdf-button:hover {
+            background-color: #E6C104;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="eve" style="justify-content: center;">
+            <h1>IEEE HKN Nu Eta Chapter</h1>
+
+            <h5>presents</h5>
+            <img src="/images/events/10/gene.png">
+            <h2>A 2 Days Annual Symposium</h2>
+            <h1>Sponsored by IEEE Humanitarian Technologies Board</h1>
+        </div>
+        <main>
+            <section id="introduction">
+                <h3>Introduction</h3>
+                <p>GENESIS 1.0 is a two-day symposium happening on July 29th and 30th funded by IEEE HTB. This premier SDG-related event aims to share knowledge, ideas, and experiences in the field of technology, aligning with the United Nations' Sustainable Development Goals SDGs.
+                The symposium emphasizes the importance of soft skills development such as communication, teamwork, and problem-solving. Sessions on leadership, entrepreneurship, and professional development will help students prepare for their future careers in the industry.
+                Join us at GENESIS 1.0 to explore the intersection of technology and sustainable development and to be part of a community dedicated to making a positive impact on the world.</p>
+            </section>
+            <section id="genesis">
+                <h3>Genesis 1.0</h3>
+                <p>The GENESIS 1.0 symposium aligns closely with HTB's vision of fostering a global community of engineers committed to using technology for the benefit of humanity. By incorporating sessions and activities focused on social innovation and sustainable development, the event underscores the importance of engineering in addressing pressing societal and environmental challenges.
+                Our mission is to equip engineering students with the knowledge, skills, and ethical values necessary to thrive in their careers and make a positive impact on society. Through sessions such as the SDG-based treasure hunt, project presentations focusing on the SDGs, and workshops on design thinking, students are encouraged to think creatively and collaboratively to address complex societal and environmental issues.
+                By promoting a culture of innovation and social responsibility, it encourages participants to explore innovative solutions that not only meet technological requirements but also prioritize social impact.</p>
+            </section>
+            <section>
+              <div>
+                <h3>
+                  Our Sponsors
+                </h3>
+                <img src="/images/events/10/logo.png" width="300px" height="200px"  style="margin-left:30%;">
+              </div>
+            </section>
+            <section id="evens">
+                <h3>Events</h3>
+                <div class="even-day">
+                    <h4>Day 1</h4>
+                    <div class="even">
+                        <h5>01:30 PM - 03:40 PM: <b>TECH TALK ON Connected Healthcare for Remote Moms</b></h5>
+                        <p>Join us for an insightful Tech Talk on Connected Healthcare for Remote Moms. This session will delve into the latest advancements in healthcare technology specifically designed to support mothers in remote areas. Discover innovative solutions that bridge the gap in healthcare access and improve maternal health outcomes.</p>
+                    </div>
+                    <div class="even">
+                        <h5>09:30 AM - 04:00 PM: <b>SustainFest: An Exhibition Promoting Sustainability</b></h5>
+                        <p>Visit SustainFest, an expo dedicated to promoting sustainability. Explore innovative projects, products, and ideas that focus on sustainable practices. This is a fantastic opportunity to learn about the latest trends in sustainability and get inspired to make a positive environmental impact.</p>
+                    </div>
+                </div>
+                <div class="even-day">
+                    <h4>Day 2</h4>
+                    <div class="even">
+                        <h5>10:30 AM - 12:30 PM: <b>IEEE SIGHT SESSION</b></h5>
+                        <p>Participate in the IEEE SIGHT Session where we will explore projects and initiatives aimed at leveraging technology for social good. Learn how engineers and technologists are using their skills to address pressing global challenges and contribute to sustainable development.</p>
+                    </div>
+                    <div class="even">
+                        <h5>10:30 AM - 12:30 PM: <b>Think Tank</b></h5>
+                        <p>Join us for the Think Tank Event where you can showcase your strategic expertise and problem-solving skills to tackle real-world business challenges. This is a golden opportunity to engage with fellow innovators and make a significant impact!</p>
+                    </div>
+                    <div class="even">
+                        <h5>01:30 PM - 02:30 PM: <b>SOCIAL ENTREPRENEURSHIP</b></h5>
+                        <p>Immerse yourself in the world of Social Entrepreneurship. This session will provide insights into how business principles can be applied to create social value. Learn from experienced social entrepreneurs and gain inspiration to start your own venture that addresses societal issues.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <a class="pdf-button" href="https://docs.google.com/document/d/1kXh5XedufrbIKb4q5f8Golbj1T-W0UOv/edit?usp=sharing&ouid=106283119800832246779&rtpof=true&sd=true" target="_blank">Download Event Brochure</a>
+        <footer>
+            <p>&copy; 2024 IEEE HKN Nu Eta Chapter. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+    `,
+    cover_image: "/images/events/10/poster.jpeg",
+    main_image: "/images/events/10/poster.jpeg",
+    venue: {
+      name: "Sri Sairam Engineering Collge",
+      image: "/images/events/location-icon.jpg",
+      location: "Chennai",
+    },
+    tags: [""],
+    date: "July 29th & 30th 2024",
   }
 ];
 export default eventData;
