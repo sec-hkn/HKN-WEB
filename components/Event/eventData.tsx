@@ -365,7 +365,7 @@ and skills in these areas.</div>
     title: "Genesis 1.0",
     paragraph:
     `
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -384,7 +384,7 @@ and skills in these areas.</div>
             width: 90%;
             margin: 0 auto;
             padding: 20px;
-      
+        }
         .eve {
             background-color: white;
             color: #0C1326;
@@ -445,15 +445,15 @@ and skills in these areas.</div>
             color: #0C1326;
         }
         .even {
-            background-color:white ;
+            background-color: white;
             color: #0C1326;
-            padding: 15px;
+            padding: 20px;
             margin-bottom: 10px;
             border-radius: 5px;
-            transition: transform 0.3s;
+            position: relative;
+            transition: background-color 0.3s, color 0.3s;
         }
         .even:hover {
-            transform: scale(1.05);
             background-color: #0C1326;
             color: white;
         }
@@ -463,6 +463,17 @@ and skills in these areas.</div>
         }
         .even p {
             font-size: 1.2em;
+        }
+        .event-poster {
+            width: 80%;
+            height: auto;
+            margin: 10%;
+            border-radius: 2px;
+            box-shadow: 0 4px 8px rgba(250, 249, 249, 0.1);
+            display: none;
+        }
+        .even:hover .event-poster {
+            display: block;
         }
         footer {
             background-color: #0C1326;
@@ -492,6 +503,9 @@ and skills in these areas.</div>
             .even p {
                 font-size: 1em;
             }
+            .event-poster {
+                width: 100%;
+            }
         }
         .pdf-button {
             display: block;
@@ -509,15 +523,45 @@ and skills in these areas.</div>
         .pdf-button:hover {
             background-color: #E6C104;
         }
+        .speakers {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .speaker {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 5px solid #FFC52B;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .speaker img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 150px;
+            height: 150px;
+        }
+        .speaker-info {
+            flex: 1;
+        }
+        .speaker-info h4 {
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+        }
+        .speaker-info p {
+            margin: 0;
+            font-size: 1.2em;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="eve" style="justify-content: center;">
             <h1>IEEE HKN Nu Eta Chapter</h1>
-
             <h5>presents</h5>
-            <center><img src="/images/events/10/gene.png"></center>
+            <center><img src="/images/events/10/gene.png" alt="Genesis Event"></center>
             <h2>A 2 Days Annual Symposium</h2>
             <h1>Sponsored by IEEE Humanitarian Technologies Board</h1>
         </div>
@@ -535,24 +579,26 @@ and skills in these areas.</div>
                 By promoting a culture of innovation and social responsibility, it encourages participants to explore innovative solutions that not only meet technological requirements but also prioritize social impact.</p>
             </section>
             <section>
-              <div>
-                <h3>
-                  Our Sponsors
-                </h3>
-               <center> <img src="/images/events/10/logo.png" width="300px" height="200px"></center>
-              </div>
+                <div>
+                    <h3>Our Sponsors</h3>
+                    <center><img src="/images/events/10/logo.png" alt="Sponsors" width="300" height="200"></center>
+                </div>
             </section>
-            <section id="evens">
+            <section id="events">
                 <h3>Events</h3>
                 <div class="even-day">
                     <h4>Day 1</h4>
                     <div class="even">
                         <h5>01:30 PM - 03:40 PM: <b>TECH TALK ON Connected Healthcare for Remote Moms</b></h5>
                         <p>Join us for an insightful Tech Talk on Connected Healthcare for Remote Moms. This session will delve into the latest advancements in healthcare technology specifically designed to support mothers in remote areas. Discover innovative solutions that bridge the gap in healthcare access and improve maternal health outcomes.</p>
+                        <img src="/images/events/10/p11.jpeg" class="event-poster" alt="Tech Talk Poster">
+
                     </div>
                     <div class="even">
                         <h5>09:30 AM - 04:00 PM: <b>SustainFest: An Exhibition Promoting Sustainability</b></h5>
                         <p>Visit SustainFest, an expo dedicated to promoting sustainability. Explore innovative projects, products, and ideas that focus on sustainable practices. This is a fantastic opportunity to learn about the latest trends in sustainability and get inspired to make a positive environmental impact.</p>
+                        <img src="/images/events/10/p12.jpeg" class="event-poster" alt="Tech Talk Poster">
+
                     </div>
                 </div>
                 <div class="even-day">
@@ -560,25 +606,78 @@ and skills in these areas.</div>
                     <div class="even">
                         <h5>10:30 AM - 12:30 PM: <b>IEEE SIGHT SESSION</b></h5>
                         <p>Participate in the IEEE SIGHT Session where we will explore projects and initiatives aimed at leveraging technology for social good. Learn how engineers and technologists are using their skills to address pressing global challenges and contribute to sustainable development.</p>
+                        <img src="/images/events/10/p21.jpeg" class="event-poster" alt="Tech Talk Poster">
                     </div>
                     <div class="even">
                         <h5>10:30 AM - 12:30 PM: <b>Think Tank</b></h5>
                         <p>Join us for the Think Tank Event where you can showcase your strategic expertise and problem-solving skills to tackle real-world business challenges. This is a golden opportunity to engage with fellow innovators and make a significant impact!</p>
+                        <img src="/images/events/10/p22.jpeg" class="event-poster" alt="Tech Talk Poster">
                     </div>
                     <div class="even">
                         <h5>01:30 PM - 02:30 PM: <b>SOCIAL ENTREPRENEURSHIP</b></h5>
                         <p>Immerse yourself in the world of Social Entrepreneurship. This session will provide insights into how business principles can be applied to create social value. Learn from experienced social entrepreneurs and gain inspiration to start your own venture that addresses societal issues.</p>
+                        <img src="/images/events/10/p23.jpeg" class="event-poster" alt="Tech Talk Poster">
                     </div>
                 </div>
             </section>
+            <section class="speakers">
+                <h3>Speakers</h3>
+                <div class="speaker">
+                    <img src="/images/events/10/Sai prakash leomuthu.jpg" alt="Dr. Sai Prakash Leo Muthu">
+                    <div class="speaker-info">
+                        <h4>Dr. Sai Prakash Leo Muthu</h4>
+                        <p>CEO, Sairam Institutions</p>
+                    </div>
+                </div>
+                <div class="speaker">
+                    <img src="/images/events/10/Sampathkumar veeraraghavan.jfif" alt="Mr. Sampathkumar Veeraraghavan">
+                    <div class="speaker-info">
+                        <h4>Mr. Sampathkumar Veeraraghavan</h4>
+                        <p>Global President 2023 IEEE Eta Kappa Nu And 2023 IEEE HTB Partnership Chair (USA)</p>
+                    </div>
+                </div>
+                <div class="speaker">
+                    <img src="/images/events/10/adil.jpeg" alt="Dr. Adil Usman">
+                    <div class="speaker-info">
+                        <h4>Dr. Adil Usman</h4>
+                        <p>Member, IEEE HTB</p>
+                    </div>
+                    </div>
+                <div class="speaker">
+                    <img src="/images/events/10/Charles Godwin.jfif" alt="Mr. Charles Godwin">
+                    <div class="speaker-info">
+                        <h4>Mr. Charles Godwin</h4>
+                        <p>Zoho Corporation</p>
+                    </div>
+                </div>
+                <div class="speaker">
+                    <img src="/images/events/10/Aravindhan anbazhagan.jfif" alt="Mr. Aravindhan Anbazhagan">
+                    <div class="speaker-info">
+                        <h4>Mr. Aravindhan Anbazhagan</h4>
+                        <p>IEEE ProComm</p>
+                    </div>
+                </div>
+                
+             
+                <div class="speaker">
+                    <img src="/images/events/10/senthilkumar.jpeg" alt="Mr. Senthilkumar Murugesan">
+                    <div class="speaker-info">
+                        <h4>Mr. Senthilkumar Murugesan</h4>
+                        <p>CFO, JioVio Healthcare</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="https://docs.google.com/document/d/1kXh5XedufrbIKb4q5f8Golbj1T-W0UOv/edit?usp=sharing&ouid=106283119800832246779&rtpof=true&sd=true" class="pdf-button">Download PDF</a>
+            </section>
         </main>
-        <a class="pdf-button" href="https://docs.google.com/document/d/1kXh5XedufrbIKb4q5f8Golbj1T-W0UOv/edit?usp=sharing&ouid=106283119800832246779&rtpof=true&sd=true" target="_blank">Download Event Brochure</a>
-        <footer>
-            <p>&copy; 2024 IEEE HKN Nu Eta Chapter. All rights reserved.</p>
-        </footer>
     </div>
+    <footer>
+        <p>&copy; 2024 IEEE HKN Nu Eta Chapter. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
 
     `,
     cover_image: "/images/events/10/poster.jpeg",
