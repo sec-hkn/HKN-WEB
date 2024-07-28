@@ -554,6 +554,46 @@ and skills in these areas.</div>
             margin: 0;
             font-size: 1.2em;
         }
+            .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      margin: auto;
+      background-color: #002f6c; /* Dark blue background */
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .slides {
+      display: none;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: #ffd700; /* Yellow color for text */
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      background-color: rgba(0, 47, 108, 0.8); /* Dark blue background */
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+      background-color: #ffd700; /* Yellow color on hover */
+      color: #002f6c; /* Dark blue text on hover */
+    }
     </style>
 </head>
 <body>
@@ -584,6 +624,67 @@ and skills in these areas.</div>
                     <center><img src="/images/events/10/logo.png" alt="Sponsors" width="300" height="200"></center>
                 </div>
             </section>
+            <section style="padding-bottom:20px">
+            <h3>We proudly Welcome</h3>
+    <div class="slideshow-container">
+
+  <div class="slides fade">
+    <img src="/images/events/10/Guest Welcome - CEO.png" style="width:100%">
+  </div>
+
+  <div class="slides fade">
+    <img src="/images/events/10/Guest Welcome - Sampath Sir.png" style="width:100%">
+  </div>
+
+  <div class="slides fade">
+    <img src="/images/events/10/Guest Welcome.png" style="width:100%">
+  </div>
+  <div class="slides fade">
+    <img src="/images/events/10/Guest Welcome - Senthil.png" style="width:100%">
+  </div>
+  <div class="slides fade">
+    <img src="/images/events/10/Guest Welcome - Adil.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+   
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("slides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000);
+}
+
+function plusSlides(n) {
+  let slides = document.getElementsByClassName("slides");
+  let current = slideIndex;
+  if (n > 0) {
+    current++;
+    if (current > slides.length) {current = 1}
+  } else {
+    current--;
+    if (current < 1) {current = slides.length}
+  }
+  slideIndex = current;
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+</script>
+</section>
             <section id="events">
                 <h3>Events</h3>
                 <div class="even-day">
@@ -597,7 +698,7 @@ and skills in these areas.</div>
                     <div class="even">
                         <h5>09:30 AM - 04:00 PM: <b>SustainFest: An Exhibition Promoting Sustainability</b></h5>
                         <p>Visit SustainFest, an expo dedicated to promoting sustainability. Explore innovative projects, products, and ideas that focus on sustainable practices. This is a fantastic opportunity to learn about the latest trends in sustainability and get inspired to make a positive environmental impact.</p>
-                        <img src="/images/events/10/p12.jpeg" class="event-poster" alt="Tech Talk Poster">
+                        <img src="/images/events/10/p12.png" class="event-poster" alt="Tech Talk Poster">
 
                     </div>
                 </div>
@@ -675,13 +776,14 @@ and skills in these areas.</div>
     <footer>
         <p>&copy; 2024 IEEE HKN Nu Eta Chapter. All rights reserved.</p>
     </footer>
+ 
 </body>
 </html>
 
 
     `,
-    cover_image: "/images/events/10/poster.jpeg",
-    main_image: "/images/events/10/poster.jpeg",
+    cover_image: "/images/events/10/poster.png",
+    main_image: "/images/events/10/poster.png",
     venue: {
       name: "Sri Sairam Engineering Collge",
       image: "/images/events/location-icon.jpg",
