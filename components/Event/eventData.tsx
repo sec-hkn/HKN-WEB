@@ -791,6 +791,297 @@ function plusSlides(n) {
     },
     tags: [""],
     date: "July 29th & 30th 2024",
+  },{
+    id: 11,
+    title: "NU MINDS tutoring - Navigate to New Heights",
+    paragraph:
+    `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NU MINDS tutoring - Navigate to New Heights</title>
+    <style>
+      body {
+        font-family: palatino;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    
+    header {
+        background: linear-gradient(to right, #2a2c2b,#8d9a92,#C9DABF);
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    h1 {
+        margin: 0;
+        font-size: 2.5em;
+        animation: colorChange 5s infinite;
+    }
+    
+    p {
+        font-size: 1.2em;
+    }
+    
+    section {
+        background-color: white;
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 1000px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    
+    h2 {
+        color: #0066cc;
+        font-size: 1.2em;
+        border-bottom: 2px solid #0066cc;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        font-size: 1.2rem;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+    
+    th {
+        background-color: #0066cc;
+        color: white;
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
+    tbody tr:hover {
+        background-color: #f1f1f1;
+        cursor: pointer;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: #0066cc;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    .btn:hover {
+        background-color: #004080;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+    
+    @keyframes colorChange {
+        0% { color: #fff; }
+        50% { color: #ffcc00; }
+        100% { color: #fff; }
+    }
+    @media (max-width: 768px) {
+      h1 {
+          font-size: 2.5em;
+      }
+  
+      table, th, td {
+          font-size: 2em;
+      }
+  }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NU MINDS tutoring</h1>
+        <p>Navigate to New Heights</p>
+    </header>
+
+    <section id="about">
+        <h2>About the Initiative</h2>
+        <p>The IEEE HKN Nu Eta Chapter is dedicated to fostering academic excellence and professional growth within our community. As part of this commitment, we are launching a series of specialized tutoring sessions aimed at supporting 2nd and 3rd-year students. These sessions are designed to address complex academic challenges and provide targeted assistance, ensuring our members and peers are well-prepared for both their academic pursuits and future careers.</p>
+    </section>
+
+    <section id="offer">
+        <h2>What We Offer</h2>
+        <ul>
+            <li><strong>Tailored Content:</strong> Each session is carefully crafted to focus on the subjects and topics most relevant to 2nd and 3rd-year students.</li>
+            <li><strong>Experienced Tutors:</strong> Our sessions are led by IEEE HKN Nu Eta Chapter members who have excelled academically.</li>
+            <li><strong>Interactive Learning:</strong> Our sessions are structured to encourage participation and active learning.</li>
+            <li><strong>Professional Development:</strong> Emphasizing the development of skills crucial for your future career.</li>
+        </ul>
+    </section>
+
+    <section id="sessions">
+        <h2>Session Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>NAME</th>
+                    <th>TOPIC</th>
+                    <th>NO. OF SESSIONS</th>
+                    <th>HOURS PER SESSION</th>
+                    <th>TOTAL HOURS</th>
+                    <th>DATE</th>
+                    <th>REGISTER HERE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>SAI SAKTHIVEL RAJAMANI SURENDRAN</td>
+                    <td>Design Thinking for Problem Solving</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>september 2</td>
+                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA">Registration link</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>NASREEN BEGAM Z</td>
+                    <td>Basic to Brilliance: A Deep Dive Into Java OOP Principles</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rahul V</td>
+                    <td>Internet Programming (React)</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Thrisala K</td>
+                    <td>BMIP</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Pranjna B</td>
+                    <td>Data Structures (Algorithms)</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Savitha N</td>
+                    <td>DBMS</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Tharushi S S</td>
+                    <td>IOT</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Harish V P</td>
+                    <td>DBMS</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Sandhiya A</td>
+                    <td>DBMS</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>JAGADEESH G</td>
+                    <td>BIG DATA</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </section>
+
+    <section id="benefits">
+        <h2>Why Participate?</h2>
+        <ul>
+            <li><strong>Expert Instruction:</strong> Learn from IEEE HKN Nu Eta Chapter members who have demonstrated academic excellence.</li>
+            <li><strong>Focused and Engaging:</strong> Sessions are tailored to address the most challenging aspects of each subject.</li>
+            <li><strong>Flexible Learning Options:</strong> Choose the mode that works best for you, whether online or after-hours in-person sessions.</li>
+            <li><strong>Skill Development:</strong> Enhance your problem-solving skills, critical thinking, and readiness for professional challenges.</li>
+        </ul>
+    </section>
+
+    <section id="join">
+        <h2>Join Us</h2>
+        <p>To participate in our tutoring sessions, please register through our official portal. Spaces are limited so we encourage early registration. Don’t miss this opportunity to advance your academic and professional skills with the support of the IEEE HKN Nu Eta Chapter community.</p>
+        <a href="#" class="btn">Register Now</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 IEEE HKN Nu Eta Chapter. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.querySelectorAll('tbody tr').forEach(row => {
+        row.addEventListener('click', () => {
+            alert('You clicked on ' + row.cells[1].textContent);
+        });
+    });
+    
+    </script>
+</body>
+</html>
+
+    `,cover_image: "/images/events/11/poster.jpeg",
+    main_image: "/images/events/11/poster.jpeg",
+    
+    venue: {
+      name: "Sairam Matriculation Higher Secondary School, Sirukalathur",
+      image: "/images/events/location-icon.jpg",
+      location: "Chennai",
+    },
+    tags: [""],
+    date: "June 20th & 21st 2024",
   }
 ];
 export default eventData;
