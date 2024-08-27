@@ -9,7 +9,7 @@ export type Event = {
   title: string;
   paragraph: string;
   cover_image: string;
-  main_image: string;
+  main_image?: string;
   venue: Venue;
   tags: string[];
   date: string;

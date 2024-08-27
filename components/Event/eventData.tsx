@@ -792,15 +792,14 @@ function plusSlides(n) {
     tags: [""],
     date: "July 29th & 30th 2024",
   },{
-    id: 11,
-    title: "NU MINDS tutoring - Navigate to New Heights",
-    paragraph:
-    `<!DOCTYPE html>
+      id: 11,
+      title: "NU MINDS Tutoring - Navigate to New Heights",
+      paragraph: `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NU MINDS tutoring - Navigate to New Heights</title>
+    <title>NU MINDS Tutoring - Navigate to New Heights</title>
     <style>
       body {
         font-family: palatino;
@@ -918,11 +917,7 @@ function plusSlides(n) {
     </style>
 </head>
 <body>
-    <header>
-        <h1>NU MINDS tutoring</h1>
-        <p>Navigate to New Heights</p>
-    </header>
-
+    
     <section id="about">
         <h2>About the Initiative</h2>
         <p>The IEEE HKN Nu Eta Chapter is dedicated to fostering academic excellence and professional growth within our community. As part of this commitment, we are launching a series of specialized tutoring sessions aimed at supporting 2nd and 3rd-year students. These sessions are designed to address complex academic challenges and provide targeted assistance, ensuring our members and peers are well-prepared for both their academic pursuits and future careers.</p>
@@ -947,7 +942,6 @@ function plusSlides(n) {
                     <th>NAME</th>
                     <th>TOPIC</th>
                     <th>NO. OF SESSIONS</th>
-                    <th>HOURS PER SESSION</th>
                     <th>TOTAL HOURS</th>
                     <th>DATE</th>
                     <th>REGISTER HERE</th>
@@ -956,86 +950,50 @@ function plusSlides(n) {
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>SAI SAKTHIVEL RAJAMANI SURENDRAN</td>
-                    <td>Design Thinking for Problem Solving</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>5</td>
-                    <td>september 2</td>
-                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA">Registration link</a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
                     <td>NASREEN BEGAM Z</td>
                     <td>Basic to Brilliance: A Deep Dive Into Java OOP Principles</td>
                     <td>5</td>
-                    <td>1</td>
                     <td>5</td>
+                    <td>02/09/24</td>
+                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA" class="btn">Register</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>SAI SAKTHIVEL RAJAMANI SURENDRAN</td>
+                    <td>Design Thinking for Problem Solving</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>comming soon</td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>Rahul V</td>
-                    <td>Internet Programming (React)</td>
+                    <td>RAHUL V</td>
+                    <td>Approaching frontend with reactive approach</td>
                     <td>3</td>
-                    <td>1</td>
                     <td>3</td>
+                    <td>comming soon</td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>Thrisala K</td>
+                    <td>THRISHALA K</td>
                     <td>BMIP</td>
                     <td>5</td>
-                    <td>1</td>
                     <td>5</td>
+                    <td>comming soon</td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>Pranjna B</td>
+                    <td>PRANJANA B</td>
                     <td>Data Structures (Algorithms)</td>
                     <td>3</td>
-                    <td>1</td>
                     <td>3</td>
+                    <td>comming soon</td>
+                    <td>-</td>
                 </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Savitha N</td>
-                    <td>DBMS</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Tharushi S S</td>
-                    <td>IOT</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Harish V P</td>
-                    <td>DBMS</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Sandhiya A</td>
-                    <td>DBMS</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>JAGADEESH G</td>
-                    <td>BIG DATA</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>5</td>
-                </tr>
+                
             </tbody>
         </table>
         
@@ -1045,6 +1003,7 @@ function plusSlides(n) {
         <h2>Why Participate?</h2>
         <ul>
             <li><strong>Expert Instruction:</strong> Learn from IEEE HKN Nu Eta Chapter members who have demonstrated academic excellence.</li>
+             <li><strong>Individual Attention:</strong> Strong attention, special care and doubt clarification to each and every individual attending the meet</li>
             <li><strong>Focused and Engaging:</strong> Sessions are tailored to address the most challenging aspects of each subject.</li>
             <li><strong>Flexible Learning Options:</strong> Choose the mode that works best for you, whether online or after-hours in-person sessions.</li>
             <li><strong>Skill Development:</strong> Enhance your problem-solving skills, critical thinking, and readiness for professional challenges.</li>
@@ -1054,7 +1013,6 @@ function plusSlides(n) {
     <section id="join">
         <h2>Join Us</h2>
         <p>To participate in our tutoring sessions, please register through our official portal. Spaces are limited so we encourage early registration. Don’t miss this opportunity to advance your academic and professional skills with the support of the IEEE HKN Nu Eta Chapter community.</p>
-        <a href="#" class="btn">Register Now</a>
     </section>
 
     <footer>
@@ -1072,16 +1030,16 @@ function plusSlides(n) {
 </body>
 </html>
 
-    `,cover_image: "/images/events/11/poster.jpeg",
-    main_image: "/images/events/11/poster.jpeg",
-    
-    venue: {
-      name: "Sairam Matriculation Higher Secondary School, Sirukalathur",
-      image: "/images/events/location-icon.jpg",
-      location: "Chennai",
-    },
-    tags: [""],
-    date: "June 20th & 21st 2024",
+    `, cover_image: "/images/events/11/poster.jpeg",
+
+      venue: {
+          name: "Sri Sairam Engineering College",
+          image: "/images/events/location-icon.jpg",
+          location: "Chennai",
+      },
+      tags: [""],
+      main_image:"/images/events/11/image.png",
+      date: "September & october 2024"
   }
 ];
 export default eventData;
