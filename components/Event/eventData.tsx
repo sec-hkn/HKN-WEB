@@ -810,7 +810,7 @@ function plusSlides(n) {
     }
     
     header {
-        background: linear-gradient(to right, #2a2c2b,#8d9a92,#C9DABF);
+       background: linear-gradient(to right, #7482d4,#ca88f6);
         color: white;
         text-align: center;
         padding: 20px 0;
@@ -855,7 +855,10 @@ function plusSlides(n) {
         margin: 20px 0;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    
+    caption{
+        color: Black;
+        font-size:25px;
+    }
     th, td {
         padding: 10px;
         text-align: left;
@@ -936,6 +939,7 @@ function plusSlides(n) {
     <section id="sessions">
         <h2>Session Details</h2>
         <table>
+        <caption><b> 2024-2025</b></caption>
             <thead>
                 <tr>
                     <th>S.NO</th>
@@ -1030,7 +1034,7 @@ function plusSlides(n) {
 </body>
 </html>
 
-    `, cover_image: "/images/events/11/poster.jpeg",
+    `, cover_image: "/images/events/11/poster.png",
 
       venue: {
           name: "Sri Sairam Engineering College",
@@ -1038,7 +1042,7 @@ function plusSlides(n) {
           location: "Chennai",
       },
       tags: [""],
-      main_image:"/images/events/11/image.png",
+      main_image:"/images/events/11/main.gif",
       date: "September & october 2024"
   }
 ];
