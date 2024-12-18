@@ -18,22 +18,34 @@ const Nustar = () => {
   return (
       <>
         <section id="about" className="pt-16 md:pt-20 lg:pt-28">
-          <div className="container">
+        <div className="container">
             <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-              <div className="items-center">
-                <div>
+              <div className="-mx-4 flex flex-wrap items-center">
+                <div className="w-full px-4 lg:w-1/2">
                   <SectionTitle
                       title="THE NU STARS"
-                      paragraph="Meet the twilights"
+                      paragraph="The Nu Stars initiative is a heartfelt recognition of the exceptional efforts and unwavering dedication of our student members. Every month, we honor those whose outstanding contributions have played a pivotal role in the success of the IEEE HKN Nu Eta Chapter’s activities and events.
+These individuals, fondly called 'The Twilights', shine bright in their commitment to excellence, innovation, and teamwork. By spotlighting their achievements, Nu Stars not only celebrates the spirit of collaboration but also motivates the entire chapter to continue striving for excellence.
+Explore this section to meet our Twilights and celebrate the stars who illuminate the path of success for the IEEE HKN Nu Eta Chapter!"
                       mb="44px"
                       className={"text-justify"}
                   />
+
+                  <div
+                      className="mb-12 max-w-[570px] lg:mb-0"
+                  >
+
+                  </div>
                 </div>
 
-                <div className="w-full px-4 lg:w-1">
+                <div className="w-full px-4 lg:w-1/2">
                   <div
                       className="relative mx-auto aspect-[25/24] lg:mr-0"
                   >
+                    <Image src={"/images/sairam-nu-eta.jpeg"}
+                           alt={"Nu Eta Chapter"}
+                           fill
+                           className={"drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"}/>
                   </div>
                 </div>
 

@@ -1044,6 +1044,69 @@ function plusSlides(n) {
       tags: [""],
       main_image:"/images/events/11/main.gif",
       date: "September & october 2024"
-  }
+  },{id: 12,
+  title: "ORUMAI",
+  paragraph:`<style type="text/css">
+      #eventOverview{
+      color:black;
+      text-align: justify;
+      text-justify: inter-word;
+      }
+      img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      div{
+      margin-bottom:50px;
+      }
+</style>
+<div id="eventOverview">
+
+      <div>The objective of the "Orumai" event was to provide an opportunity for the elderly 
+residents at Sri Ramanujar Old Age Home to socialize, engage in entertaining 
+activities, and receive daily essentials and toiletries. This would help combat loneliness 
+and isolation, improve their mental and emotional well-being, and enhance their overall 
+quality of life. </div>
+             <div><strong>Event Overview:</strong></div>
+              <div>The IEEE HKN Nu Eta Chapter of Sri Sairam Engineering College organized the "Orumai" 
+event, a visit to Sri Ramanujar Old Age Home, West Tambaram, on September 6th, 2024. 
+The event aimed to bring joy and comfort to the elderly residents by engaging them in various 
+activities and providing daily essentials and toiletries. The event was a platform for the IEEE 
+HKN Nu Eta Chapter to practice community service, teamwork, and empathy towards the 
+elderly. </div>
+              <div><img src="/images/events/12/1.png"></div>
+              <div><strong>Event Highlights: </strong></div>
+              <div>On September 6th, 2024, the "Orumai" event was successfully held at Sri Ramanujar Old 
+Age Home, West Tambaram. The event started at 10:30 AM and concluded at 1:00 PM. The team of 15 volunteers from IEEE HKN Nu Eta Chapter arrived at the old age home 
+with a plethora of activities and essentials to ensure the comfort and well-being of the 
+elderly residents. During the event, the elderly residents were engaged in various entertainment programs, 
+including games, music, and dance. The interactive sessions, such as storytelling and discussions, allowed for meaningful 
+conversations and bonding between the volunteers and the elderly. The team also provided daily essentials and sanitary supplies, including toiletries, 
+toothbrushes, toothpaste, soap, shampoo, and towels, to ensure the elders' comfort and 
+hygiene. Lunch was provided for the elderly residents, ensuring they were well-fed and satisfied 
+during the visit. The team's efforts to provide these essential items will have a lasting impact on their lives, helping to combat loneliness and isolation and improve their overall quality of life. </div>
+<div><img src="/images/events/12/2.png"></div>              
+<div><strong>Event Outcome:</strong></div>
+              <div>The "Orumai" event brought numerous benefits to the elderly residents, including 
+reduced feelings of loneliness and isolation, improved mental and emotional well
+being, and enhanced overall quality of life. The event also provided an opportunity for 
+socialization, engagement in entertaining activities, and receipt of daily essentials and 
+toiletries. Moreover, the event fostered teamwork and empathy among the volunteers 
+from IEEE HKN Nu Eta Chapter, demonstrating their commitment to community 
+service.</div>
+              
+              <div><img src="/images/events/12/3.png"></div>
+    `
+     ,cover_image: "/images/events/12/poster.png",
+  main_image: "/images/events/12/poster.png",
+  venue: {
+    name: "Sri Ramanujar Old Age Home",
+    image: "/images/events/location-icon.jpg",
+    location: " Kannadasan Street, Parvathi Nagar, Old Perungalathur, Chennai - 600 063.",
+  },
+  tags: ["social cause"],
+  date: "September 6th 2024",
+}
 ];
 export default eventData;
