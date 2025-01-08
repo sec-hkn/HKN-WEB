@@ -810,10 +810,9 @@ function plusSlides(n) {
     }
     
     header {
-       background: linear-gradient(to right, #7482d4,#ca88f6);
         color: white;
         text-align: center;
-        padding: 20px 0;
+        padding: 15px 0;
     }
     
     h1 {
@@ -836,9 +835,10 @@ function plusSlides(n) {
     }
     
     h2 {
-        color: #0066cc;
-        font-size: 1.2em;
-        border-bottom: 2px solid #0066cc;
+        color: #362E8D;
+        font-size: 24px;
+        font-weight:700;
+        border-bottom: 2px solid #362E8D;
         padding-bottom: 10px;
         margin-bottom: 20px;
     }
@@ -866,7 +866,7 @@ function plusSlides(n) {
     }
     
     th {
-        background-color: #0066cc;
+        background-color: #362E8D;
         color: white;
     }
     
@@ -883,7 +883,7 @@ function plusSlides(n) {
         display: inline-block;
         padding: 10px 20px;
         margin-top: 20px;
-        background-color: #0066cc;
+        background-color: #362E8D;
         color: white;
         text-decoration: none;
         border-radius: 5px;
@@ -891,7 +891,7 @@ function plusSlides(n) {
     }
     
     .btn:hover {
-        background-color: #004080;
+        background-color:rgb(59, 116, 174);
     }
     
     footer {
@@ -948,7 +948,7 @@ function plusSlides(n) {
                     <th>NO. OF SESSIONS</th>
                     <th>TOTAL HOURS</th>
                     <th>DATE</th>
-                    <th>REGISTER HERE</th>
+                    <th>ACTION</th>
                 </tr>
             </thead>
             <tbody>
@@ -958,42 +958,42 @@ function plusSlides(n) {
                     <td>Basic to Brilliance: A Deep Dive Into Java OOP Principles</td>
                     <td>5</td>
                     <td>5</td>
-                    <td>02/09/24</td>
-                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA" class="btn">Register</a></td>
+                    <td>02/09/2024 - 06/09/2024</td>
+                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA" class="btn">Poster</a></td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>SAI SAKTHIVEL RAJAMANI SURENDRAN</td>
-                    <td>Design Thinking for Problem Solving</td>
+                    <td>Tharushi S S & Thrisala K</td>
+                    <td>Building blocks to breakthroughs: C programming</td>
                     <td>5</td>
                     <td>5</td>
-                    <td>comming soon</td>
-                    <td>-</td>
+                    <td>07/10/2024 - 11/10/2024</td>
+                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA" class="btn">Poster</a></td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>RAHUL V</td>
-                    <td>Approaching frontend with reactive approach</td>
-                    <td>3</td>
-                    <td>3</td>
-                    <td>comming soon</td>
-                    <td>-</td>
+                    <td>Shreeja S & Gowtham P N</td>
+                    <td>Ignite your imagination: IOT for Everyone</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>04/11/2024 - 08/11/2024</td>
+                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA" class="btn">Poster</a></td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>THRISHALA K</td>
-                    <td>BMIP</td>
-                    <td>5</td>
-                    <td>5</td>
-                    <td>comming soon</td>
-                    <td>-</td>
+                    <td>Mahalakshmi S & Raghul D</td>
+                    <td>Electronic Devices and Networks</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>11/12/2024 & 12/12/2024</td>
+                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA" class="btn">Poster</a></td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>PRANJANA B</td>
-                    <td>Data Structures (Algorithms)</td>
-                    <td>3</td>
-                    <td>3</td>
+                    <td>Harish V P & Savitha N</td>
+                    <td>Code Your Data: A Journey Through DBMS</td>
+                    <td>5</td>
+                    <td>5</td>
                     <td>comming soon</td>
                     <td>-</td>
                 </tr>
@@ -1013,15 +1013,6 @@ function plusSlides(n) {
             <li><strong>Skill Development:</strong> Enhance your problem-solving skills, critical thinking, and readiness for professional challenges.</li>
         </ul>
     </section>
-
-    <section id="join">
-        <h2>Join Us</h2>
-        <p>To participate in our tutoring sessions, please register through our official portal. Spaces are limited so we encourage early registration. Don’t miss this opportunity to advance your academic and professional skills with the support of the IEEE HKN Nu Eta Chapter community.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 IEEE HKN Nu Eta Chapter. All rights reserved.</p>
-    </footer>
 
     <script>
       document.querySelectorAll('tbody tr').forEach(row => {
