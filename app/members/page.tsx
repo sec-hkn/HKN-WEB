@@ -1,148 +1,30 @@
 import { Members } from "@/types/members";
 import SectionTitle from "../../components/Common/SectionTitle";
 import SingleMember from "./SingleMember";
-
-const professionalMembers: Members[] = [
-  {
-    id: 1,
-    name: "Dr. Sai Prakash Leomuthu",
-    designation: "Chairman & CEO of Sairam Institutions",
-    linkedin:"https://www.linkedin.com/in/sairamceo/",
-    mailid:"ceo@sairamgroup.in",
-    image: "/images/members/ceo.jpg",
-    //
-  },
-  {
-    id: 2,
-    name: "Dr. Soma Prathibha",
-    designation: "Faculty Advisor",
-    linkedin:"https://www.linkedin.com/in/dr-soma-prathibha-a7884167/",
-    mailid:"prathibha.IT@sairam.edu.in",
-    image: "/images/members/soma-mam.webp",
-    //
-  },
-];
-const studentMembers: Members[] = [
-  {
-    id: 1,
-    name: "Dineshkumar S",
-    designation: "President",
-    linkedin:"https://www.linkedin.com/in/dineshkumar-sankar-81761a205/",
-    mailid:"dineshkumar.s@ieee.org",
-    image: "/images/members/Dineshkumar_Sankar.jpg",
-    //
-  },
-  {
-    id: 2,
-    name: "Anushree U",
-    designation: "Vice President",
-    linkedin:"https://www.linkedin.com/in/anushree-udhayakumar-088797204/",
-    mailid:"anushree.udhayakumar@ieee.org",
-    image: "/images/members/Anushree.png",
-    //
-  },
-  {
-    id: 3,
-    name: "Gnana Padmesh M K",
-    designation: "Treasurer",
-    linkedin:"https://www.linkedin.com/in/gnana-padmesh-c-k-2002/",
-    mailid:"gnanapadmesh.ck@ieee.org ",
-    image: "/images/members/Gnana_Padmesh.jpg",
-
-  },
-  {
-    id: 4,
-    name: "Tapasya K",
-    designation: "Corresponding Scretary",
-    linkedin:"https://www.linkedin.com/in/tapasya-k/",
-    mailid:"tapasyak@ieee.org",
-    image: "/images/members/tapasya_k.jpg",
-  },
-  {
-    id: 5,
-    name: "Kishore M A",
-    designation: "Recording Secretary",
-    linkedin:"https://www.linkedin.com/in/kishore2003/",
-    mailid:"kishorema@ieee.org",
-    image: "/images/members/Kishore.png",
-  },
-  {
-    id: 6,
-    name: "Raghul D",
-    designation: "Volunteer Director",
-    linkedin:"",
-    mailid:"raghul.dayanithi@ieee.org",
-    image: "/images/members/Raghul_d.jpg",
-  },
-  {
-    id: 7,
-    name: "Solaiganesh S",
-    designation: "Event Director",
-    linkedin:"https://www.linkedin.com/in/solaiganesh-s-47379b239/",
-    mailid:"solaiganesh@ieee.org",
-    image: "/images/members/Solaiganesh.jpg",
-
-  },
-  {
-    id: 8,
-    name: "Jai Akash S",
-    designation: "Public Relations Director",
-    linkedin:"https://www.linkedin.com/in/jai-akash-s-017289224/",
-    mailid:"jaiakash@ieee.org",
-    image: "/images/members/Jaiakash.jpg",
-
-  },
-  {
-    id: 9,
-    name: "Suvigshaa S",
-    designation: "Recruitment Director",
-    linkedin:"https://www.linkedin.com/in/s-suvigshaa-b47177229/",
-    mailid:"ssuvigshaa@ieee.org",
-    image: "/images/members/Suvigshaa.jpg",
-  },
-  {
-    id: 10,
-    name: "Yashwanth J",
-    designation: "Operational Director",
-    linkedin:"https://www.linkedin.com/in/yashwanth-j-118678226/",
-    mailid:"yashwanthj@ieee.org",
-    image: "/images/members/Yashwanth_J.jpg",
-  },
-  {
-    id: 11,
-    name: "Venkatapathi K",
-    designation: "Webmaster",
-    linkedin:"",
-    mailid:"Venkatapathi@ieee.org",
-    image: "/images/members/Venkatapathi_K.png",
-  }
-];
-
+import ProfessionalMemberCard from "./ProfessionalMemberCard";
+import { professionalMembers, studentMembers } from "./memberData";
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
-      <div className="container">
-        <SectionTitle
-          title="SEC IEEE HKN Team"
-          paragraph=""
-          center
-        />
-        <p className="font-bold dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-dark md:text-2xl">
+    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
+      <div className="container mx-auto px-4">
+        <SectionTitle title="SEC IEEE HKN Team" paragraph="" center />
+        <p className="mb-12 text-base font-bold !leading-relaxed text-body-color dark:text-body-color-dark sm:text-dark md:text-3xl">
           Professional Members
         </p>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-1 lg:grid-cols-1">
+        <div className="grid grid-cols-1 gap-x-4 gap-y-16 pt-12 text-center sm:grid-cols-1 md:grid-cols-4 md:gap-y-20">
           {professionalMembers.map((member) => (
-              <SingleMember key={member.id} member={member} className={"w-2/5"} />
+            <ProfessionalMemberCard key={member.id} member={member}/>
           ))}
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <p className="font-bold dark:text-body-color-dark mb-12 font-bold text-base !leading-relaxed text-body-color sm:text-dark md:text-2xl">
+
+        <br />
+        <br />
+        <br />
+        <p className="mb-4 text-base font-bold font-bold !leading-relaxed text-body-color dark:text-body-color-dark sm:text-dark md:text-3xl">
           Student Members
         </p>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-x-4 gap-y-16 pt-12 text-center sm:grid-cols-1 md:grid-cols-4 md:gap-y-20">
           {studentMembers.map((member) => (
             <SingleMember key={member.id} member={member} />
           ))}

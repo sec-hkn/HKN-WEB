@@ -7,3 +7,14 @@ export type Members = {
   image: string;
   // star: number;
 };
+
+export type ProfMembers = {
+  id: number;
+  name: string;
+  desig: string;
+  desig2: string;
+  linkedin: string;
+  mailid:string;
+  image: string;
+  // star: number;
+};

@@ -959,7 +959,7 @@ function plusSlides(n) {
                     <td>5</td>
                     <td>5</td>
                     <td>02/09/2024 - 06/09/2024</td>
-                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA" class="btn">Poster</a></td>
+                    <td><a href="https://drive.google.com/file/d/1gmQnOn0t_x34ykXLqF29GsuxTRcp019o/view?usp=sharing" class="btn">Poster</a></td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -968,7 +968,7 @@ function plusSlides(n) {
                     <td>5</td>
                     <td>5</td>
                     <td>07/10/2024 - 11/10/2024</td>
-                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA" class="btn">Poster</a></td>
+                    <td><a href="https://drive.google.com/file/d/14SQlPufw1XSYQsVRhJhBETUSJmHdJCog/view?usp=sharing" class="btn">Poster</a></td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -977,7 +977,7 @@ function plusSlides(n) {
                     <td>5</td>
                     <td>5</td>
                     <td>04/11/2024 - 08/11/2024</td>
-                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA" class="btn">Poster</a></td>
+                    <td><a href="https://drive.google.com/file/d/1TOAGBxUIx1ps2JtWF2CD4J4_Y5gmt6fL/view?usp=sharing" class="btn">Poster</a></td>
                 </tr>
                 <tr>
                     <td>4</td>
@@ -986,7 +986,7 @@ function plusSlides(n) {
                     <td>2</td>
                     <td>2</td>
                     <td>11/12/2024 & 12/12/2024</td>
-                    <td><a href="https://forms.gle/PCgR2xAkwbdiezjcA" class="btn">Poster</a></td>
+                    <td><a href="https://drive.google.com/file/d/1vwMSu5rtoD9wHxRP-gipy5DprqJdWCNC/view?usp=sharing" class="btn">Poster</a></td>
                 </tr>
                 <tr>
                     <td>5</td>
@@ -994,8 +994,8 @@ function plusSlides(n) {
                     <td>Code Your Data: A Journey Through DBMS</td>
                     <td>5</td>
                     <td>5</td>
-                    <td>comming soon</td>
-                    <td>-</td>
+                    <td>20/01/2025 to 24/01/2025</td>
+                    <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSekrUdG0dYliN7fRtVcDwiI0achKfBwn2cI3BhO8G4wieIddQ/viewform?usp=sharing" class="btn">Register</a></td>
                 </tr>
                 
             </tbody>
@@ -1014,14 +1014,7 @@ function plusSlides(n) {
         </ul>
     </section>
 
-    <script>
-      document.querySelectorAll('tbody tr').forEach(row => {
-        row.addEventListener('click', () => {
-            alert('You clicked on ' + row.cells[1].textContent);
-        });
-    });
     
-    </script>
 </body>
 </html>
 

@@ -22,8 +22,8 @@ export default function Home() {
             <AboutSectionOne/>
             <AboutSectionTwo/>
             <NuEtaSectionOne/>
-            <Members/>
-            <Contact/>
+            {/* <Members/>
+            <Contact/> */}
         </>
     );
 }
