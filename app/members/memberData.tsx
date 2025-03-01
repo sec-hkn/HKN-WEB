@@ -60,7 +60,8 @@ export const professionalMembers: ProfMembers[] = [
     desig: "Professor, Department of EEE",
     desig2: "Sri Sairam Engineering College",
     linkedin: "https://in.linkedin.com/in/meenakshi-balasubramanian-bb430824",
-    mailid: "Meenakshi.EEE@sairam.edu.in",
+    mailid: "Meenakshi.EEE@sairam.edu.inv" +
+      "",
     image: "/images/members/professional/meenakshib.jpg",
   },
   {
