@@ -49,7 +49,25 @@ const menuData: Menu[] = [
     title: "Contact",
     path: "/contact",
     newTab: false,
-  },
+  },{
+  id: 8,
+    title: "Genesis",
+    path: "/genesis",
+    newTab: true,
+    /*submenu: [
+          {
+             id: 81,
+             title: "Genesis 1.0",
+             path: "/1.0",
+             newTab: false,
+           },
+           {
+            id: 82,
+            title: "Genesis 2.0",
+            path: "/2.0",
+            newTab: false,
+          },]*/
+  }
   // {
   //   id: 4,
   //   title: "Pages",
