@@ -1091,6 +1091,61 @@ service.</div>
   },
   tags: ["social cause"],
   date: "September 6th 2024",
-}
+},{id: 13,
+    title: "Industrial Visit",
+    paragraph:`
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            
+        }
+        p{
+        color:black;
+        }
+        h1, h2 {
+            color: #003366;
+            font-weight: bold;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .info {
+            font-weight: bold;
+        }
+    </style>
+<body>
+    
+    <div class="section">
+        <h2>OBJECTIVE</h2>
+        <p>The primary objective of this visit was to understand the fundamental principles of AR, VR, XR, and MR, explore industry practices, and gain hands-on experience with VR gaming technology. The session also aimed to bridge the gap between theoretical knowledge and real-world applications, enabling students to comprehend how immersive technologies contribute to game development and other interactive solutions.</p>
+    </div>
+    
+    <div class="section">
+        <h2>EVENT OVERVIEW</h2>
+        <p>The visit began with an engaging session by Monolith’s expert team, offering a comprehensive overview of AR, VR, XR, and MR. The team explained the functionality of each technology, their evolution, and emerging trends, highlighting applications in gaming, healthcare, education, and enterprise solutions. Industry insights provided a broad perspective on the AR/VR landscape, emphasizing how immersive technology is transforming entertainment and business.</p>
+        <p>The session also explored career opportunities and the essential skill sets for aspiring professionals. A hands-on experience allowed students to engage with VR headsets, immersing themselves in virtual environments and interactive simulations. The students gained insights into real-time interactions, physics simulations, and the core hardware and software components of a VR system. This practical exposure deepened the understanding of immersive technology, bridging the gap between theoretical knowledge and real-world applications, making the visit an invaluable learning experience.</p>
+    </div>
+    
+    <div class="section">
+        <h2>OUTCOMES OF THE EVENT</h2>
+        <p>The visit provided a clear understanding of AR, VR, XR, and MR technologies, offering insights into their functionalities and applications. Students learned about industry trends and future possibilities in immersive technologies, gaining valuable knowledge on how these advancements are shaping various sectors.</p>
+        <p>They explored the essential components involved in game development, deepening their grasp of the technical aspects. Hands-on experience with real-world VR gaming enhanced their conceptual understanding through interactive simulations. Additionally, the session highlighted potential career paths in the AR/VR industry, equipping students with awareness of opportunities and skill sets required to succeed in this rapidly evolving field.</p>
+    </div>
+</body>
+
+      `
+       ,cover_image: "/images/events/13/Web_Photo_Editor.jpg",
+    main_image: "/images/events/13/Web_Photo_Editor.jpg",
+    venue: {
+      name: "Monolith",
+      image: "/images/events/location-icon.jpg",
+      location: " Monolith , Ashok Pillar, Chennai",
+    },
+    tags: ["Industry connect"],
+    date: "February 6th 2025",
+  },
 ];
 export default eventData;

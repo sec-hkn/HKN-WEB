@@ -14,7 +14,7 @@ const Genesis1 = () => {
             alt="Genesis Event"
             width={320}
             height={200}
-            className="mx-auto mt-4"
+            className="mt-4"
           />
           <h2 className="text-3xl mt-4 font-semibold">A 2 Days Annual Symposium</h2>
           <h1 className="text-2xl mt-2 text-[#FFC52B] font-bold">
@@ -32,7 +32,7 @@ const Genesis1 = () => {
               GENESIS 1.0 is a two-day symposium happening on July 29th and 30th funded
               by IEEE HTB. This premier SDG-related event aims to share knowledge,
               ideas, and experiences in the field of technology, aligning with the
-              United Nations' Sustainable Development Goals (SDGs).
+              United National Sustainable Development Goals (SDGs).
             </p>
           </section>
 
@@ -42,7 +42,7 @@ const Genesis1 = () => {
               Genesis 1.0
             </h3>
             <p className="text-lg mt-4 leading-relaxed">
-              The GENESIS 1.0 symposium aligns closely with HTB's vision of fostering
+              The GENESIS 1.0 symposium aligns closely with HTB vision of fostering
               a global community of engineers committed to using technology for the
               benefit of humanity. By incorporating sessions and activities focused
               on social innovation and sustainable development, the event underscores
