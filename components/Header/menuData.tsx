@@ -44,6 +44,12 @@ const menuData: Menu[] = [
       path: "/genesis",
       newTab: false,
       },
+      {
+        id: 52,
+      title: "NEW EVENT",
+      path: "/conclave",
+      newTab: false,
+      },
     ]
   },
   
