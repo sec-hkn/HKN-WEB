@@ -20,24 +20,33 @@ const menuData: Menu[] = [
   // },
   // {
   {
-    id: 6,
+    id: 3,
     title: "Nu Eta",
     path: "/NuEta",
     newTab: false,
   },
   {
-    id: 8,
+    id: 4,
     title: "Nu Stars",
     path: "/Nustars",
     newTab: false,
   }
   ,
   {
-    id: 3,
+    id: 5,
     title: "Events",
     path: "/events",
-    newTab: false
+    newTab: false,
+    submenu: [
+      {
+        id: 51,
+      title: "Genesis",
+      path: "/genesis",
+      newTab: false,
+      },
+    ]
   },
+  
   {
     id: 7,
     title: "Members",
@@ -45,29 +54,11 @@ const menuData: Menu[] = [
     newTab: false
   },
   {
-    id: 5,
+    id: 8,
     title: "Contact",
     path: "/contact",
     newTab: false,
-  },{
-  id: 8,
-    title: "Genesis",
-    path: "/genesis",
-    newTab: true,
-    /*submenu: [
-          {
-             id: 81,
-             title: "Genesis 1.0",
-             path: "/1.0",
-             newTab: false,
-           },
-           {
-            id: 82,
-            title: "Genesis 2.0",
-            path: "/2.0",
-            newTab: false,
-          },]*/
-  }
+  },
   // {
   //   id: 4,
   //   title: "Pages",
