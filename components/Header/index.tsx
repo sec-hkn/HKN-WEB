@@ -7,7 +7,6 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import './style.css';
 
-
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
