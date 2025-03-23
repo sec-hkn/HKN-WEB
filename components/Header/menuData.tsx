@@ -36,27 +36,17 @@ const menuData: Menu[] = [
     id: 5,
     title: "Events",
     path: "/events",
-    newTab: false
-  },
-  {
-    id: 6,
+    newTab: false,
+    submenu: [
+      {
+        id: 51,
       title: "Genesis",
       path: "/genesis",
-      newTab: true,
-      // submenu: [
-      //       {
-      //          id: 61,
-      //          title: "Genesis 1.0",
-      //          path: "/1.0",
-      //          newTab: false,
-      //        },
-      //        {
-      //         id: 62,
-      //         title: "Genesis 2.0",
-      //         path: "/2.0",
-      //         newTab: false,
-      //       },]
-    },
+      newTab: false,
+      },
+    ]
+  },
+  
   {
     id: 7,
     title: "Members",
