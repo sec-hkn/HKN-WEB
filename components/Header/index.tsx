@@ -7,21 +7,6 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import './style.css';
 
-// Define the Menu type if it's not already imported
-interface SubmenuItem {
-  id: number;
-  title: string;
-  path: string;
-  newTab: boolean;
-}
-
-interface MenuItem {
-  id: number;
-  title: string;
-  path?: string;
-  newTab: boolean;
-  submenu?: SubmenuItem[];
-}
 
 const Header = () => {
   // Navbar toggle
@@ -212,7 +197,7 @@ const Header = () => {
                               aria-label="Toggle submenu"
                             >
                               <span>
-                                <svg width="16" height="16" viewBox="0 0 25 24">
+                                <svg width="25" height="25" viewBox="0 0 25 24">
                                   <path
                                     fillRule="evenodd"
                                     clipRule="evenodd"
