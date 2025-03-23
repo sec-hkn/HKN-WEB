@@ -17,7 +17,7 @@ const guests: Guest[] = [
     },
     {
         name: 'Mr. John Smith',
-        description: 'Award-winning Author and Speaker',
+        description: 'Award-winning Author Just and Speaker',
         image: '/images/members/24/rahulv.png',
     },
     {
@@ -55,7 +55,7 @@ const GuestOfHonor: React.FC = () => {
             <h1 className="text-4xl font-bold mb-4 pt-4">Guests of Honor</h1>
 
             {/* Image Slider */}
-            <div className="relative w-5/5 mx-auto overflow-hidden h-[650px] max-w-[80%]">
+            <div className="relative w-5/5 mx-auto overflow-hidden h-[750px] max-w-[75%]">
                 {guests.map((guest, index) => (
                     <div
                         key={index}
