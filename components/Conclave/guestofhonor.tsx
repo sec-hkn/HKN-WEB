@@ -1,42 +1,20 @@
 "use client";
-
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import guestData from './guestData';
 
-interface Guest {
-    name: string;
-    description: string;
-    image: string;
-}
 
-const guests: Guest[] = [
-    {
-        name: 'Dr. Jane Doe',
-        description: 'Renowned Scientist and Innovator',
-        image: '/images/members/24/harishvp.png',
-    },
-    {
-        name: 'Mr. John Smith',
-        description: 'Award-winning Author and Speaker',
-        image: '/images/members/24/rahulv.png',
-    },
-    {
-        name: 'Ms. Emily Davis',
-        description: 'Pioneer in Artificial Intelligence',
-        image: '/images/members/24/harishvp.png',
-    },
-];
 
 const GuestOfHonor: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const handleNext = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % guests.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % guestData.length);
     };
 
     const handlePrev = () => {
         setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? guests.length - 1 : prevIndex - 1
+            prevIndex === 0 ? guestData.length - 1 : prevIndex - 1
         );
     };
 
@@ -50,13 +28,13 @@ const GuestOfHonor: React.FC = () => {
     }, [currentIndex]);
 
     return (
-        <div className="pt-10 pb-10 pl-10 pr-10">
+        <div className="pt-10 pb-10">
             {/* Header */}
             <h1 className="text-4xl font-bold mb-4 pt-4">Guests of Honor</h1>
 
             {/* Image Slider */}
-            <div className="relative w-5/5 mx-auto overflow-hidden h-[650px] max-w-[80%]">
-                {guests.map((guest, index) => (
+            <div className="relative w-5/5 mx-auto overflow-hidden h-[750px] max-w-[75%]">
+                {guestData.map((guest, index) => (
                     <div
                         key={index}
                         className={`absolute inset-0 transition-transform duration-700 ease-in-out ${
@@ -68,7 +46,7 @@ const GuestOfHonor: React.FC = () => {
                         }`}
                     >
                         <Image
-                            src={guest.image}
+                            src={guest.imagePath}
                             alt={guest.name}
                             layout="fill"
                             objectFit="cover"
@@ -94,8 +72,8 @@ const GuestOfHonor: React.FC = () => {
 
             {/* Guest Details */}
             <div className="text-center mt-4">
-                <h2 className="text-xl font-bold">{guests[currentIndex].name}</h2>
-                <p className="text-gray-600">{guests[currentIndex].description}</p>
+                <h2 className="text-xl font-bold">{guestData[currentIndex].name}</h2>
+                <p className="text-gray-600">{guestData[currentIndex]['designation']}</p>
             </div>
         </div>
     );
