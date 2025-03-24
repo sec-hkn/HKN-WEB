@@ -14,7 +14,19 @@ export const metadata: Metadata = {
 
 };
 
-const imagePaths = ['/images/members/24/harishvp.png', '/images/members/24/rahulv.png'];
+const imagePaths = [
+    '/images/conclave/description/1.JPG',
+    '/images/conclave/description/2.JPG',
+    '/images/conclave/description/3.JPG',
+    '/images/conclave/description/4.JPG',
+    '/images/conclave/description/5.JPG',
+    '/images/conclave/description/6.JPG',
+    '/images/conclave/description/7.JPG',
+    '/images/conclave/description/8.JPG',
+    '/images/conclave/description/9.JPG',
+    '/images/conclave/description/10.JPG',
+    '/images/conclave/description/11.JPG'
+];
 
 const Conclave = () => {
     return (

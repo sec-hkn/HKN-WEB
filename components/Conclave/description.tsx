@@ -46,8 +46,8 @@ const Description: React.FC<DescriptionProps> = ({ imagePaths }) => {
             </div>
 
             {/* Slideshow Section */}
-            <div className="flex-1 p-4 w-full lg:w-auto">
-                <div className="relative w-full h-[800px] sm:h-[800px] lg:h-[800px] overflow-hidden">
+            <div className="flex-1 p-2 w-full lg:w-auto">
+                <div className="relative w-full h-[800px] sm:h-[500px] lg:h-[800px] overflow-hidden">
                     {imagePaths.map((imagePath, index) => (
                         <div
                             key={index}
@@ -87,7 +87,7 @@ const Description: React.FC<DescriptionProps> = ({ imagePaths }) => {
                 {/* Caption */}
                 <div className="mt-4 text-center">
                     <p className="text-lg font-semibold text-gray-700">
-                        Image {currentIndex + 1} of {imagePaths.length}
+                        Event Images
                     </p>
                 </div>
             </div>
