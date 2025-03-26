@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, RefObject } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import './style.css';
@@ -16,7 +16,9 @@ const Header = () => {
 
   // References to header and submenu elements
   const headerRef = useRef<HTMLDivElement>(null);
-  const submenuRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const submenuRefs = useRef<(RefObject<HTMLDivElement> | null)[]>(
+    menuData.map(() => null)
+  );
 
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
@@ -42,7 +44,7 @@ const Header = () => {
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
-  const handleSubmenu = (index) => {
+  const handleSubmenu = (index: number) => {
     if (openIndex === index) {
       setOpenIndex(-1);
     } else {
@@ -64,7 +66,7 @@ const Header = () => {
         }
         
         // Check if the click is inside the active submenu
-        const activeSubmenu = submenuRefs.current[openIndex];
+        const activeSubmenu = submenuRefs.current[openIndex]?.current;
         if (activeSubmenu && !activeSubmenu.contains(clickedElement)) {
           // Check if the click was on a parent menu item (don't close if clicking the toggle itself)
           const isClickOnMenuToggle = (clickedElement as HTMLElement).closest('button[aria-label="Toggle submenu"]');
@@ -209,7 +211,11 @@ const Header = () => {
                             
                             {/* Submenu */}
                             <div
-                              ref={el => submenuRefs.current[index] = el}
+                              ref={(el) => {
+                                if (el) {
+                                  submenuRefs.current[index] = { current: el };
+                                }
+                              }}
                               className={`submenu absolute left-0 z-50 rounded-md bg-white transition-all duration-300 min-w-[250px] py-3 px-4 shadow-lg dark:bg-dark ${
                                 openIndex === index ? "block opacity-100 visible" : "hidden opacity-0 invisible"
                               } lg:group-hover:opacity-100 lg:group-hover:visible`}

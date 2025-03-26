@@ -28,7 +28,7 @@ const GuestOfHonor: React.FC = () => {
     }, [currentIndex]);
 
     return (
-        <div className="pt-10 pb-10">
+        <div className="p-10">
             {/* Header */}
             <h1 className="text-4xl font-bold mb-4 pt-4">Guests of Honor</h1>
 
