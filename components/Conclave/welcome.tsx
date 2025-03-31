@@ -8,7 +8,7 @@ const Welcome: React.FC = () => {
 
             {/* Text content */}
             <h1 className="relative z-10 mt-[32vh] text-[3rem] font-bold text-white lg:text-[5rem]">
-                CONCLAVE 23
+                 National Conclave on Humanitarian Technologies'23
             </h1>
         </div>
     );
