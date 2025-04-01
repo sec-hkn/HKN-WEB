@@ -81,7 +81,7 @@ const timelines = {
         id: 12, 
         title: "KEYNOTE ADDRESS BY MR. ARUN JAIN", 
         description: "Mr. Arun Jain, Founder of Polaris and Intellect Design Arena, emphasized the importance of an entrepreneurial mindset for social impact. He highlighted design thinking, human-centric innovation, and ethical leadership as key drivers for technology-driven social progress.", 
-        image: "/images/conclave/guestofhonor/dhandapani.jpg" 
+        image: "/images/conclave/guestofhonor/arun_jain.jpg" 
     },
     { 
         "id": 13, 
