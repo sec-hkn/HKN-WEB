@@ -133,7 +133,7 @@ export default function VerticalTimeline() {
               whileHover={{ scale: 1.05 }}
               onClick={() => handleItemClick(item)}
             >
-              <img src={item.image} alt={item.title} className="w-full w-[120px] object-cover rounded-md" />
+              <img src={item.image} alt={item.title} className="w-[120px] object-cover rounded-md" />
             </motion.div>
           ))}
         </div>
