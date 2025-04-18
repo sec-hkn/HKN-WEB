@@ -13,6 +13,14 @@ const Nustar = () => {
     { name: "August", content: "RAHUL V", image: "/images/nustars/Rahul.png" },
     { name: "September", content: "SAVITHA N", image: "/images/nustars/Savitha.jpeg" },
     { name: "October", content: "THRISALA K", image: "/images/nustars/trishala.jpeg" },
+    {name: "November", content: "SHREEJA S", image: "/images/members/24/shreeja.jpg" },
+    { name: "December", content: "NASREEN BEGAM Z", image: "/images/members/24/nasreenbegam.png" },
+
+  ];
+  const months2 = [
+    { name: "January", content: "HARISH V P", image: "/images/members/24/harishvp.png" },
+    { name: "January", content: "SOLAI GANESH S", image: "/images/members/23/solaiganesh.jpg" },
+    { name: "February", content: "JAGADEESH G", image: "/images/members/24/jagadeesh.jpg" },
   ];
 
   return (
@@ -59,8 +67,39 @@ Explore this section to meet our Twilights and celebrate the stars who illuminat
               className="wow fadeInUp mx-auto max-w-[1400px] text-center"
               data-wow-delay=".2s"
           >
-             <div className="flex flex-wrap justify-center gap-8 py-8 bg-gray-100">
+             <div className="flex flex-wrap justify-center gap-20 py-8 bg-gray-100">
         {months.map((month, index) => (
+          <div
+            key={index}
+            className="w-56 h-64 bg-yellow-300 flex flex-col items-center justify-between rounded-2xl shadow-lg p-4"
+          >
+            <div className="text-lg font-bold text-black">{month.name}</div>
+            <div className="h-[100px] w-full max-w-[100px] overflow-hidden rounded-full border-4 border-white shadow-lg">
+              <Image
+                src={month.image}
+                alt={`${month.name} image`}
+                width={100}
+                height={100}
+                className="object-cover"
+              />
+            </div>
+            <div className="text-center text-black font-semibold text-sm">
+              {month.content}
+            </div>
+          </div>
+        ))}
+      </div>
+     
+          </div>
+        </div>
+        <div>
+          <h2 className={"mb-4 text-3xl font-bold !leading-tight text-black text-center dark:text-white sm:text-4xl md:text-[45px]"}>YEAR 2025</h2>
+          <div
+              className="wow fadeInUp mx-auto max-w-[1400px] text-center"
+              data-wow-delay=".2s"
+          >
+             <div className="flex flex-wrap justify-center gap-20 py-8 bg-gray-100">
+        {months2.map((month, index) => (
           <div
             key={index}
             className="w-56 h-64 bg-yellow-300 flex flex-col items-center justify-between rounded-2xl shadow-lg p-4"
