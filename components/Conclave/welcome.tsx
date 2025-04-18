@@ -7,8 +7,8 @@ const Welcome: React.FC = () => {
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
             {/* Text content */}
-            <h1 className="relative z-10 mt-[32vh] text-[3rem] font-bold text-white lg:text-[5rem]">
-                CONCLAVE 23
+            <h1 className="relative z-10 mt-[32vh] text-[3rem] font-bold text-white lg:text-[5rem] text-center">
+                 National Conclave on <br/> Humanitarian Technologies - 2023
             </h1>
         </div>
     );

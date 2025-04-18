@@ -1,28 +1,92 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
+import timelines from "./timelineData";
 
-const timelines = {
-  "Day 1": [
-    { id: 1, title: "LIGHTING OF THE KUTHUVILAKKU", description: "The ceremonial lamp lighting was led by esteemed guests, symbolizing the illumination of knowledge and the commitment to humanitarian technology. Mr. Rajendran Dhandapani, along with Dr. Sai Prakash Leo Muthu and other dignitaries, marked this auspicious beginning.", image: "/images/conclave/timeline/day1/lightening.JPG" },
-    { id: 2, title: "WELCOME ADDRESS", description: "Dr. K Porkumaran, Principal of Sri Sairam Engineering College and Chairman of IEEE Madras Section, delivered the welcome speech, emphasizing the significance of innovation and technology in humanitarian efforts.", image: "/images/conclave/timeline/day1/welcome_address.JPG" },
-  ],
-  "Day 2": [
-    { id: 1, title: "HONORING THE CHIEF GUEST", description: "Mr. Rajendran Dhandapani, Director Engineering at Zoho Corporation, was honored for his outstanding contributions to technology. He is a visionary leader known for spearheading mobile development at Zoho and promoting alternative education through Zoho Schools of Learning.", image: "/images/conclave/guestofhonor/dhandapani.jpg" },
-    { id: 2, title: "INAUGURAL SESSION", description: "Following the pre-inaugural activities, the formal inaugural session commenced with Thamizh Thai Vazhthu, the Tamil anthem, sung by the college choir. A warm welcome speech by Dr. Sai Prakash Leo Muthu, Chairman & CEO of Sairam Institutions, highlighting the role of educational institutions in promoting humanitarian technologies.", image: "/images/conclave/guestofhonor/sampathkumar_veeraraghavan.jpg" },
-  ],
-  "Day 3": [
-    { id: 1, title: "Smart Cities", description: "Technology-driven urban landscapes.", image: "/images/urban1.jpg" },
-    { id: 2, title: "Green Spaces", description: "Sustainable city planning.", image: "/images/urban2.jpg" },
-  ],
-};
 
 export default function VerticalTimeline() {
   const [selectedTimeline, setSelectedTimeline] = useState("Day 1");
   const [selectedImage, setSelectedImage] = useState(timelines[selectedTimeline][0]);
+  const [autoScroll, setAutoScroll] = useState(true);
+  const [isInView, setIsInView] = useState(false);
+  const timelineRef = useRef(null);
+  const containerRef = useRef(null);
+  const intervalRef = useRef(null);
+
+  // Intersection Observer to check if component is in view
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsInView(entry.isIntersecting);
+      },
+      {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.5, // Trigger when 50% of component is visible
+      }
+    );
+
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
+    }
+
+    return () => {
+      if (containerRef.current) {
+        observer.unobserve(containerRef.current);
+      }
+    };
+  }, []);
+
+  // Auto-scroll logic
+  useEffect(() => {
+    if (autoScroll && isInView) {
+      intervalRef.current = setInterval(() => {
+        const currentItems = timelines[selectedTimeline];
+        const currentIndex = currentItems.findIndex(item => item.id === selectedImage.id);
+        const nextIndex = (currentIndex + 1) % currentItems.length;
+        setSelectedImage(currentItems[nextIndex]);
+        
+        // Scroll to the selected item within the timeline
+        if (timelineRef.current) {
+          const itemElement = timelineRef.current.children[nextIndex];
+          if (itemElement) {
+            itemElement.scrollIntoView({
+              behavior: 'smooth',
+              block: 'nearest',
+              inline: 'nearest'
+            });
+          }
+        }
+      }, 5000);
+    }
+
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+    };
+  }, [autoScroll, selectedImage, selectedTimeline, isInView]);
+
+  const handleTimelineChange = (category) => {
+    setSelectedTimeline(category);
+    setSelectedImage(timelines[category][0]);
+    setAutoScroll(false);
+    setTimeout(() => setAutoScroll(true), 10000);
+  };
+
+  const handleItemClick = (item) => {
+    setSelectedImage(item);
+    setAutoScroll(false);
+    setTimeout(() => setAutoScroll(true), 10000);
+  };
 
   return (
-    <div className="w-full flex flex-col items-center p-6">
+    <div className="w-full flex flex-col p-10 items-center" ref={containerRef}>
+      {/* Left-aligned Header Title */}
+      <div className="w-full text-left">
+        <h1 className="text-4xl font-bold mb-4 pt-4">Timeline</h1>
+      </div>
+      
       {/* Navigation Bar */}
       <div className="flex gap-6 mb-6">
         {Object.keys(timelines).map((category) => (
@@ -31,10 +95,7 @@ export default function VerticalTimeline() {
             className={`px-4 py-2 text-lg font-semibold rounded-lg transition-all ${
               selectedTimeline === category ? "bg-gray-800 text-white" : "bg-gray-200"
             }`}
-            onClick={() => {
-              setSelectedTimeline(category);
-              setSelectedImage(timelines[category][0]);
-            }}
+            onClick={() => handleTimelineChange(category)}
           >
             {category}
           </button>
@@ -42,15 +103,27 @@ export default function VerticalTimeline() {
       </div>
 
       {/* Timeline Section */}
-      <div className="flex w-full max-w-6xl">
+      <div className="flex w-full">
         {/* Left Content */}
-        <div className="w-1/3 p-4">
+        <div className="w-1/3 p-10">
           <h2 className="text-2xl font-bold">{selectedImage.title}</h2>
           <p className="mt-2 text-gray-600">{selectedImage.description}</p>
         </div>
 
         {/* Middle Timeline (Vertical Thumbnails) */}
-        <div className="w-1/10 flex flex-col items-center overflow-y-auto h-80 scrollbar-hide">
+        <div 
+          className="w-1/10 flex flex-col items-center overflow-y-auto h-[400px]"
+          ref={timelineRef}
+          style={{
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+          }}
+        >
+          <style jsx>{`
+            div::-webkit-scrollbar {
+              display: none;
+            }
+          `}</style>
           {timelines[selectedTimeline].map((item) => (
             <motion.div
               key={item.id}
@@ -58,20 +131,20 @@ export default function VerticalTimeline() {
                 selectedImage.id === item.id ? "bg-gray-300" : "hover:bg-gray-200"
               }`}
               whileHover={{ scale: 1.05 }}
-              onClick={() => setSelectedImage(item)}
+              onClick={() => handleItemClick(item)}
             >
-              <img src={item.image} alt={item.title} className="w-full h-20 object-cover rounded-md" />
+              <img src={item.image} alt={item.title} className="w-[120px] object-cover rounded-md" />
             </motion.div>
           ))}
         </div>
 
         {/* Right Large Image Display */}
-        <div className="w-1/2 p-4">
+        <div className="w-1/2 p-10">
           <motion.img
             key={selectedImage.id}
             src={selectedImage.image}
             alt={selectedImage.title}
-            className="w-full h-80 object-cover rounded-lg shadow-lg"
+            className="w-full w-[85%] object-cover rounded-lg shadow-lg"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
