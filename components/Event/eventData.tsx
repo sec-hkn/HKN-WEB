@@ -1146,6 +1146,243 @@ service.</div>
     },
     tags: ["Industry connect"],
     date: "February 6th 2025",
+  },{id: 14,
+    title: "EMPOWER & EXCEL: MASTERING IN IEEE EPICS & TECH4GOOD APPLICATIONS",
+    paragraph:`
+<style>
+  body {
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    color: black;
+    max-width: 900px;
+    line-height: 1.7;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+  }
+
+  img {
+    max-width: 70%;      /* resized to 70% of content width */
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border: 1px solid #ccc;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+</style>
+
+</head>
+<body>
+
+  <h1>NUMINDS TUTORING – NAVIGATE TO NEW HEIGHTS</h1>
+  <h2>EMPOWER & EXCEL: MASTERING IN IEEE EPICS & TECH4GOOD APPLICATIONS</h2>
+
+  <p>
+    On March 6, 2025, the IEEE Product Safety Engineering Society organized a highly interactive online workshop titled
+    “Empower & Excel: Mastering IEEE EPICS & Tech4Good Applications”, aimed at first-year students from all departments of
+    Sri Sairam Engineering College. This knowledge-driven session served as a bridge between technical learning and social impact,
+    highlighting the power of engineering solutions in addressing real-world challenges.
+  </p>
+
+  <img src="/images/events/14/s2.jpg" alt="Workshop Poster">
+
+  <p>
+    The event commenced at 6:30 PM IST and was graced by expert speakers and IEEE HKN Nu Eta Chapter members Mr. Raghul D
+    and Mr. Arul Prakasam M. Mr. Raghul began with an overview of IEEE's global vision, professional development opportunities,
+    and its pivotal role in connecting academia with industry. The participants were introduced to key programs including
+    IEEE Tech4Good and EPICS in IEEE, which support student-driven initiatives that create a positive social impact in collaboration
+    with NGOs.
+  </p>
+
+  
+  <p>
+    Mr. Arul Prakasam led the final segment of the workshop, focusing on structured proposal writing, NGO collaboration, budgeting,
+    and aligning projects with humanitarian goals. Real-time case studies and examples of successful initiatives further enriched
+    the learning experience for students, sparking active engagement and thought-provoking questions.
+  </p>
+
+  <p>
+    The event concluded with an interactive Q&A session, during which students clarified their doubts on proposal documentation,
+    funding structure, and the societal impact of IEEE-led projects. The speakers emphasized the importance of combining technical
+    expertise with empathy, thus motivating attendees to contribute to technology-for-good initiatives under IEEE.
+  </p>
+
+  <p>
+    This workshop laid a strong foundation for young minds to explore IEEE’s humanitarian technologies and inspired them to become
+    proactive contributors to their communities.
+  </p>
+
+  
+ 
+
+</body>
+
+
+      `
+       ,cover_image: "/images/events/14/s1.jpg",
+    main_image: "/images/events/14/s1.jpg",
+    venue: {
+      name: "Online",
+      image: "/images/events/location-icon.jpg",
+      location: "Online",
+    },
+    tags: ["Industry connect"],
+    date: "March 6th 2025",
   },
+{
+    id: 15,
+    title: "SCALE UP – THINK BOLD, LEARN DEEP, LIVE TRUE",
+    paragraph: `
+    <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SCALE UP – THINK BOLD, LEARN DEEP, LIVE TRUE</h1>
+  <h2>(Scholarship, Character, Attitude)</h2>
+
+  <h3>EVENT TITLE</h3>
+  <p>
+    The IEEE-HKN Nu Eta Chapter at Sri Sairam Engineering College successfully organized a motivational and thought-provoking webinar titled 
+    "SCALE UP – THINK BOLD, LEARN DEEP, LIVE TRUE" on 11th April 2025. The session was aimed at inspiring student volunteers to explore leadership, 
+    integrity, and lifelong learning, aligning with the core values of IEEE-HKN.
+  </p>
+
+
+  <h3>MODE AND PARTICIPATION</h3>
+  <p>
+    The event was conducted virtually through Google Meet and saw enthusiastic participation from over 50 IEEE student volunteers 
+    belonging to various technical societies of the college. The webinar created a collaborative platform where students could gain 
+    new perspectives and insights from an accomplished leader in the field.
+  </p>
+
+  <h3>SPEAKER: Dr. COLLEEN BAILEY</h3>
+  <p>
+    The keynote speaker for the event was Dr. Colleen Bailey, who currently serves as the IEEE-HKN Region 5/6 Governor. She is also 
+    an Assistant Professor at the University of North Texas and the Principal Investigator of the O.S.C.A.R. Lab. Dr. Bailey brought with her 
+    a wealth of knowledge and experience, and her session focused on helping students embrace bold thinking, deep learning, and living true 
+    to their personal and professional values. During the webinar, she shared her personal journey, including challenges and successes, 
+    which provided attendees with a real-world view of what it means to lead with authenticity. Her narrative emphasized the significance 
+    of maintaining character, making ethically sound decisions, and contributing meaningfully to the community through leadership roles 
+    in academia and industry.
+  </p>
+
+  <img src="/images/events/15/s4.png" alt="Dr. Colleen Bailey during session">
+
+  <h3>OBJECTIVE AND TAKEAWAYS</h3>
+  <p>
+    The primary objective of the webinar was to instill the core values upheld by IEEE-HKN—Scholarship, Character, and Attitude—among 
+    the student community. Dr. Bailey’s engaging session encouraged participants to step beyond conventional boundaries, embrace a growth mindset, 
+    and commit to continuous personal development. Her insights were not only motivating but also thought-provoking, pushing the students 
+    to evaluate how they could incorporate leadership and integrity into their own paths.
+  </p>
+
+  <h3>IMPACT AND OUTCOMES</h3>
+  <p>
+    The webinar resulted in an increased awareness among students about IEEE-HKN’s foundational principles. It also inspired them to adopt these 
+    values in both their academic and personal lives. Many participants expressed how the event helped them reflect on their goals and approaches 
+    to learning, leadership, and service. The overall feedback from attendees was overwhelmingly positive, with students feeling more confident 
+    about taking on leadership responsibilities while staying true to their core ethics and purpose.
+  </p>
+
+  <img src="/images/events/15/s5.png" alt="Webinar Screenshot or Discussion Image">
+
+  <h3>ORGANIZING TEAM</h3>
+  <p>
+    The smooth execution and success of the webinar were made possible through the dedicated efforts of student volunteers from the IEEE-HKN 
+    Nu Eta Chapter. Key contributors to the organization of the event included Jagadeesh G, Tharushi S S, and Sanjay Kumar S, whose coordination 
+    ensured seamless communication, promotion, and event management.
+  </p>
+
+  <h3>POST-EVENT ENGAGEMENT</h3>
+  <p>
+    To highlight the event's success and maintain engagement, screenshots and promotional posters were shared across various digital platforms. 
+    These visuals showcased the session’s interactive atmosphere and the high level of participation. The event concluded on an inspiring note, 
+    leaving attendees with the message to dream big, think critically, and always lead with character—capturing the true essence of what it means 
+    to scale up in today’s world.
+  </p>
+
+ 
+
+  
+
+</body>
+    `, cover_image: "/images/events/15/s3.png",
+    main_image: "/images/events/15/s3.png",
+    venue: {
+      name: "Online",
+      image: "/images/events/location-icon.jpg",
+      location: "Online",
+    },
+    tags: ["Motivational"],
+    date: "April 11th 2025",
+  }
 ];
 export default eventData;
