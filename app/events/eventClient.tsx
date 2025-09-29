@@ -2,13 +2,7 @@
 
 import { useState } from "react";
 import SingleEvent from "@/components/Event/SingleEvent";
-
-interface Event {
-  id: number;
-  title: string;
-  year: number;
-  [key: string]: any;
-}
+import { Event } from "@/types/event";
 
 interface Props {
   events: Event[];
@@ -40,15 +34,14 @@ const EventClient: React.FC<Props> = ({ events }) => {
   return (
     <section className="pb-[120px] pt-[60px]">
       <div className="container mx-auto max-w-6xl">
-
         {/* Year Filter Buttons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-10">
+        <div className="mb-10 flex flex-wrap justify-center gap-4">
           <button
             onClick={() => setSelectedYear("all")}
-            className={`px-4 py-2 rounded-full border font-medium transition ${
+            className={`rounded-full border px-4 py-2 font-medium transition ${
               selectedYear === "all"
                 ? "bg-primary text-white"
-                : "bg-white text-primary border-primary hover:bg-primary hover:text-white"
+                : "border-primary bg-white text-primary hover:bg-primary hover:text-white"
             }`}
           >
             All
@@ -58,10 +51,10 @@ const EventClient: React.FC<Props> = ({ events }) => {
             <button
               key={year}
               onClick={() => setSelectedYear(year)}
-              className={`px-4 py-2 rounded-full border font-medium transition ${
+              className={`rounded-full border px-4 py-2 font-medium transition ${
                 selectedYear === year
                   ? "bg-primary text-white"
-                  : "bg-white text-primary border-primary hover:bg-primary hover:text-white"
+                  : "border-primary bg-white text-primary hover:bg-primary hover:text-white"
               }`}
             >
               {year}
@@ -70,12 +63,12 @@ const EventClient: React.FC<Props> = ({ events }) => {
         </div>
 
         {/* Optional: Header */}
-        <h2 className="text-3xl font-bold text-primary mb-6 text-center">
+        <h2 className="mb-6 text-center text-3xl font-bold text-primary">
           {selectedYear === "all" ? "All Events" : `${selectedYear} Events`}
         </h2>
 
         {/* Event Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {visibleEvents.map((event) => (
             <a
               href={`/events/${event.id}`}
