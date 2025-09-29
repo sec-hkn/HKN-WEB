@@ -5,6 +5,7 @@ export type Members = {
   linkedin: string;
   mailid:string;
   image: string;
+  year: string;
   // star: number;
 };
 
