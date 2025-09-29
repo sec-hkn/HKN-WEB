@@ -13,4 +13,5 @@ export type Event = {
   venue: Venue;
   tags: string[];
   date: string;
+  year: number;
 };
