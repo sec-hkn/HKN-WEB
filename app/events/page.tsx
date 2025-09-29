@@ -1,7 +1,7 @@
 // app/events/page.tsx
 import { Metadata } from "next";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import EventClient from "./EventClient";
+import EventClient from "@/app/events/EventClient";
 import eventsData from "@/components/Event/eventData";
 
 export const metadata: Metadata = {
