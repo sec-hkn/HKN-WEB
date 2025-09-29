@@ -113,6 +113,7 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/dineshkumar-sankar-81761a205/",
     mailid: "dineshkumar.s@ieee.org",
     image: "/images/members/23/Dineshkumar_Sankar.jpg",
+    year: "2023",
     //
   },
   {
@@ -122,6 +123,7 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/inushree-udhayakumar-088797204/",
     mailid: "anushree.udhayakumar@ieee.org",
     image: "/images/members/23/Anushree.png",
+    year: "2023",
     //
   },
   {
@@ -131,6 +133,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/gnana-padmesh-c-k-2002/",
     mailid: "gnanapadmesh.ck@ieee.org ",
     image: "/images/members/23/Gnana_Padmesh.jpg",
+        year: "2023",
+
   },
   {
     id: 4,
@@ -139,6 +143,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/tapasya-k/",
     mailid: "tapasyak@ieee.org",
     image: "/images/members/23/tapasya_k.jpg",
+        year: "2023",
+
   },
   {
     id: 5,
@@ -147,6 +153,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/kishore2003/",
     mailid: "kishorema@ieee.org",
     image: "/images/members/23/Kishore.png",
+        year: "2023",
+
   },
   {
     id: 6,
@@ -155,6 +163,8 @@ export const studentMembers: Members[] = [
     linkedin: "HKN Member",
     mailid: "raghul.dayanithi@ieee.org",
     image: "/images/members/23/Raghul_d.jpg",
+        year: "2023",
+
   },
   {
     id: 7,
@@ -163,6 +173,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/solaiganesh-s-47379b239/",
     mailid: "solaiganesh@ieee.org",
     image: "/images/members/23/solaiganesh.jpg",
+        year: "2023",
+
   },
   {
     id: 8,
@@ -171,6 +183,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/jai-akash-s-017289224/",
     mailid: "jaiakash@ieee.org",
     image: "/images/members/23/Jaiakash.jpg",
+        year: "2023",
+
   },
   {
     id: 9,
@@ -179,6 +193,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/s-suvigshaa-b47177229/",
     mailid: "ssuvigshaa@ieee.org",
     image: "/images/members/23/Suvigshaa.jpg",
+        year: "2023",
+
   },
   {
     id: 10,
@@ -187,6 +203,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/yashwanth-j-118678226/",
     mailid: "yashwanthj@ieee.org",
     image: "/images/members/23/Yashwanth_J.jpg",
+        year: "2023",
+
   },
   {
     id: 11,
@@ -195,6 +213,8 @@ export const studentMembers: Members[] = [
     linkedin: "HKN Member",
     mailid: "Venkatapathi@ieee.org",
     image: "/images/members/23/Venkatapathi_K.png",
+        year: "2023",
+
   },
   {
     id: 12,
@@ -204,6 +224,8 @@ export const studentMembers: Members[] = [
       "https://www.linkedin.com/in/vignesh-velappan-%F0%9F%87%AE%F0%9F%87%B3-237730250",
     mailid: "vigneshvelappan30@gmail.com",
     image: "/images/members/24/vigneshvelappan.jpg",
+        year: "2023",
+
   },
   {
     id: 13,
@@ -212,6 +234,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/rahulvijayanand",
     mailid: "rahulvijayanand@ieee.org",
     image: "/images/members/24/rahulv.png",
+        year: "2023",
+
   },
 
   {
@@ -221,6 +245,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/saisakthivel2k3/",
     mailid: "saisakthivel2k3@ieee.org",
     image: "/images/members/24/saisakthivel.jpg",
+        year: "2023",
+
   },
   {
     id: 15,
@@ -229,6 +255,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/gowtham-naren-417664257/",
     mailid: "gowthamnaren2017@gmail.com",
     image: "/images/members/24/gowtham.png",
+        year: "2024",
+
   },
   {
     id: 16,
@@ -237,6 +265,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/z-nasreen-begam-015495257",
     mailid: "nasreenbegam14@ieee.org",
     image: "/images/members/24/nasreenbegam.png",
+        year: "2024",
+
   },
   {
     id: 17,
@@ -245,6 +275,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/ruthi-shankari/",
     mailid: "sitarandtsukki@gmail.com",
     image: "/images/members/24/ruthishankari.jpg",
+            year: "2024",
+
   },
   {
     id: 18,
@@ -253,6 +285,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/jagadeesh-gopalakrishnan-367a47253/",
     mailid: "jagadeeshgopalakrishnan@ieee.org",
     image: "/images/members/24/jagadeesh.jpg",
+    year: "2024",
+
   },
   {
     id: 19,
@@ -261,6 +295,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/thrisala-k-b00437257",
     mailid: "thrisala167@gmail.com",
     image: "/images/members/24/thrisala.png",
+    year: "2024",
+
   },
   {
     id: 20,
@@ -269,6 +305,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/tharushi-s-s/",
     mailid: "tharushibabu@ieee.org",
     image: "/images/members/24/tharushi.jpg",
+    year: "2024",
+
   },
   {
     id: 21,
@@ -277,6 +315,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/savitha-narayanamoorthy-7695a7254/",
     mailid: "savithanarayanamoorthy@ieee.org",
     image: "/images/members/24/savitha.jpg",
+    year: "2024",
+
   },
   {
     id: 22,
@@ -285,6 +325,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/vpharish/",
     mailid: "harishvp2004@gmail.com",
     image: "/images/members/24/harishvp.png",
+    year: "2024",
+
   },
   {
     id: 23,
@@ -293,6 +335,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/pranjna-b-114627258",
     mailid: "pranj.jaya16@gmail.com",
     image: "/images/members/24/pranjna.jpg",
+    year: "2024",
+
   },
 
   {
@@ -302,6 +346,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/sandhiya-arulmurugan-2b10a7258",
     mailid: "sandhiya042005@gmail.com",
     image: "/images/members/24/sandhiyaa.jpg",
+    year: "2024",
+
   },
   {
     id: 25,
@@ -310,6 +356,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/sanjaykumar-s-b30062296/",
     mailid: "sanjaykumar04@ieee.org",
     image: "/images/members/24/sanjay.jpg",
+    year: "2024",
+
   },
   {
     id: 26,
@@ -318,6 +366,8 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/shreeja-s-1b17a925a",
     mailid: "shreeja1318@gmail.com",
     image: "/images/members/24/shreeja.jpg",
+    year: "2024",
+
   },
   {
     id: 27,
@@ -326,5 +376,171 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/mahalakshmi-sundararajan-645602218",
     mailid: "Mahalakshmi.S@ieee.org",
     image: "/images/members/24/mahalakshmi.jpg",
+    year: "2024",
+
   },
+{
+    id: 28,
+    name: "Arokiya Swetha K ",
+    designation: "Secretary",
+    linkedin: "www.linkedin.com/in/arokiya-swetha-k-021128295",
+    mailid: "swethakethees2212@ieee.org",
+    image: "/images/members/25/arokiya swetha.jpg",
+    year: "2025",
+
+  },
+
+ {
+    id: 29,
+    name: "Sri Raman M",
+    designation: "HKN Member",
+    linkedin: "https://www.linkedin.com/in/sri-raman-m-321505253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    mailid: "msram.8274@ieee.org",
+    image: "/images/members/25/Sriraman.jpg",
+    year: "2025",
+},
+
+  {
+    id: 30,
+    name: "J Prahaladhan",
+    designation: "Treasurer",
+    linkedin: "https://www.linkedin.com/in/prahal4real",
+    mailid: "drummerprahal@gmail.com",
+    image: "/images/members/25/Prahaladhan.jpg",
+    year: "2025",
+},
+
+{
+    id: 31,
+    name: "B . ARUNI",
+    designation: "Candidate lead",
+    linkedin: "https://www.linkedin.com/in/aruni-b-0b8375294?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    mailid: "arunib613@gmail.com",
+    image: "/images/members/25/aruni.jpg",
+    year: "2025",
+},
+
+{
+    id: 32,
+    name: "Aathika N M",
+    designation: "HKN Member",
+    linkedin: "https://www.linkedin.com/in/aathika-n-m-558418285/",
+    mailid: "aathikanm@gmail.com",
+    image: "/images/members/25/Aathika.jpg",
+    year: "2025",
+},
+ {
+    id: 33,
+    name: "SARAVANAN R K",
+    designation: "HKN Member",
+    linkedin: "www.linkedin.com/in/saravanan-rk/",
+    mailid: "rks17102005@gmail.com",
+    image: "/images/members/25/SARAVANAN R K .jpg",
+    year: "2025",
+
+  },
+{
+    id: 34,
+    name: "Alagappan A",
+    designation: "HKN Member",
+    linkedin: "https://www.linkedin.com/in/alagappanarumugam",
+    mailid: "alagappan028@gmail.com",
+    image: "/images/members/25/alagappan.jpg",
+    year: "2025",
+},
+
+{
+    id: 35,
+    name: "Abirami S",
+    designation: "HKN Member",
+    linkedin: "https://www.linkedin.com/in/abirami-s-11a60127b/",
+    mailid: "abiramisoundararajan2006@gmail.com",
+    image: "/images/members/25/abirami.jpg",
+    year: "2025",
+},
+
+{
+    id: 36,
+    name: "Muthuswetha M",
+    designation: "HKN Member",
+    linkedin: "https://www.linkedin.com/in/muthuswetha-m-2020342a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    mailid: "muthuswetha2003@gmail.com",
+    image: "/images/members/25/muthuswetha.jpg",
+    year: "2025",
+},
+{
+    id: 38,
+    name: "AKASH S",
+    designation: "HKN Member",
+    linkedin: "https://www.linkedin.com/in/akash-s-1a9617300",
+    mailid: "akashsoloboy0507@gmail.com",
+    image: "/images/members/25/akash.jpg",
+    year: "2025",
+},
+{
+    id: 39,
+    name: "Rohith P",
+    designation: "HKN Member",
+    linkedin: "https://www.linkedin.com/in/rohith-p-8a49aa172/",
+    mailid: "rohithpalaniyappan@gmail.com",
+    image: "/images/members/25/rohit.jpg",
+    year: "2025",
+},
+{
+    id: 40,
+    name: "Nakul S",
+    designation: "Program & Outreach Lead",
+    linkedin: "https://www.linkedin.com/in/nakul-s-20jan2006",
+    mailid: "nakul2@ieee.org",
+    image: "/images/members/25/nakul.jpg",
+    year: "2025",
+},
+
+
+{
+    id: 41,
+    name: "Roshan Melvin G A",
+    designation: "Member",
+    linkedin: "https://www.linkedin.com/in/roshan-melvin-tyech5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    mailid: "rocroshanga@gmail.com",
+    image: "/images/members/25/roshan.jpg",
+    year: "2025",
+},
+
+{
+    id: 42,
+    name: "Keerthika S",
+    designation: "Member",
+    linkedin: "https://www.linkedin.com/in/keerthika-s-5240972b7",
+    mailid: "keerthisundar2809@gmail.com",
+    image: "/images/members/25/Keerthika.jpg",
+    year: "2025",
+},
+{
+    id: 43,
+    name: "SAMYUKTHA K S",
+    designation: "Member",
+    linkedin: "https://www.linkedin.com/in/samyuktha-k-s-2b944729b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    mailid: "samyukthaks11@gmail.com",
+    image: "/images/members/25/Samyuktha.jpg",
+    year: "2025",
+},
+{
+    id: 44,
+    name: "KHAHINI BI",
+    designation: "Member",
+    linkedin: "https://www.linkedin.com/in/khahiniboopathi6",
+    mailid: "khahini.off.216@gmail.com",
+    image: "/images/members/25/Khahini.jpg",
+    year: "2025",
+},
+{
+    id: 45,
+    name: "SANJAY S",
+    designation: "Recording Secretary",
+    linkedin: "https://www.linkedin.com/in/sanjay-s-3116a8296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    mailid: "sanjayraj19.2005@gmail.com",
+    image: "/images/members/25/Sanjay.jpg",
+    year: "2025",
+},
 ];
