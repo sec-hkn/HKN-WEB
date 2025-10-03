@@ -1401,6 +1401,1161 @@ service.</div>
     tags: ["Motivational"],
     date: "April 11th 2025",
     year: 2025,
-  }
+  },
+
+{
+  id: 16,
+  title: "SEC IEEE HKN Nu Eta 2024 Induction Ceremony",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SEC IEEE HKN Nu Eta 2024 Induction Ceremony</h1>
+  <h2>(Excellence, Service, Ethics)</h2>
+
+  <h3>INTRODUCTION</h3>
+  <p>
+    The IEEE-HKN Nu Eta Induction Ceremony, held on July 29, 2024, at Sri Sairam Engineering College, marked a 
+    significant milestone for the chapter. The event witnessed the induction of <b>9 professional members</b> 
+    and <b>16 student members</b>, symbolizing the chapter’s commitment to fostering a dynamic and inclusive community. 
+    The ceremony was graced by <b>Dr. Sampathkumar Veeraraghavan</b> from the IEEE Global Community and 
+    <b>Dr. Sai Prakash Leo Muthu</b>, Chairman & CEO of Sairam Institutions. The program emphasized the values 
+    of excellence, service, and ethics, aligning with the goals of the global IEEE-HKN community.
+  </p>
+
+  <img src="/images/events/16/s7.jpg" alt="Induction Ceremony 2024">
+
+  <h3>KEY HIGHLIGHTS</h3>
+  <p>
+    1. <b>Induction:</b> 9 professional members and 16 student members formally inducted.<br>
+    2. <b>Dignitaries:</b> Presence of Dr. Sampathkumar Veeraraghavan and Dr. Sai Prakash Leo Muthu.<br>
+    3. <b>Leadership Transition:</b> <b>Kishore M A</b> assumed the role of 2024 President.<br>
+    4. <b>Values:</b> Ceremony emphasized excellence, service, and ethics.<br>
+    5. <b>Community Building:</b> Strengthened collaboration between student and professional members.<br>
+    6. <b>Strategic Growth:</b> Set the foundation for long-term goals and global alignment.
+  </p>
+
+  <h3>PROFESSIONAL MEMBERS</h3>
+  <p>
+    1. Tharushi SS <br>
+    2. Harish V P <br>
+    3. Sai Sakthivel RS <br>
+    4. Rahul V <br>
+    5. Nasreen Begam Z <br>
+    6. Vignesh Velappan <br>
+    7. Ruthi Shankari S <br>
+    8. Pranjna B
+  </p>
+
+  <h3>STUDENT MEMBERS</h3>
+  <p>
+    9. Thrisala K <br>
+    10. Shreeja S <br>
+    11. Sandhiya A <br>
+    12. Mahalakshmi S <br>
+    13. Jagadeesh G <br>
+    14. Savitha N <br>
+    15. Sanjay Kumar S <br>
+    16. Gowtham PN
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The IEEE-HKN Nu Eta 2024 Induction Ceremony was a landmark event, not only for inducting new members 
+    but also for strengthening the chapter’s leadership and vision. With the guidance of esteemed dignitaries 
+    and the commitment of its new president, the chapter is poised for growth and innovation, staying true 
+    to the core values of IEEE-HKN.
+  </p>
+
+  <img src="/images/events/16/s8.jpg" alt="Group Photo from Induction Ceremony">
+
+</body>
+  `,
+  cover_image: "/images/events/16/s7.jpg",
+  main_image: "/images/events/16/s6.jpg",
+  venue: {
+    name: "Sri Sairam Engineering College",
+    image: "/images/events/location-icon.jpg",
+    location: "Chennai, Tamil Nadu",
+  },
+  tags: ["Induction", "Leadership", "Community"],
+  date: "July 29th 2024",
+  year: 2024,
+  },
+
+{
+  id: 17,
+  title: "Founder’s Day Celebration – Fusion 360 Workshop",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+
+  <h1>Founder’s Day Celebration – Fusion 360 Workshop</h1>
+  <h2>(Design Modelling, Practical Learning)</h2>
+
+  <h3>INTRODUCTION</h3>
+  <p>
+    The IEEE HKN Nu Eta Chapter organized a hands-on workshop titled 
+    "<b>Design Modelling using Fusion 360 Software</b>" on 17th October 2024 at Sri Sairam Engineering College 
+    as part of its Founder's Day Celebration. The workshop aimed to enhance students' 3D design and modeling skills 
+    using Fusion 360, an industry-standard software in engineering, manufacturing, and product design. 
+    <b>Mr. Aravindram V</b>, ICT Design Week winner from the Department of Mechanical and Automation, 
+    led the sessions, providing expert guidance and practical insights.
+  </p>
+
+  <img src="/images/events/16/s10.jpg" alt="Founder’s Day Workshop">
+
+  <h3>EVENT HIGHLIGHTS</h3>
+  <p>
+    1. <b>Introduction to Fusion 360:</b> Overview of software features, interface, and engineering applications.<br>
+    2. <b>Practical Design Session:</b> Live design projects under expert guidance, allowing students to apply learned concepts.<br>
+    3. <b>Q&A and Feedback Session:</b> Interactive session for clarifying doubts and gathering feedback.<br>
+    4. <b>Audience:</b> 115 students from the Electrical and Electronics Engineering (EEE) department participated.<br>
+    5. <b>Learning Outcome:</b> Hands-on experience with industry-grade software strengthened design and modeling skills.
+  </p>
+
+  <h3>SPECIAL GUESTS AND STAFF COORDINATORS</h3>
+  <p>
+    The event was honored by the presence of eminent academicians:<br>
+    - Dr. T. Porselvi – Professor, EEE/SEC<br>
+    - Dr. R. Azhagumurugan – HOD, EEE/SEC<br>
+    - Dr. Soma Prathibha – Professor, IT/SEC<br>
+    Coordinators:<br>
+    - Ms. R. Kothai (EEE)<br>
+    - Dr. T. Porselvi (EEE)
+  </p>
+
+  <h3>STUDENT VOLUNTEERS</h3>
+  <p>
+    - Jaiakash S – Final Year EEE, IEEE HKN Public Relations Director<br>
+    - Venkatapathi K – Final Year EEE, IEEE HKN Webmaster<br>
+    Volunteers assisted with logistics, technical support, and participant engagement.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The Founder’s Day Celebration workshop successfully bridged the gap between theoretical knowledge 
+    and practical design skills. The IEEE HKN Nu Eta Chapter continues to foster a community of learning 
+    and professional growth, preparing students for future challenges in engineering and technology.
+  </p>
+
+  <img src="/images/events/16/s11.jpg" alt="Workshop Group Photo">
+  `,
+  cover_image: "/images/events/16/s9.jpg",
+  main_image: "/images/events/16/s9.jpg",
+  venue: {
+    name: "Sri Sairam Engineering College",
+    image: "/images/events/location-icon.jpg",
+    location: "Chennai, Tamil Nadu",
+  },
+  tags: ["Workshop", "Fusion 360", "Engineering Skills"],
+  date: "October 17th 2024",
+  year: 2024,
+},
+{
+  id: 18,
+  title: "Tutoring Session – Algorithm & Problem Solving",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <h1>Tutoring Session – Algorithm & Problem Solving</h1>
+  <h2>(Algorithmic Thinking, Coding, Problem Solving)</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    The five-day session, conducted from 10th to 14th March 2025 via Google Meet, aimed to help 2nd and 3rd-year students from IT, CSE, CSE-IoT, AIDS, Mechanical, and CSBS departments build a strong foundation in algorithmic problem-solving. 
+    It focused on key algorithmic paradigms, code optimization, and tackling complex computational problems. Limited participants ensured personalized interaction, in-depth discussions, and hands-on problem-solving for competitive programming, technical interviews, and real-world software development.
+  </p>
+
+  <img src="/images/events/16/s13.jpg" alt="Algorithm Tutoring Session">
+
+  <h3>WORKSHOP BREAKDOWN</h3>
+  <p>
+    <b>Day 1 – Understanding Data Structures:</b> Arrays, linked lists, stacks, queues, trees, and graphs, emphasizing efficiency and real-world applications.<br>
+    <b>Day 2 – Backtracking & Brute Force:</b> Explored brute-force techniques and backtracking problems such as N-Queens and Sudoku Solver.<br>
+    <b>Day 3 – Travelling Salesman Problem (TSP):</b> NP-hard problem analysis with exact, heuristic, and approximation solutions using dynamic programming and branch-and-bound approaches.<br>
+    <b>Day 4 – Divide and Conquer:</b> Case studies on Merge Sort, Quick Sort, and Binary Search with hands-on coding.<br>
+    <b>Day 5 – Algorithmic Quiz & Challenge:</b> Interactive quiz and coding challenge applying learned concepts to solve real-world algorithmic problems.
+  </p>
+
+  <h3>OUTCOMES</h3>
+  <p>
+    - Strengthened logical thinking and coding efficiency.<br>
+    - Improved problem-solving skills for competitive programming and interviews.<br>
+    - Practical application of algorithms bridging theory and real-world scenarios.<br>
+    - Recognition through e-certificates and achievement certificates for top performers.
+  </p>
+
+  <h3>VOLUNTEERS</h3>
+  <p>
+    1. Ruthi Shankari S<br>
+    2. Rahul V<br>
+    Volunteers assisted with technical support, session management, and participant engagement.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The tutoring session successfully equipped students with essential algorithmic thinking and problem-solving skills. 
+    Participants praised the interactive format, real-world examples, and personalized guidance, which enhanced their understanding and practical application of algorithms.
+  </p>
+
+  <p>Social Media Link: <a href="https://www.linkedin.com/posts/nu-eta_ieeehkn-nuetachapter-algorithmicthinking-activity-7307442619536617474-m_CU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgJmhUB1VWwwiwjoxxvrpfeCIU2W7Ahj8" target="_blank">LinkedIn Post</a></p>
+
+  <img src="/images/events/16/s14.jpg" alt="Algorithm Tutoring Session Group Photo">
+  `,
+  cover_image: "/images/events/16/s12.jpg",
+  main_image: "/images/events/16/s12.jpg",
+  venue: {
+    name: "Google Meet",
+    image: "/images/events/location-icon.jpg",
+    location: "Online",
+  },
+  tags: ["Workshop", "Algorithms", "Problem Solving", "Coding"],
+  date: "March 10–14, 2025",
+  year: 2025,
+},
+
+{
+  id: 19,
+  title: "AI Webinar with PELS",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <h1>AI Webinar with PELS</h1>
+  <h2>(Artificial Intelligence, Industry Insights)</h2>
+
+  <h3>ABOUT THE CHIEF GUEST</h3>
+  <p>
+    <b>Mr. Ramesh Maran</b> is the Senior Director & Global Head of Cloud Sales at Infosys Limited, London, UK. 
+    With over two decades of experience, he has led cloud transformation strategies across banking and financial sectors. 
+    A visionary leader, he integrates AI, cloud computing, and digital innovation to solve real-world business challenges. 
+    His expertise and global perspective added immense value, providing students insights into AI evolution, practical applications, and career opportunities.
+  </p>
+
+  <h3>ABOUT THE EVENT</h3>
+  <p>
+    As part of IEEE Education Week, the IEEE Power Electronics Society (PELS) Student Branch Chapter, 
+    in association with IEEE HKN – Eta Kappa Nu, hosted a guest lecture titled 
+    "<b>Artificial Intelligence: The Next Wave of Growth</b>" on 7th April 2025 at Alpha Hall, Sri Sairam Engineering College. 
+    Mr. Ramesh Maran delivered a thought-provoking session emphasizing AI as a catalyst for industrial innovation, 
+    human augmentation, and global digital transformation.
+  </p>
+
+  
+
+  <h3>PROGRAM OUTCOMES</h3>
+  <p>
+    <b>Expanded Knowledge in Artificial Intelligence:</b> Participants gained insights into AI evolution, real-world applications, and future intelligent systems.<br>
+    <b>Inspiration for Future Careers:</b> Students were motivated to explore AI, cloud computing, and data science careers, with emphasis on upskilling via Infosys Springboard, Python, ML frameworks like TensorFlow and PyTorch, and ethical AI development.<br>
+    <b>Bridging Academia and Industry:</b> The webinar connected students to industry trends, fostering discussion on AI’s role in transforming sectors and aligning academic learning with practical innovation.
+  </p>
+
+  <h3>SDG ALIGNMENT</h3>
+  <p>
+    <b>SDG 4 – Quality Education:</b> Promoted inclusive and quality learning through accessible platforms for AI skill development.<br>
+    <b>SDG 8 – Decent Work and Economic Growth:</b> Empowered students with knowledge for AI-driven workforce readiness.<br>
+    <b>SDG 9 – Industry, Innovation, and Infrastructure:</b> Highlighted AI’s role in innovation and transforming infrastructure across industries.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The guest lecture successfully provided students and faculty a platform to explore AI’s evolving impact on industry, innovation, and society. 
+    It enhanced technical knowledge, motivated students toward AI, cloud computing, and digital transformation careers, and emphasized continuous learning, digital upskilling, and industry-aligned competencies. 
+    By bridging academia and industry, the session encouraged responsible and impactful AI adoption.
+  </p>
+
+  
+  `,
+  cover_image: "/images/events/16/s15.jpg",
+  main_image: "/images/events/16/s15.jpg",
+  venue: {
+    name: "Alpha Hall, Sri Sairam Engineering College",
+    image: "/images/events/location-icon.jpg",
+    location: "Chennai, Tamil Nadu",
+  },
+  tags: ["Webinar", "Artificial Intelligence", "PELS", "Industry Insights", "IEEE Education Week"],
+  date: "April 7th 2025",
+  year: 2025,
+},
+
+{
+  id: 20,
+  title: "Adaptive Predictive Artificial Intelligence – Nu Eta Confluence",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <h1>Adaptive Predictive Artificial Intelligence – Nu Eta Confluence</h1>
+  <h2>(Collaborative AI Webinar)</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    To promote cooperation between the Nu Eta Chapter (Sri Sairam Engineering College) 
+    and the Nu Kappa Chapter (Vardhaman College of Engineering) through Nu Eta Confluence, 
+    encouraging knowledge sharing, inter-institutional relationships, innovation, collective development, 
+    and a culture of lifelong learning.
+  </p>
+
+  <h3>ABOUT THE EVENT</h3>
+  <p>
+    Held on 28th May 2025 via Google Meet, the first Nu Eta Confluence united the Nu Eta and Nu Kappa chapters 
+    in an academic collaborative spirit. The event featured an informative webinar on 
+    <b>Adaptive Predictive Artificial Intelligence (APAI)</b>, with special emphasis on AI-based video analytics. 
+    Conducted by expert <b>Dr. Supavadee Aramvith</b>, participants gained insights into the future of intelligent systems 
+    and real-world AI applications.
+  </p>
+
+  <img src="/images/events/16/s17.jpg" alt="APAI Webinar">
+
+  <h3>KEY HIGHLIGHTS</h3>
+  <p>
+    - Knowledge Upgrading: Students learned about APAI and AI-based video analytics, expanding understanding of emerging intelligent systems.<br>
+    - Expert Access: Gained insights from Dr. Supavadee Aramvith, a global expert in multimedia analytics and AI deployment.<br>
+    - Community Building: Fostered collaboration between Nu Eta and Nu Kappa chapters and promoted cross-institutional learning.<br>
+    - IEEE Spirit: Encouraged innovation, collaboration, and academic growth.
+  </p>
+
+  <h3>OUTCOMES</h3>
+  <p>
+    - Strengthened inter-institutional networking and idea exchange.<br>
+    - Created a motivated and innovative student community.<br>
+    - Provided practical insights into AI-driven video analytics.<br>
+    - Set the foundation for future collaborative events and continued learning.
+  </p>
+
+  <h3>PARTICIPANTS</h3>
+  <p>
+    1. Tharushi S S<br>
+    2. Gowtham P N<br>
+    3. Shreeja S<br>
+    Over 40 IEEE volunteers from various societies actively participated.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The Nu Eta Confluence successfully launched a collaborative journey between Nu Eta and Nu Kappa chapters. 
+    The webinar offered profound insights into Adaptive Predictive AI and AI-based video analytics, 
+    enriched academic interaction, and promoted innovation and cross-institutional learning.
+  </p>
+
+  <img src="/images/events/16/s18.jpg" alt="APAI Webinar Group Photo">
+  `,
+  cover_image: "/images/events/16/s16.jpg",
+  main_image: "/images/events/16/s16.jpg",
+  venue: {
+    name: "Google Meet",
+    image: "/images/events/location-icon.jpg",
+    location: "Online",
+  },
+  tags: ["Webinar", "Adaptive AI", "Nu Eta Confluence", "Collaboration", "AI Video Analytics"],
+  date: "May 28th 2025",
+  year: 2025,
+},
+
+{
+  id: 21,
+  title: "Deep Learning for Biomedical and Healthcare Applications",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <h1>Deep Learning for Biomedical and Healthcare Applications</h1>
+  <h2>(AI in Healthcare Webinar)</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    Organized by IEEE Nu Kappa Vardhaman Chapter and IEEE Nu Eta Sairam Chapter, and supported by IEEE Vardhaman WIE AG and IEEE Vardhaman Sensors Council Chapter, 
+    the webinar aimed to provide an interdisciplinary platform for engineering students, professionals, and IEEE members to explore deep learning applications in biomedical and healthcare domains.
+  </p>
+
+  <h3>ABOUT THE EVENT</h3>
+  <p>
+    Held on 4th June 2025 via Google Meet, the session featured <b>Dr. Celia Shahnaz</b>, a globally respected IEEE leader and researcher. 
+    Participants learned about the application of AI in medical imaging, diagnostics, patient monitoring, and clinical decision support systems. 
+    The webinar highlighted real-world case studies and best practices in healthcare AI.
+  </p>
+
+  <img src="/images/events/16/s20.jpg" alt="Deep Learning in Healthcare Webinar">
+
+  <h3>EVENT FLOW</h3>
+  <p>
+    - Session Introduction by Sadhwika, Vice Chair, WIE Vardhaman SB<br>
+    - Welcome Address by Dr. J.V.R. Ravindra, Principal and Chapter Advisor, Vardhaman College<br>
+    - Institutional Address by Dr. Porselvi, Professional Member, Nu Eta Chapter<br>
+    - Speaker Introduction by Sadhwika<br>
+    - Keynote Talk by Dr. Celia Shahnaz on deep learning applications in healthcare<br>
+    - Q&A Session with students and professionals<br>
+    - Vote of Thanks by Tharushi S S, President, Nu Eta Chapter
+  </p>
+
+  <h3>KEY HIGHLIGHTS</h3>
+  <p>
+    - Increased awareness of AI and deep learning in biomedical and healthcare sectors<br>
+    - Motivation for interdisciplinary research and engagement<br>
+    - Encouragement to participate in IEEE Women in Engineering and related initiatives<br>
+    - Strengthened collaboration between Nu Kappa and Nu Eta chapters
+  </p>
+
+  <h3>OUTCOMES</h3>
+  <p>
+    - Platform for professional learning and collaboration<br>
+    - Insightful guidance on real-world healthcare AI applications<br>
+    - Inspiration for students to explore impactful research
+  </p>
+
+  <h3>PARTICIPANTS</h3>
+  <p>
+    1. Tharushi S S<br>
+    2. Gowtham P N<br>
+    3. Shreeja S<br>
+    4. Jagadeesh G<br>
+    Total Attendees: 78 (37 IEEE members + 41 non-IEEE attendees)
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The webinar successfully delivered in-depth knowledge on deep learning for healthcare applications, inspired interdisciplinary collaboration, and fostered professional growth among participants.
+  </p>
+
+  <img src="/images/events/16/s21.jpg" alt="Deep Learning Webinar Group Photo">
+  `,
+  cover_image: "/images/events/16/s19.jpg",
+  main_image: "/images/events/16/s19.jpg",
+  venue: {
+    name: "Google Meet",
+    image: "/images/events/location-icon.jpg",
+    location: "Online",
+  },
+  tags: ["Webinar", "Deep Learning", "Healthcare AI", "Biomedical", "Collaboration"],
+  date: "June 4th, 2025",
+  year: 2025,
+},
+
+{
+  id: 22,
+  title: "ORUMAI 2.0 – Inspire & Aspire",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <h1>ORUMAI 2.0 – Inspire & Aspire</h1>
+  <h2>Empowering Young Minds</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    To create an enriching and cheerful experience for the children at The Megha Foundation Saranalaya Children Home through interactive activities, 
+    and to provide Career Orientation Programs for high school students to help them explore future opportunities and build confidence in their aspirations.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The IEEE-HKN Nu Eta Chapter organized an outreach program at Megha Foundation Saranalaya Children's Home on 22nd June 2025. 
+    The event featured interactive games and imaginative activities to cultivate joy, confidence, and social connection among children. 
+    Additionally, a focused career guidance session was conducted for high school students, covering educational opportunities, skill development, and future planning. 
+    Study materials, school bags, stationery kits, and gifts were distributed to support and motivate the children.
+  </p>
+
+  <img src="/images/events/16/s23.jpg" alt="Orumai 2.0 Event">
+
+  <h3>FACULTY MEMBERS</h3>
+  <p>
+    1. Dr. R. Soma Prathibha<br>
+    2. Dr. B. Meenakshi<br>
+    3. Dr. T. Porselvi<br>
+    4. Dr. S. Sankari<br>
+    5. Dr. L. Kurinjimalar
+  </p>
+
+  <h3>STUDENT VOLUNTEERS</h3>
+  <p>
+    1. Tharushi S S<br>
+    2. Ruthi Shankari S<br>
+    3. Pranjna B<br>
+    4. Raghul D<br>
+    5. Nasreen Begam Z<br>
+    6. Nakul S<br>
+    7. Samyuktha K S<br>
+    8. Bharath S K<br>
+    9. Abhinesh V<br>
+    10. Blessing Joshua H S
+  </p>
+
+  <h3>KEY HIGHLIGHTS</h3>
+  <p>
+    - Interactive games and activities that boosted confidence and social interaction among children.<br>
+    - Career guidance session for high school students, providing insight into educational and skill development opportunities.<br>
+    - Distribution of study materials, school bags, stationery kits, and gifts to motivate and support children.<br>
+    - Strengthened the bond between IEEE volunteers and the children, fostering a sense of care and inspiration.
+  </p>
+
+  <h3>OUTCOME</h3>
+  <p>
+    The event successfully created a joyful and empowering environment for the children and high school students. 
+    It enhanced their learning experience, inspired future aspirations, and left a lasting impression on both volunteers and participants.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    ORUMAI 2.0 was a memorable and impactful event. Children engaged enthusiastically in all activities, while high school students benefited from career guidance. 
+    Volunteers gained a rewarding experience in community engagement, reflecting the values of empathy, education, and empowerment.
+  </p>
+
+  <img src="/images/events/16/s24.jpg" alt="Orumai 2.0 Group Photo">
+  `,
+  cover_image: "/images/events/16/s22.jpg",
+  main_image: "/images/events/16/s22.jpg",
+  venue: {
+    name: "Megha Foundation",
+    image: "/images/events/location-icon.jpg",
+    location: "Thandalam-Kovur, Chennai, Tamil Nadu",
+  },
+  tags: ["Outreach", "Community", "Career Guidance", "Children"],
+  date: "June 22nd, 2025",
+  year: 2025,
+  //website_link: "https://www.linkedin.com/posts/nu-eta_orumai2-inspireandaspire-ieeehkn-activity-7352390873164210176-5QXx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEiAlO0BLKfzmo7LsGHVCO9sQ0-QE_v_Glg"
+},
+{
+  id: 23,
+  title: "Nu Minds Tutoring – Think Logically, Code Powerfully – Begin with C",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <h1>Nu Minds Tutoring – Think Logically, Code Powerfully – Begin with C</h1>
+  <h2>Peer-led Coding Initiative</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    The objective of the Nu Minds Tutoring sessions was to introduce first-year students to the fundamentals of C programming, 
+    enhance their logical thinking abilities, and provide a practical, programming-focused learning experience.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The C programming classes under the Nu Minds Tutoring initiative commenced on 15th September 2025 with enthusiastic participation 
+    from around 100 first-year students on the opening day. The sessions continued until 19th September 2025, conducted online through Google Meet 
+    by Abirami and Sanjay from the HKN chapter.
+  </p>
+  <p>
+    The classes emphasized interactive and application-oriented learning, focusing on the fundamentals of C programming supported by real coding examples. 
+    Students were actively involved, asking questions, clarifying doubts, and engaging with the instructors throughout the sessions.
+  </p>
+
+  <img src="/images/events/16/s25.jpg" alt="Nu Minds Tutoring Session">
+
+  <h3>STUDENT VOLUNTEERS</h3>
+  <p>
+    1. Abirami S<br>
+    2. Sanjay
+  </p>
+
+  <h3>KEY HIGHLIGHTS</h3>
+  <p>
+    - Students developed a clear understanding of basic C programming concepts.<br>
+    - Improved logical thinking and coding confidence among first-year participants.<br>
+    - Strengthened the culture of peer-to-peer learning and interaction.<br>
+    - Promoted practical application of concepts through hands-on coding exercises.
+  </p>
+
+  <h3>PARTICIPANTS’ FEEDBACK</h3>
+  <p>
+    Participants appreciated the clarity of explanations and program-based teaching approach. 
+    Many shared that the sessions helped them build confidence in starting their coding journey 
+    and valued the interactive environment provided through Google Meet.
+  </p>
+
+  <h3>OUTCOME</h3>
+  <p>
+    The sessions created a strong learning platform for first-year students, fostering both logical reasoning and programming skills. 
+    Conducted online, the event proved that effective peer-led initiatives can engage and motivate students virtually. 
+    This initiative aligns with HKN’s mission of encouraging knowledge-sharing and technical growth among students.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The Nu Minds Tutoring C Programming sessions successfully empowered students to start their coding journey with confidence. 
+    It showcased the impact of peer-to-peer learning and reinforced the importance of interactive teaching in building technical skills.
+  </p>
+
+  <img src="/images/events/16/s26.jpg" alt="Nu Minds Tutoring Group Photo">
+  `,
+  cover_image: "/images/events/16/s27.jpg",
+  main_image: "/images/events/16/s27.jpg",
+  venue: {
+    name: "Google Meet",
+    image: "/images/events/location-icon.jpg",
+    location: "Online",
+  },
+  tags: ["Tutoring", "Programming", "C Language", "Peer Learning"],
+  date: "September 15th – 19th, 2025",
+  year: 2025,
+},
+{
+  id: 24,
+  title: "Nu Minds Tutoring – Python Unplugged – casual, fun, hands-on vibe",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <h1>Nu Minds Tutoring – Python Unplugged</h1>
+  <h2>Casual, Fun & Hands-on Learning</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    The objective of the Nu Minds Python Tutoring sessions was to equip students with a strong foundation in Python programming, 
+    nurture problem-solving skills, and demonstrate how coding can be both practical and enjoyable. 
+    The sessions aimed to build confidence in writing programs while encouraging students to think logically and creatively.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The Python Tutoring program kickstarted on 15th September 2025 with an overwhelming response from first-year students, 
+    drawing consistent participation throughout the 5-day journey. Conducted online via Google Meet by 
+    <b>Prahaladhan J</b> from the CSE department, the sessions turned out to be one of the most engaging and impactful 
+    initiatives under the Nu Minds Tutoring banner.
+  </p>
+  <p>
+    Unlike a conventional lecture-style class, the Python sessions were highly interactive, fun, and application-oriented. 
+    Students didn’t just listen—they coded along, solved exercises in real-time, and shared their outputs during the sessions. 
+    The balance of concept clarity, coding demonstrations, and hands-on practice made the learning experience both refreshing and effective.
+  </p>
+  <p>
+    By the end of the program, many students expressed that Python felt less like a subject and more like a skill 
+    they could instantly apply to their academic and personal projects.
+  </p>
+
+  <img src="/images/events/16/s29.jpg" alt="Python Tutoring Session">
+
+  <h3>STUDENT VOLUNTEERS</h3>
+  <p>
+    1. Prahaladhan J<br>
+    2. Sri Raman S
+  </p>
+
+  <h3>KEY HIGHLIGHTS</h3>
+  <p>
+    - Students gained a clear and practical understanding of Python basics including syntax, data types, control structures, and functions.<br>
+    - Built strong logical reasoning skills through coding challenges and exercises.<br>
+    - Sparked genuine enthusiasm for programming—students looked forward to each session and actively participated.<br>
+    - Strengthened the spirit of peer-to-peer learning with instant doubt clarification and solution-sharing.<br>
+    - Inspired students to explore Python further for future projects, hackathons, and competitions.
+  </p>
+
+  <h3>PARTICIPANTS’ FEEDBACK</h3>
+  <p>
+    Feedback from participants was overwhelmingly positive. Students praised the simple yet powerful teaching style, 
+    the live-coding approach, and the opportunities to interact and learn actively. 
+    Many shared that these sessions gave them the confidence to start solving problems independently in Python.
+  </p>
+  <p>
+    Some participants even remarked that the Python classes were a highlight of their first-year experience, 
+    as they felt motivated and empowered to begin their coding journey on the right note.
+  </p>
+
+  <h3>OUTCOME</h3>
+  <p>
+    The sessions established an engaging and impactful learning experience for first-year students, 
+    blending fundamental programming concepts with practical coding exercises. 
+    Conducted online, the event showcased how peer-led initiatives can inspire active participation, curiosity, and confidence in coding.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The Nu Minds Tutoring Python sessions successfully empowered students with practical coding skills 
+    while creating a fun and collaborative learning environment. 
+    This initiative stands as a hallmark of the Nu Minds Tutoring program, 
+    aligning with its mission to promote knowledge-sharing, logical thinking, and technical excellence among students.
+  </p>
+
+  <img src="/images/events/16/s30.jpg" alt="Python Tutoring Group Photo">
+  `,
+  cover_image: "/images/events/16/s28.jpg",
+  main_image: "/images/events/16/s28.png",
+  venue: {
+    name: "Google Meet",
+    image: "/images/events/location-icon.jpg",
+    location: "Online",
+  },
+  tags: ["Tutoring", "Python", "Programming", "Peer Learning"],
+  date: "September 15th – 19th, 2025",
+  year: 2025,
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 ];
 export default eventData;

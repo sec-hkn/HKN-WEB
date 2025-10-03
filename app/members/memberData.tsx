@@ -543,4 +543,25 @@ export const studentMembers: Members[] = [
     image: "/images/members/25/Sanjay.jpg",
     year: "2025",
 },
+{
+    id: 46,
+    name: "Harini M",
+    designation: "Communication Lead",
+    linkedin: "https://www.linkedin.com/in/harini-m-b4743329b",
+    mailid: "mharinimadan@gmail.com",
+    image: "/images/members/25/Harini.jpg",
+    year: "2025",
+
+  },
+  {
+    id: 47,
+    name: "Kavyasri B",
+    designation: "Member",
+    linkedin: "https://www.linkedin.com/in/kavyasri-b-091447292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    mailid: "bkavyasri10@gmail.com",
+    image: "/images/members/25/kavyasri.jpg",
+    year: "2025",
+
+  },
+
 ];
