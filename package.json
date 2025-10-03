@@ -1,0 +1,47 @@
+{
+  "name": "sec-ieee-hkn",
+  "version": "0.2.0",
+  "private": true,
+  "homepage": ".",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "emailjs-com": "^3.2.0",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.4.1",
+    "framer-motion": "^10.16.15",
+    "fs": "^0.0.1-security",
+    "lucide-react": "^0.483.0",
+    "next": "^13.5.6",
+    "next-themes": "^0.2.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-modal-video": "^2.0.0",
+    "react-owl-carousel": "^2.3.3",
+    "swiper": "^11.2.6"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.41.1",
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "@types/swiper": "^5.4.3",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  }
+}

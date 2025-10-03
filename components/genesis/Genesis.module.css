@@ -1,0 +1,71 @@
+/* Container */
+.genesisContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f7fafc, #ffffff, #e2e8f0);
+  }
+  
+  /* Full-Width Genesis Logo */
+  .genesisLogo {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Adjust as needed */
+    padding-top: 60px; /* Padding at the top */
+    padding-bottom: 40px; /* Padding at the bottom */
+    overflow: hidden;
+  }
+  
+  .genesisImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Genesis Buttons */
+  .genesisButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px; /* Space from the bottom */
+  }
+  
+  /* Button Base Style */
+  .genesisButton {
+    width: 400px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 16px;
+    text-align: center;
+    border-radius: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* GENESIS 1.0 Button - Yellow Theme */
+  .genesis1 {
+    background: linear-gradient(to right, #facc15, #fbbf24);
+  }
+  
+  .genesis1:hover {
+    background: linear-gradient(to right, #fbbf24, #facc15);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* GENESIS 2.0 Button - Night Sky Blue Theme */
+  .genesis2 {
+    background: linear-gradient(to right, #2c3e50, #34495e);
+  }
+  
+  .genesis2:hover {
+    background: linear-gradient(to right, #34495e, #2c3e50);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
