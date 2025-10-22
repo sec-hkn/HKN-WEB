@@ -101,6 +101,7 @@ export const professionalMembers: ProfMembers[] = [
     image: "/images/members/professional/mohanraj.jpg",
   },
 
+<<<<<<< HEAD
   ,
 {
   id: 17,
@@ -157,6 +158,8 @@ export const professionalMembers: ProfMembers[] = [
   image: "/images/members/professional/rayavel.jpg"
 }
 
+=======
+>>>>>>> a83523c7ebc88a9cc6401662a0967b01fe95278f
 ];
 
 
