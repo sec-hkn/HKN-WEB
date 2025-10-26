@@ -100,9 +100,6 @@ export const professionalMembers: ProfMembers[] = [
     mailid: "mohanraj.ice@sairam.edu.in",
     image: "/images/members/professional/mohanraj.jpg",
   },
-
-<<<<<<< HEAD
-  ,
 {
   id: 17,
   name: "Dr. C.R. Rene Robin",
@@ -156,10 +153,7 @@ export const professionalMembers: ProfMembers[] = [
   linkedin: "https://www.linkedin.com/in/rayavel/",
   mailid: "hodsc@sairamit.edu.in",
   image: "/images/members/professional/rayavel.jpg"
-}
-
-=======
->>>>>>> a83523c7ebc88a9cc6401662a0967b01fe95278f
+},
 ];
 
 
