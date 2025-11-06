@@ -2542,6 +2542,316 @@ service.</div>
   tags: ["Tutoring", "Python", "Programming", "Peer Learning"],
   date: "September 15th – 19th, 2025",
   year: 2025,
+},
+{
+  id: 25,
+  title: "Nu Minds Tutoring – SQL Sprint: Zero to Query Hero",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <h1>Nu Minds Tutoring – SQL Sprint</h1>
+  <h2>Zero to Query Hero</h2>
+
+  <h3>OBJECTIVES</h3>
+  <p>
+    The key objectives of the SQL Sprint workshop were to introduce students to the fundamental concepts 
+    and terminology of Structured Query Language (SQL), equip them with the ability to write and execute 
+    queries effectively, and enhance their understanding of database operations and real-world applications. 
+    The program aimed to build confidence in database management while encouraging students to think 
+    analytically and logically.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The IEEE HKN Nu Eta Chapter successfully organized a five-day online workshop titled "SQL SPRINT: Zero to Query Hero" 
+    from 27th October to 1st November 2025. The program provided a foundational understanding of SQL and helped students 
+    develop essential database management skills through practical, hands-on learning.
+  </p>
+  <p>
+    Conducted online via Google Meet, the sessions were led by <b>Keerthika S</b> (3rd Year CSBS) and <b>Khahini B I</b> (3rd Year Mech), 
+    both HKN members. The workshop commenced with a welcome address by <b>Dr. K. Soma Prathiba</b>, IEEE HKN Nu Eta Chapter Advisor, 
+    who motivated the participants and emphasized the importance of developing strong technical and analytical skills in the domain 
+    of database management.
+  </p>
+  <p>
+    The sessions were structured to be interactive and practical, with each day focusing on specific SQL concepts. 
+    Students didn't just observe—they wrote queries alongside the instructors, solved exercises in real-time, and 
+    shared their outputs during the sessions. The balance of theoretical understanding and practical implementation 
+    made the learning experience both comprehensive and engaging.
+  </p>
+
+  <img src="/images/events/17/sql1.jpg" alt="SQL Sprint Session Day 1">
+
+  <h3>SESSION HIGHLIGHTS</h3>
+  <p>
+    <b>Day 1: Introduction to SQL and Basic Terminology</b><br>
+    Students were familiarized with key database concepts and SQL fundamentals. The session laid the groundwork 
+    for understanding relational databases and their importance in modern applications.
+  </p>
+  <p>
+    <b>Day 2: SQL Commands and Clauses</b><br>
+    Focused on DDL (Data Definition Language), DML (Data Manipulation Language), and essential SQL clauses 
+    such as WHERE, GROUP BY, and ORDER BY. Students learned to structure and filter data effectively.
+  </p>
+  <p>
+    <b>Day 3: SQL Functions</b><br>
+    Covered aggregate and scalar functions with practical query demonstrations. Students explored functions 
+    like COUNT, SUM, AVG, MAX, MIN, and string manipulation functions.
+  </p>
+  <p>
+    <b>Day 4 & 5: SQL Operators and Joins</b><br>
+    Explored different types of operators, inner and outer joins, and real-time query practice. 
+    Students learned to combine data from multiple tables and perform complex queries with confidence.
+  </p>
+  <p>
+    Each session concluded with short interactive exercises and homework assignments to reinforce understanding 
+    and ensure practical application of the concepts learned.
+  </p>
+
+  <img src="/images/events/17/sql2.jpg" alt="SQL Sprint Session in Progress">
+
+  <h3>RESOURCE PERSONS</h3>
+  <p>
+    1. Keerthika S – 3rd Year CSBS, HKN Member<br>
+    2. Khahini B I – 3rd Year Mech, HKN Member
+  </p>
+
+  <h3>PARTICIPANTS</h3>
+  <p>
+    Around 80 students from the first and second years actively participated in the sessions. 
+    The participants were highly enthusiastic and engaged throughout the workshop, completing the given 
+    assignments and sharing their outputs promptly. The sessions also included live query-solving and 
+    doubt clarification segments, fostering interactive learning and peer collaboration.
+  </p>
+
+  <h3>KEY HIGHLIGHTS</h3>
+  <p>
+    - Students acquired a clear understanding of SQL fundamentals and practical query writing skills.<br>
+    - Participants gained hands-on experience through interactive sessions and real-time demonstrations.<br>
+    - Daily assignments enhanced learning retention and improved problem-solving abilities.<br>
+    - The workshop boosted students' confidence to handle database-related tasks independently.<br>
+    - Successfully nurtured analytical thinking and sparked interest in advanced SQL and data management concepts.<br>
+    - Live query-solving sessions provided immediate feedback and learning opportunities.
+  </p>
+
+  <h3>PARTICIPANTS' FEEDBACK</h3>
+  <p>
+    The participants shared highly positive feedback about the SQL SPRINT: Zero to Query Hero workshop. 
+    Many students expressed that the sessions were engaging, informative, and easy to follow, even for beginners. 
+    They appreciated the step-by-step teaching approach, real-time demonstrations, and the practical assignments 
+    given at the end of each session.
+  </p>
+  <p>
+    Several participants mentioned that the workshop transformed their perception of databases from being 
+    intimidating to being accessible and practical. The consistent support from the instructors and the 
+    interactive nature of the sessions were particularly praised by the attendees.
+  </p>
+
+  <img src="/images/events/17/sql3.jpg" alt="SQL Sprint Participant Engagement">
+
+  <h3>EVENT OUTCOMES</h3>
+  <p>
+    The workshop successfully achieved its objectives by providing students with a solid foundation in SQL. 
+    Participants developed the ability to write efficient queries, understand database structures, and apply 
+    SQL concepts to real-world scenarios. The daily practice assignments and interactive doubt-clearing sessions 
+    ensured that students could apply their learning immediately and build confidence progressively throughout 
+    the five-day program.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The five-day SQL SPRINT: Zero to Query Hero workshop proved to be a valuable and impactful learning experience 
+    for all participants. It not only strengthened students' understanding of SQL but also encouraged analytical 
+    thinking and logical problem-solving. The consistent effort of the organizers and the active participation of 
+    students contributed to its overall success.
+  </p>
+  <p>
+    Initiatives like these by the IEEE HKN Nu Eta Chapter continue to inspire and equip young engineers with 
+    vital technical skills essential for their academic and professional growth. The Nu Minds Tutoring program 
+    stands as a testament to the power of peer-to-peer learning and collaborative knowledge sharing.
+  </p>
+  `,
+  cover_image: "/images/events/17/sql_main.png",
+  main_image: "/images/events/17/sql_main.png",
+  venue: {
+    name: "Google Meet",
+    image: "/images/events/location-icon.jpg",
+    location: "Online",
+  },
+  tags: ["Tutoring", "SQL", "Database", "Peer Learning", "Workshop"],
+  date: "October 27th – November 1st, 2025",
+  year: 2025,
+},
+{
+  id: 26,
+  title: "HKN Founders Day 2025 – Project Expo: ELEVORA",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <h1>HKN Founders Day 2025</h1>
+  <h2>Project Expo: ELEVORA – Elevating Ideas to Real-World Impact</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    The main objective of the Project Expo was to provide a stage for students to present their innovative 
+    ideas and practical projects. The event aimed to encourage creative thinking, teamwork, and problem-solving 
+    skills among participants while celebrating the founding principles of IEEE-HKN.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The Project Expo: ELEVORA was organized on <b>7th October 2025</b> at <b>Newton Hall (Incubation Centre)</b>, 
+    Sri Sairam Engineering College, as part of the <b>HKN Founders Day Celebration 2025</b>. The event brought 
+    together aspiring innovators from different departments to showcase their creative projects and prototypes.
+  </p>
+  <p>
+    The session commenced at 1:30 PM with enthusiastic participation from students and faculty members. 
+    A distinguished panel of judges—<b>Dr. B. Priya (CSE, SEC)</b>, <b>Mr. A. Ponshanmugakumar (Mechanical Engg., SSIT)</b>, 
+    and <b>Dr. R. Prabavathi (IT, SSIT)</b>—evaluated the projects based on innovation, feasibility, and societal impact.
+  </p>
+
+  <img src="/images/events/18/elevora1.jpg" alt="Project Expo ELEVORA - Project Showcase">
+
+  <h3>KEY HIGHLIGHTS</h3>
+  <p>
+    - Students applied engineering concepts to real-world problems through innovative projects.<br>
+    - Provided a collaborative platform for sharing ideas across departments.<br>
+    - Participants gained valuable experience in presenting and defending their projects before expert judges.<br>
+    - Expert feedback helped students understand improvement areas and refine their innovations.<br>
+    - Strengthened the culture of innovation and technical excellence within the IEEE-HKN community.
+  </p>
+
+  <img src="/images/events/18/elevora2.jpg" alt="Judges Evaluating Projects">
+
+  <h3>PARTICIPANTS' FEEDBACK</h3>
+  <p>
+    Participants shared that the event was well-organized and provided valuable learning experiences. 
+    They appreciated the constructive feedback and suggestions from the experienced jury members. 
+    Most participants expressed that the session was engaging, neatly planned, and overall a great experience 
+    that motivated them to continue pursuing innovative solutions.
+  </p>
+
+  <img src="/images/events/18/elevora3.jpg" alt="Participants Presenting Projects">
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The Project Expo: ELEVORA successfully celebrated innovation, teamwork, and creativity among young engineers 
+    as part of the <b>HKN Founders Day Celebration 2025</b>. The event inspired students to elevate their ideas 
+    into impactful real-world solutions. The active involvement of judges, participants, and volunteers made the 
+    event a memorable and enriching experience, reinforcing IEEE-HKN's commitment to fostering technical excellence 
+    and innovation.
+  </p>
+  `,
+  cover_image: "/images/events/18/elevora_main.png",
+  main_image: "/images/events/18/elevora_main.png",
+  venue: {
+    name: "Newton Hall (Incubation Centre)",
+    image: "/images/events/location-icon.jpg",
+    location: "Sri Sairam Engineering College, Chennai",
+  },
+  tags: ["HKN Founders Day", "Project Expo", "Innovation", "ELEVORA"],
+  date: "October 7th, 2025",
+  year: 2025,
 }
 
 

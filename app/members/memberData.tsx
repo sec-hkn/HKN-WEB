@@ -100,6 +100,8 @@ export const professionalMembers: ProfMembers[] = [
     mailid: "mohanraj.ice@sairam.edu.in",
     image: "/images/members/professional/mohanraj.jpg",
   },
+
+
 {
   id: 17,
   name: "Dr. C.R. Rene Robin",
