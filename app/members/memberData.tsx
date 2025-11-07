@@ -156,6 +156,15 @@ export const professionalMembers: ProfMembers[] = [
   mailid: "hodsc@sairamit.edu.in",
   image: "/images/members/professional/rayavel.jpg"
 },
+{
+  id: 20,
+  name: "Dr. P. Sakthivel",
+  desig: "Vice Chairman – Academics, IEEE Madras Section",
+  desig2: "Anna University",
+  linkedin: "https://www.linkedin.com/in/sakthivel-periyasamy-178273215/",
+  mailid: "",
+  image: "/images/members/professional/sakthivel.jpg"
+},
 ];
 
 
