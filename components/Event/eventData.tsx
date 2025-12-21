@@ -2852,7 +2852,341 @@ service.</div>
   tags: ["HKN Founders Day", "Project Expo", "Innovation", "ELEVORA"],
   date: "October 7th, 2025",
   year: 2025,
+},
+{
+  id: 27,
+  title: "Unlocking Innovation Pathways – IEEE TryEngineering STEM Grant Opportunities",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+  </style>
+
+  <h1>Unlocking Innovation Pathways</h1>
+  <h2>IEEE TryEngineering STEM Grant Opportunities</h2>
+
+  <h3>OBJECTIVES</h3>
+  <p>
+    The primary objective of this session was to familiarize faculty members and students with the IEEE TryEngineering
+    STEM Grant framework and its various funding categories. The event aimed to guide participants in transforming
+    outreach ideas into well-defined, fundable programs, while building essential skills in proposal drafting,
+    budgeting, and documentation. Another key goal was to encourage a culture of sustained STEM engagement with
+    school students through structured and impactful outreach initiatives.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The IEEE HKN Nu Eta Chapter of Sri Sairam Engineering College successfully organized an online awareness and
+    training session titled <b>“Unlocking Innovation Pathways: IEEE TryEngineering STEM Grant Opportunities”</b>
+    on <b>17th December 2025</b> through Google Meet. The event brought together enthusiastic faculty members and
+    student volunteers from various departments to explore how global STEM grants can support locally relevant
+    outreach activities.
+  </p>
+  <p>
+    The session focused on demonstrating how workshops, hands-on demonstrations, and mentoring programs for
+    school students can be systematically planned and funded through the TryEngineering initiative. Presenters
+    shared live examples of grant documents, application forms, and outreach reports, ensuring that participants
+    could clearly connect guidelines with real-world implementation.
+  </p>
+  <img src="/images/events/18/stem2.jpeg" alt="STEM Session">
+
+  <h3>SESSION HIGHLIGHTS</h3>
+  <p>
+    <b>Segment 1: Understanding IEEE TryEngineering STEM Grants</b><br>
+    The session opened with an introduction to the IEEE TryEngineering STEM Grant initiative, its mission, and
+    the categories of projects it supports. Participants learned about funding levels and how proposals are
+    evaluated based on clarity of need, objectives, audience, and anticipated impact.
+  </p>
+  <p>
+    <b>Segment 2: Proposal Structure and Application Walkthrough</b><br>
+    A detailed walkthrough of a sample proposal document was conducted, covering sections such as program
+    description, funding requested, and background information. This was followed by a guided tour of the
+    online application form, where each field was explained with practical tips on framing clear and concise
+    responses.
+  </p>
+  <p>
+    <b>Segment 3: Example Outreach Plan – Mobile App Development Workshop</b><br>
+    Participants were shown a drafted proposal for a three-day Mobile App Development Workshop designed for
+    school students. The plan demonstrated how to break down technical content into age-appropriate modules,
+    align activities with learning outcomes, and map budget items directly to program needs.
+  </p>
+  <p>
+    <b>Segment 4: IEEE STEM Champion Program</b><br>
+    The IEEE STEM Champion Program was introduced, highlighting the role of volunteers in planning and
+    reporting pre-university outreach activities. The process of creating an engineer profile on the STEM /
+    TryEngineering portal—including uploading a photograph, writing a brief biography, and adding optional
+    video introductions—was demonstrated live.
+  </p>
+  <p>
+    <b>Segment 5: Reporting, Documentation, and Closure</b><br>
+    Sample school permission letters, consolidated reports, and outreach documentation from previous programs
+    were shared. A final roadmap slide summarized the complete lifecycle of a grant—from application and
+    approval to execution and reporting—emphasizing the importance of proper documentation for future funding.
+  </p>
+
+  <h3>RESOURCE PERSONS</h3>
+  <p>
+    1. Dr. B. Meenakshi – Professor, Department of EEE, Sri Sairam Engineering College<br>
+    2. Dr. K. Soma Prathibha – Professor & Head, Department of CSE (Cyber Security) and IEEE HKN Nu Eta Chapter Advisor<br>
+    3. Ms. B. Renukadevi – Associate Professor, Department of IT<br>
+    4. Dr. R. Valarmathi – Associate Professor, Department of CSE
+  </p>
+
+  <h3>PARTICIPANTS</h3>
+  <p>
+    The session was attended by approximately 30–40 participants, including faculty members and students from
+    multiple departments. Participants were actively engaged throughout the session, raising questions related
+    to eligibility criteria, budgeting, timelines, and reporting requirements.
+  </p>
+  <img src="/images/events/18/stem3.jpeg" alt="INTERACTIVE STEM SESSION">
+
+  <h3>KEY HIGHLIGHTS</h3>
+  <p>
+    - Provided a clear and practical understanding of IEEE TryEngineering STEM Grants.<br>
+    - Live demonstrations of proposal drafts and application forms simplified the grant-writing process.<br>
+    - Real-world outreach examples helped participants visualize and plan their own initiatives.<br>
+    - Introduced the STEM Champion framework to promote long-term outreach involvement.<br>
+    - Encouraged interdisciplinary collaboration for community-focused STEM programs.
+  </p>
+
+  <h3>PARTICIPANTS’ FEEDBACK</h3>
+  <p>
+    Participants expressed strong appreciation for the hands-on approach adopted during the session. Many
+    noted that viewing real documents and examples made the grant process far less intimidating. The interactive
+    discussion format and opportunity to clarify doubts in real time were particularly valued.
+  </p>
+  <p>
+    Several attendees shared that the session motivated them to register on the STEM portal and consider
+    long-term involvement as IEEE STEM Champions.
+  </p>
+
+  <h3>EVENT OUTCOMES</h3>
+  <p>
+    The event successfully transformed abstract information about STEM grants into actionable guidance.
+    Participants left with a clear understanding of proposal drafting, outreach planning, budgeting, and
+    documentation. The session strengthened the IEEE HKN Nu Eta Chapter’s role as a mentoring and guidance hub
+    within the institution.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The “Unlocking Innovation Pathways: IEEE TryEngineering STEM Grant Opportunities” session proved to be a
+    meaningful and empowering learning experience. By combining global opportunities with locally relevant
+    examples, the event enabled participants to confidently convert ideas into structured outreach programs.
+  </p>
+  <p>
+    The IEEE HKN Nu Eta Chapter’s commitment to guiding peers through ideation, application, execution, and
+    reporting establishes a strong foundation for impactful, grant-driven STEM initiatives in the years ahead.
+  </p>
+  `,
+  cover_image: "/images/events/18/stem1.jpeg",
+  main_image: "/images/events/18/stem1.jpeg",
+  venue: {
+    name: "Google Meet",
+    image: "/images/events/location-icon.jpg",
+    location: "Online",
+  },
+  tags: ["STEM Grants", "IEEE TryEngineering", "Outreach", "Faculty Development", "HKN"],
+  date: "December 17th, 2025",
+  year: 2025,
+},
+{
+  id: 28,
+  title: "What No One Told Us in College – Alumni Interaction Session",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+  </style>
+
+  <h1>What No One Told Us in College</h1>
+  <h2>Alumni Interaction Session</h2>
+
+  <h3>OBJECTIVES</h3>
+  <p>
+    The session <b>“What No One Told Us in College”</b> was designed to help students gain a clear understanding
+    of real-world career expectations beyond academic learning. The program focused on industry readiness,
+    higher studies, skill development, and informed career decision-making through the experiences and insights
+    shared by alumni.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The IEEE HKN Nu Eta Chapter of Sri Sairam Engineering College organized an online alumni interaction session
+    titled <b>“What No One Told Us in College”</b> on <b>20th December 2025</b> via Google Meet. The event brought
+    together students, faculty members, and distinguished alumni working in reputed organizations and
+    universities.
+  </p>
+  <p>
+    The session aimed to bridge the gap between academic life and professional expectations by offering
+    practical guidance on career planning, workplace readiness, and long-term growth. Alumni shared their
+    journeys and lessons learned while transitioning from college to industry and higher education.
+  </p>
+  <img src="/images/events/18/alumi1.jpg" alt="ALUMINI MEET">
+
+  <h3>SESSION HIGHLIGHTS</h3>
+  <p>
+    <b>Segment 1: Industry Expectations and Early Career Lessons</b><br>
+    The alumni speakers discussed their initial career experiences, common mistakes made during college, and
+    the importance of practical skills, communication, adaptability, and professionalism in the workplace.
+  </p>
+  <p>
+    <b>Segment 2: Higher Studies and Career Planning</b><br>
+    Insights were shared on pursuing higher education in India and abroad, including application processes,
+    entrance requirements, skill preparation, and balancing academics with extracurricular development.
+  </p>
+  <p>
+    <b>Segment 3: Skills Beyond the Classroom</b><br>
+    The speakers emphasized the value of internships, real-time projects, networking, continuous learning,
+    and building a strong professional profile to remain competitive in the job market.
+  </p>
+  <p>
+    <b>Segment 4: Interactive Question and Answer Session</b><br>
+    Students actively participated by raising questions related to placements, resume building, career
+    transitions, work-life balance, and long-term professional growth. The interactive discussion made the
+    session engaging and insightful.
+  </p>
+
+  <h3>RESOURCE PERSONS</h3>
+  <p>
+    1. Ms. Mahalakshmi – Systems Engineer, TCS<br>
+    2. Mr. Dineshkumar Sankar – Software Developer, Sify Technologies<br>
+    3. Mr. Sai Sakthivel – Business Development Representative L1, Kissflow Inc.<br>
+    4. Ms. Anushree Udhayakumar – Graduate Student, University of Illinois Urbana-Champaign (MS Information Management)<br>
+    5. Ms. Tapasya Kalyanasundaram – Product Engineer, DataSwitch
+  </p>
+  <p>
+    The session was conducted with the support and guidance of <b>Dr. K. Soma Prathibha</b>, IEEE HKN Nu Eta
+    Chapter Advisor, and received encouragement from <b>Dr. R. Raja</b>, Principal, and
+    <b>Dr. Sai Prakash Leo Muthu</b>, Chairman & CEO.
+  </p>
+  <img src="/images/events/18/alumi2.jpg" alt="ALUMINI INTERACTION">
+
+  <h3>PARTICIPANTS</h3>
+  <p>
+    The event witnessed the participation of approximately <b>90–100 students and faculty members</b> from
+    various departments. Participants remained actively engaged throughout the session, contributing to
+    discussions and interacting with the alumni speakers.
+  </p>
+
+  <h3>KEY HIGHLIGHTS</h3>
+  <p>
+    - Real-world career insights shared by alumni from diverse professional domains.<br>
+    - Practical guidance on industry readiness, higher studies, and skill development.<br>
+    - Interactive discussions addressing student concerns and career-related questions.<br>
+    - Motivated students to plan their careers early and adopt a strategic approach to growth.
+  </p>
+
+  <h3>PARTICIPANTS’ FEEDBACK</h3>
+  <p>
+    Participants expressed strong appreciation for the honest and relatable experiences shared by the alumni.
+    Many students found the session motivating and helpful in clarifying their career paths, preparation
+    strategies, and future goals.
+  </p>
+
+  <h3>EVENT OUTCOMES</h3>
+  <p>
+    The session successfully enhanced awareness of professional expectations and career planning among
+    students. Participants gained clarity on the skills, mindset, and preparation required to succeed in
+    industry and higher education.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The alumni interaction session <b>“What No One Told Us in College”</b> served as an impactful platform for
+    students to gain practical knowledge beyond academics. The IEEE HKN Nu Eta Chapter continues to support
+    student development through meaningful, industry-oriented, and alumni-driven initiatives.
+  </p>
+  `,
+  cover_image: "/images/events/18/alumi3.jpg",
+  main_image: "/images/events/18/alumi3.jpg",
+  venue: {
+    name: "Google Meet",
+    image: "/images/events/location-icon.jpg",
+    location: "Online",
+  },
+  tags: ["Alumni Interaction", "Career Guidance", "Industry Readiness", "Higher Studies", "IEEE HKN"],
+  date: "December 20th, 2025",
+  year: 2025,
 }
+
+
 
 
 
