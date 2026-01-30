@@ -3184,6 +3184,275 @@ service.</div>
   tags: ["Alumni Interaction", "Career Guidance", "Industry Readiness", "Higher Studies", "IEEE HKN"],
   date: "December 20th, 2025",
   year: 2025,
+},
+{
+  id: 29,
+  title: "Nu Minds Tutoring – Electronics in Action: Fundamentals to Real-Life System Design",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+  </style>
+
+  <h1>Nu Minds Tutoring – Electronics in Action</h1>
+  <h2>Fundamentals to Real-Life System Design</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    The objective of the session was to introduce first-year students to the fundamentals of electronics,
+    including basic electrical quantities and core electronic components, and to enhance their conceptual
+    understanding and logical thinking through simplified explanations and real-life applications.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The IEEE HKN Nu Eta Chapter of Sri Sairam Engineering College conducted an online tutoring program titled
+    <b>“Nu Minds Tutoring – Electronics in Action: Fundamentals to Real-Life System Design”</b> from
+    <b>19th January 2026 to 23rd January 2026</b> via Google Meet.
+  </p>
+  <p>
+    The sessions were led by <b>Saravanan RK</b> and <b>Alagappan A</b>, third-year ECE students and IEEE HKN members.
+    Over five days, the program focused on strengthening foundational knowledge in electronics using simplified
+    teaching methods, real-world examples, and interactive discussions.
+  </p>
+  <img src="/images/events/18/electronics1.jpg" alt="EVENT SESSION">
+
+  <h3>TOPICS COVERED</h3>
+  <p>
+    - Voltage, Current, Resistance, and Power<br>
+    - Capacitors and Inductors<br>
+    - Difference between Electrical and Electronics Systems<br>
+    - Real-Life Applications of Electronics Concepts
+  </p>
+
+  <h3>STUDENT ENGAGEMENT</h3>
+  <p>
+    Students actively participated throughout the sessions by asking questions, clarifying doubts, and engaging
+    in interactive discussions. The opening session recorded the participation of approximately <b>60 students</b>,
+    with consistent attendance of around <b>40–50 students</b> across all five days.
+  </p>
+  <img src="/images/events/18/electronics2.jpg" alt="ONLINE CLASS">
+
+  <h3>EVENT OUTCOMES</h3>
+  <p>
+    - Students gained a clear understanding of basic electronics concepts and components.<br>
+    - Improved conceptual clarity and logical reasoning among first-year participants.<br>
+    - Increased confidence in approaching electronics-related subjects.<br>
+    - Encouraged interactive learning and senior–junior knowledge sharing.<br>
+    - Built a strong foundation for further studies in electronics and related domains.
+  </p>
+
+  <h3>PARTICIPANTS’ FEEDBACK</h3>
+  <p>
+    Participants appreciated the structured and simplified approach used to explain fundamental electronics concepts.
+    Many students expressed that topics such as voltage, current, resistance, power, capacitors, and inductors became
+    easier to understand through real-life examples and interactive teaching.
+  </p>
+
+  <h3>RESOURCE PERSONS</h3>
+  <p>
+    1. Saravanan R K – 3rd Year ECE, IEEE HKN Member<br>
+    2. Alagappan A – 3rd Year ECE, IEEE HKN Member
+  </p>
+
+  <h3>PARTICIPANTS</h3>
+  <p>
+    Over <b>50 first-year students</b> actively participated in the electronics fundamentals sessions.
+    The program proved highly beneficial in strengthening their understanding and confidence in core electronics concepts.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The Nu Minds Tutoring initiative successfully built a strong conceptual foundation for first-year students,
+    enhancing their understanding of electronics principles and logical thinking abilities. This peer-led initiative
+    reflects IEEE HKN’s commitment to fostering technical awareness, conceptual clarity, and a collaborative learning culture.
+  </p>
+  `,
+  cover_image: "/images/events/18/electronics3.jpg",
+  main_image: "/images/events/18/electronics3.jpg",
+  venue: {
+    name: "Google Meet",
+    image: "/images/events/location-icon.jpg",
+    location: "Online",
+  },
+  tags: ["Electronics", "IEEE HKN", "Tutoring", "First Year", "Concept Building"],
+  date: "January 19th – 23rd, 2026",
+  year: 2026,
+},
+{
+  id: 30,
+  title: "Sairam SDG Immersion Program 2025 – Engineering Ideas for a Sustainable Future",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+  </style>
+
+  <h1>Sairam SDG Immersion Program 2025</h1>
+  <h2>Engineering Ideas for a Sustainable Future</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    The objective of the Sairam SDG Immersion Program 2025 was to introduce first-year engineering
+    students to the United Nations Sustainable Development Goals (SDGs) through experiential learning,
+    localization, and field exposure. The program aimed to bridge academic learning with real-world
+    societal challenges while promoting innovation, empathy, leadership, and service to humanity.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The Sairam SDG Immersion Program 2025 is a large-scale experiential learning initiative designed
+    for first-year engineering students. Conducted from <b>06 November 2025 to 30 January 2026</b>,
+    the program spanned <b>22 days</b> with a total engagement of <b>360 hours</b>.
+  </p>
+  <p>
+    Organized under the <b>Sairam Innovation Ecosystem</b>, the initiative focused on the localization
+    of Sustainable Development Goals through structured training sessions and hands-on field exposure
+    in three model villages.
+  </p>
+
+  
+  <h3>SESSION HIGHLIGHTS</h3>
+  <p>
+    The program featured expert-led training sessions delivered by <b>11 experienced resource persons</b>
+    specializing in rural development, governance, infrastructure, health, water management, social justice,
+    and women empowerment.
+  </p>
+
+  <h3>THEMATIC AREAS COVERED</h3>
+  <p>
+    - Poverty-Free & Enhanced Livelihoods<br>
+    - Healthy Villages<br>
+    - Child-Friendly Village Panchayats<br>
+    - Water-Sufficient Villages<br>
+    - Clean & Green Villages<br>
+    - Self-Sufficient Infrastructure<br>
+    - Socially Just & Secure Villages<br>
+    - Good Governance<br>
+    - Women-Friendly Villages
+  </p>
+
+  <img src="/images/events/18/sdg3.jpg" alt="FIELD EXPOSURE">
+
+  <h3>FIELD EXPOSURE & EXPERIENTIAL LEARNING</h3>
+  <p>
+    Students participated in field exposure visits to selected model villages, enabling them to observe,
+    analyze, and understand real-world sustainable development practices. These hands-on experiences
+    strengthened experiential learning and encouraged engineering-based solutions aligned with SDGs.
+  </p>
+
+  <h3>EVENT OUTCOME</h3>
+  <p>
+    The SDG Immersion Program 2025 enhanced students’ awareness of sustainability and grassroots
+    development. Participants developed innovation, critical thinking, teamwork, and empathy while
+    proposing solutions aligned with Sustainable Development Goals.
+  </p>
+
+  <h3>PARTICIPANTS’ FEEDBACK</h3>
+  <p>
+    Students appreciated the expert interactions, real-world exposure, and the balance between indoor
+    learning and field visits, which increased their motivation toward sustainable innovation.
+  </p>
+
+  <h3>RESOURCE PERSONS</h3>
+  <p>
+    The program sessions were conducted by <b>11 expert resource persons</b>, including State Resource
+    Persons, senior administrators, and sustainability domain specialists.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The Sairam SDG Immersion Program 2025 stands as a landmark initiative in experiential engineering
+    education. The program successfully connected academic learning with societal needs and reflects
+    IEEE HKN’s commitment to leadership, ethics, sustainability, and social responsibility.
+  </p>
+  `,
+  cover_image: "/images/events/18/sdg1.jpg",
+  main_image: "/images/events/18/sdg1.jpg",
+  venue: {
+    name: "SIRD & PR Campus",
+    image: "/images/events/location-icon.jpg",
+    location: "Maraimalai Nagar, Chennai",
+  },
+  tags: ["SDG", "Sustainability", "IEEE HKN", "Rural Development", "Experiential Learning"],
+  date: "November 06, 2025 – January 30, 2026",
+  year: 2026,
 }
 
 
