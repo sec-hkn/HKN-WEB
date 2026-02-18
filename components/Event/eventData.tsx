@@ -3453,6 +3453,154 @@ service.</div>
   tags: ["SDG", "Sustainability", "IEEE HKN", "Rural Development", "Experiential Learning"],
   date: "November 06, 2025 – January 30, 2026",
   year: 2026,
+},
+{
+  id: 31,
+  title: "Industrial Visit – Industrial Automation, Control Systems & Robotics",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+    p {
+      text-align: justify;
+    }
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+  </style>
+
+  <h1>Industrial Visit</h1>
+  <h2>Industrial Automation, Control Systems & Robotics</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    The primary objective of the industrial visit was to provide students with practical exposure to
+    industrial automation, control systems, and robotics. The session aimed to enhance technical knowledge,
+    demonstrate real-world applications of theoretical concepts, and develop hands-on skills in PLCs,
+    SCADA, HMI, and related automation technologies. It also encouraged teamwork, problem-solving,
+    and a deeper understanding of industrial practices.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The IEEE HKN – Nu Eta Chapter of Sri Sairam Engineering College organized an industrial visit on
+    <b>17th February 2026</b> at the <b>Axis Global Institute of Industrial Training (AGIIT)</b>,
+    Ashok Nagar, Chennai, from <b>10:30 AM to 1:30 PM</b>.
+  </p>
+
+  <p>
+    A group of <b>15 students</b> along with <b>2 faculty members</b> participated in the visit.
+    The students gained valuable insights into the functioning and applications of modern industrial
+    automation systems through demonstrations and hands-on training.
+  </p>
+
+  <img src="/images/events/18/iv1.jpg" alt="INDUSTRIAL VISIT SESSION">
+
+  <h3>EVENT FLOW</h3>
+  <p>
+    The visit commenced with a welcome session by the trainers at AGIIT, followed by an introduction
+    to industrial automation systems. The sessions included:
+    <br><br>
+    1. Overview of PLCs – Working principles, configurations, and applications.<br>
+    2. Relays and Circuit Protection – NO/NC relays, MCBs, and overload relays.<br>
+    3. HMI and SCADA Systems – Basics of industrial monitoring and control software.<br>
+    4. Variable Frequency Drives (VFDs) and SMPS – Practical applications and operation.<br>
+    5. Ladder Programming – Real-world automation logic use cases.<br>
+    6. Industrial PLCs – Hands-on training with Schneider, Mitsubishi Electric, and Omron PLCs.<br>
+    7. Robotics – Exposure to Yaskawa Robot and its working and programming.
+  </p>
+
+  <img src="/images/events/18/iv2.jpg" alt="PLC AND ROBOTICS TRAINING">
+
+  <h3>EVENT HIGHLIGHTS</h3>
+  <p>
+    - Active participation from 15 students across various departments.<br>
+    - Hands-on sessions in PLC programming, SCADA, HMI, and ladder logic.<br>
+    - Live demonstrations of industrial automation devices and robotics.<br>
+    - Exposure to real-time industrial use cases and workflows.<br>
+    - Expert guidance from experienced trainers on troubleshooting and programming.
+  </p>
+
+  <h3>EVENT OUTCOMES</h3>
+  <p>
+    - Enhanced understanding of industrial automation and robotics.<br>
+    - Practical experience in operating and programming PLCs, SCADA, and HMI systems.<br>
+    - Improved ability to apply theoretical knowledge to real-world industrial problems.<br>
+    - Increased technical confidence and industrial readiness among students.<br>
+    - Encouraged curiosity and innovation in automation and robotics domains.
+  </p>
+
+  <h3>PARTICIPANTS’ FEEDBACK</h3>
+  <p>
+    Participants appreciated the hands-on nature of the visit and found the sessions informative,
+    engaging, and well-structured. Students highlighted the real-world exposure to PLCs, SCADA,
+    robotics, and automation systems as highly beneficial in complementing classroom learning.
+  </p>
+
+  <h3>JUDGES</h3>
+  <p>
+    1. Dr. Soma Prathiba – Professor & Head, CSE (Cybersecurity), Sri Sairam Engineering College<br>
+    2. Dr. Saritha G – Coordinator & Associate Professor, ECE, Sri Sairam Institute of Technology
+  </p>
+
+  <h3>VOLUNTEERS INVOLVED</h3>
+  <p>
+    Tharushi S S, Arokiya Swetha K, Aruni B, Akash S, Abirami S, Saravanan R K,
+    Alagappan A, Roshan Melvin G A, Nakul S, Muthuswetha M, Harini M,
+    Prahaladhan J, Rohith P, Samyuktha K S, Khahini B I
+  </p>
+
+  <h3>PARTICIPANTS</h3>
+  <p>
+    A total of <b>15 students</b> from various engineering departments actively participated in the
+    industrial visit, gaining practical exposure to industrial automation systems and robotics.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The industrial visit to AGIIT, Ashok Nagar successfully provided students with hands-on exposure
+    to industrial automation, PLCs, SCADA, robotics, and related systems. The visit promoted learning
+    by doing, strengthened technical understanding, and inspired students to explore real-world
+    engineering applications, making it a valuable and enriching experience.
+  </p>
+  `,
+  cover_image: "/images/events/18/iv3.jpg",
+  main_image: "/images/events/18/iv3.jpg",
+  venue: {
+    name: "Axis Global Institute of Industrial Training (AGIIT)",
+    image: "/images/events/location-icon.jpg",
+    location: "Ashok Nagar, Chennai – 70",
+  },
+  tags: ["Industrial Visit", "IEEE HKN", "Automation", "PLCs", "Robotics"],
+  date: "February 17th, 2026",
+  year: 2026,
 }
 
 
