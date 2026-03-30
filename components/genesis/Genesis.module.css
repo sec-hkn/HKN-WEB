@@ -68,4 +68,15 @@
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   }
+
+   /* GENESIS 3.0 Button - Yellow Theme */
+  .genesis3 {
+    background: linear-gradient(to right, #facc15, #fbbf24);
+  }
+  
+  .genesis3:hover {
+    background: linear-gradient(to right, #fbbf24, #facc15);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
   

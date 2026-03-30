@@ -32,9 +32,21 @@ const Genesis = () => {
             GENESIS 2.0
           </button>
         </Link>
+
+        {/* NEW GENESIS 3.0 */}
+        <Link href="genesis/genesis3">
+          <button className={`${styles.genesisButton} ${styles.genesis3}`}>
+            GENESIS 3.0
+          </button>
+        </Link>
       </div>
     </div>
   );
 };
 
 export default Genesis;
+
+
+
+
+
