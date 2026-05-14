@@ -1,8 +1,13 @@
-import { Members } from "@/types/members";
+import { Metadata } from "next";
 import SectionTitle from "../../components/Common/SectionTitle";
-import SingleMember from "./SingleMember";
 import ProfessionalMemberCard from "./ProfessionalMemberCard";
+import MembersClient from "./MembersClient";
 import { professionalMembers, studentMembers } from "./memberData";
+
+export const metadata: Metadata = {
+  title: "Members",
+  description: "SEC IEEE HKN Team Members",
+};
 
 const Testimonials = () => {
   return (
@@ -24,11 +29,7 @@ const Testimonials = () => {
         <p className="mb-4 text-base font-bold font-bold !leading-relaxed text-body-color dark:text-body-color-dark sm:text-dark md:text-3xl">
           Student Members
         </p>
-        <div className="grid grid-cols-1 gap-x-4 gap-y-16 pt-12 text-center sm:grid-cols-1 md:grid-cols-4 md:gap-y-20">
-          {studentMembers.map((member) => (
-            <SingleMember key={member.id} member={member} />
-          ))}
-        </div>
+        <MembersClient members={studentMembers} />
       </div>
       <div className="absolute right-0 top-5 z-[-1]">
         <svg

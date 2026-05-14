@@ -173,280 +173,281 @@ export const studentMembers: Members[] = [
   {
     id: 1,
     name: "Dineshkumar S",
-    designation: "President",
+    designation: "President (2023-2024)",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/in/dineshkumar-sankar-81761a205/",
     mailid: "dineshkumar.s@ieee.org",
     image: "/images/members/23/Dineshkumar_Sankar.jpg",
     year: "2023",
-    //
   },
   {
     id: 2,
     name: "Anushree U",
     designation: "Vice President",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/inushree-udhayakumar-088797204/",
     mailid: "anushree.udhayakumar@ieee.org",
     image: "/images/members/23/Anushree.png",
     year: "2023",
-    //
   },
   {
     id: 3,
     name: "Gnana Padmesh M K",
     designation: "Treasurer",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/in/gnana-padmesh-c-k-2002/",
     mailid: "gnanapadmesh.ck@ieee.org ",
     image: "/images/members/23/Gnana_Padmesh.jpg",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 4,
     name: "Tapasya K",
-    designation: "Corresponding Scretary",
+    designation: "Corresponding Secretary",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/in/tapasya-k/",
     mailid: "tapasyak@ieee.org",
     image: "/images/members/23/tapasya_k.jpg",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 5,
     name: "Kishore M A",
-    designation: "Recording Secretary",
+    designation: "Recording Secretary (2023-2024) / President (2024-2025)",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/in/kishore2003/",
     mailid: "kishorema@ieee.org",
     image: "/images/members/23/Kishore.png",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 6,
     name: "Raghul D",
     designation: "Volunteer Director",
+    term: "2023-2024",
     linkedin: "HKN Member",
     mailid: "raghul.dayanithi@ieee.org",
     image: "/images/members/23/Raghul_d.jpg",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 7,
     name: "Solaiganesh S",
     designation: "Event Director",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/in/solaiganesh-s-47379b239/",
     mailid: "solaiganesh@ieee.org",
     image: "/images/members/23/solaiganesh.jpg",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 8,
     name: "Jai Akash S",
     designation: "Public Relations Director",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/in/jai-akash-s-017289224/",
     mailid: "jaiakash@ieee.org",
     image: "/images/members/23/Jaiakash.jpg",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 9,
     name: "Suvigshaa S",
     designation: "Recruitment Director",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/in/s-suvigshaa-b47177229/",
     mailid: "ssuvigshaa@ieee.org",
     image: "/images/members/23/Suvigshaa.jpg",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 10,
     name: "Yashwanth J",
     designation: "Operational Director",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/in/yashwanth-j-118678226/",
     mailid: "yashwanthj@ieee.org",
     image: "/images/members/23/Yashwanth_J.jpg",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 11,
     name: "Venkatapathi K",
     designation: "Webmaster",
+    term: "2023-2024",
     linkedin: "HKN Member",
     mailid: "Venkatapathi@ieee.org",
     image: "/images/members/23/Venkatapathi_K.png",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 12,
     name: "Vignesh Velappan",
     designation: "HKN Member",
+    term: "2023-2024",
     linkedin:
       "https://www.linkedin.com/in/vignesh-velappan-%F0%9F%87%AE%F0%9F%87%B3-237730250",
     mailid: "vigneshvelappan30@gmail.com",
     image: "/images/members/24/vigneshvelappan.jpg",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 13,
     name: "Rahul V",
     designation: "HKN Member",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/in/rahulvijayanand",
     mailid: "rahulvijayanand@ieee.org",
     image: "/images/members/24/rahulv.png",
-        year: "2023",
-
+    year: "2023",
   },
 
   {
     id: 14,
     name: "Sai Sakthivel Rajamani Surendran",
     designation: "HKN Member",
+    term: "2023-2024",
     linkedin: "https://www.linkedin.com/in/saisakthivel2k3/",
     mailid: "saisakthivel2k3@ieee.org",
     image: "/images/members/24/saisakthivel.jpg",
-        year: "2023",
-
+    year: "2023",
   },
   {
     id: 15,
     name: "Gowtham P N",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/gowtham-naren-417664257/",
     mailid: "gowthamnaren2017@gmail.com",
     image: "/images/members/24/gowtham.png",
-        year: "2024",
-
+    year: "2024",
   },
   {
     id: 16,
     name: "Nasreen Begam Z",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/z-nasreen-begam-015495257",
     mailid: "nasreenbegam14@ieee.org",
     image: "/images/members/24/nasreenbegam.png",
-        year: "2024",
-
+    year: "2024",
   },
   {
     id: 17,
     name: "Ruthi Shankari",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/ruthi-shankari/",
     mailid: "sitarandtsukki@gmail.com",
     image: "/images/members/24/ruthishankari.jpg",
-            year: "2024",
-
+    year: "2024",
   },
   {
     id: 18,
     name: "Jagadeesh G",
-    designation: "HKN Member",
+    designation: "Vice President (2025-2026)",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/jagadeesh-gopalakrishnan-367a47253/",
     mailid: "jagadeeshgopalakrishnan@ieee.org",
     image: "/images/members/24/jagadeesh.jpg",
     year: "2024",
-
   },
   {
     id: 19,
     name: "Thrisala K",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/thrisala-k-b00437257",
     mailid: "thrisala167@gmail.com",
     image: "/images/members/24/thrisala.png",
     year: "2024",
-
   },
   {
     id: 20,
     name: "Tharushi S S",
-    designation: "HKN Member",
+    designation: "Vice President (2024-2025) / President (2025-2026)",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/tharushi-s-s/",
     mailid: "tharushibabu@ieee.org",
     image: "/images/members/24/tharushi.jpg",
     year: "2024",
-
   },
   {
     id: 21,
     name: "Savitha N",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/savitha-narayanamoorthy-7695a7254/",
     mailid: "savithanarayanamoorthy@ieee.org",
     image: "/images/members/24/savitha.jpg",
     year: "2024",
-
   },
   {
     id: 22,
     name: "Harish V P",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/vpharish/",
     mailid: "harishvp2004@gmail.com",
     image: "/images/members/24/harishvp.png",
     year: "2024",
-
   },
   {
     id: 23,
     name: "Pranjna B",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/pranjna-b-114627258",
     mailid: "pranj.jaya16@gmail.com",
     image: "/images/members/24/pranjna.jpg",
     year: "2024",
-
   },
 
   {
     id: 24,
     name: "Sandhiya A",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/sandhiya-arulmurugan-2b10a7258",
     mailid: "sandhiya042005@gmail.com",
     image: "/images/members/24/sandhiyaa.jpg",
     year: "2024",
-
   },
   {
     id: 25,
     name: "Sanjay",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/sanjaykumar-s-b30062296/",
     mailid: "sanjaykumar04@ieee.org",
     image: "/images/members/24/sanjay.jpg",
     year: "2024",
-
   },
   {
     id: 26,
     name: "Shreeja S",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/shreeja-s-1b17a925a",
     mailid: "shreeja1318@gmail.com",
     image: "/images/members/24/shreeja.jpg",
     year: "2024",
-
   },
   {
     id: 27,
     name: "Mahalakshmi",
     designation: "HKN Member",
+    term: "2024-2025",
     linkedin: "https://www.linkedin.com/in/mahalakshmi-sundararajan-645602218",
     mailid: "Mahalakshmi.S@ieee.org",
     image: "/images/members/24/mahalakshmi.jpg",
     year: "2024",
-
   },
 {
     id: 28,
     name: "Arokiya Swetha K ",
     designation: "Secretary",
+    term: "2025-2026",
     linkedin: "www.linkedin.com/in/arokiya-swetha-k-021128295",
     mailid: "swethakethees2212@ieee.org",
     image: "/images/members/25/arokiya swetha.jpg",
@@ -458,6 +459,7 @@ export const studentMembers: Members[] = [
     id: 29,
     name: "Sri Raman M",
     designation: "HKN Member",
+    term: "2025-2026",
     linkedin: "https://www.linkedin.com/in/sri-raman-m-321505253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     mailid: "msram.8274@ieee.org",
     image: "/images/members/25/Sriraman.jpg",
@@ -468,6 +470,7 @@ export const studentMembers: Members[] = [
     id: 30,
     name: "J Prahaladhan",
     designation: "Treasurer",
+    term: "2025-2026",
     linkedin: "https://www.linkedin.com/in/prahal4real",
     mailid: "drummerprahal@gmail.com",
     image: "/images/members/25/Prahaladhan.jpg",
@@ -478,6 +481,7 @@ export const studentMembers: Members[] = [
     id: 31,
     name: "B . ARUNI",
     designation: "Candidate lead",
+    term: "2025-2026",
     linkedin: "https://www.linkedin.com/in/aruni-b-0b8375294?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     mailid: "arunib613@gmail.com",
     image: "/images/members/25/aruni.jpg",
@@ -487,6 +491,7 @@ export const studentMembers: Members[] = [
 {
     id: 32,
     name: "Aathika N M",
+    term: "2025-2026",
     designation: "HKN Member",
     linkedin: "https://www.linkedin.com/in/aathika-n-m-558418285/",
     mailid: "aathikanm@gmail.com",
@@ -495,6 +500,7 @@ export const studentMembers: Members[] = [
 },
  {
     id: 33,
+    term: "2025-2026",
     name: "SARAVANAN R K",
     designation: "HKN Member",
     linkedin: "www.linkedin.com/in/saravanan-rk/",
@@ -505,6 +511,7 @@ export const studentMembers: Members[] = [
   },
 {
     id: 34,
+    term: "2025-2026",
     name: "Alagappan A",
     designation: "HKN Member",
     linkedin: "https://www.linkedin.com/in/alagappanarumugam",
@@ -515,6 +522,7 @@ export const studentMembers: Members[] = [
 
 {
     id: 35,
+    term: "2025-2026",
     name: "Abirami S",
     designation: "HKN Member",
     linkedin: "https://www.linkedin.com/in/abirami-s-11a60127b/",
@@ -524,6 +532,7 @@ export const studentMembers: Members[] = [
 },
 
 {
+    term: "2025-2026",
     id: 36,
     name: "Muthuswetha M",
     designation: "HKN Member",
@@ -533,6 +542,7 @@ export const studentMembers: Members[] = [
     year: "2025",
 },
 {
+    term: "2025-2026",
     id: 38,
     name: "AKASH S",
     designation: "HKN Member",
@@ -542,6 +552,7 @@ export const studentMembers: Members[] = [
     year: "2025",
 },
 {
+    term: "2025-2026",
     id: 39,
     name: "Rohith P",
     designation: "HKN Member",
@@ -550,7 +561,8 @@ export const studentMembers: Members[] = [
     image: "/images/members/25/rohit.jpg",
     year: "2025",
 },
-{
+{term: "2025-2026",
+    
     id: 40,
     name: "Nakul S",
     designation: "Program & Outreach Lead",
@@ -561,7 +573,8 @@ export const studentMembers: Members[] = [
 },
 
 
-{
+{term: "2025-2026",
+    
     id: 41,
     name: "Roshan Melvin G A",
     designation: "Member",
@@ -571,7 +584,8 @@ export const studentMembers: Members[] = [
     year: "2025",
 },
 
-{
+{term: "2025-2026",
+    
     id: 42,
     name: "Keerthika S",
     designation: "Member",
@@ -580,7 +594,9 @@ export const studentMembers: Members[] = [
     image: "/images/members/25/Keerthika.jpg",
     year: "2025",
 },
-{
+
+    
+{term: "2025-2026",
     id: 43,
     name: "SAMYUKTHA K S",
     designation: "Member",
@@ -589,6 +605,7 @@ export const studentMembers: Members[] = [
     image: "/images/members/25/Samyuktha.jpg",
     year: "2025",
 },
+    
 {
     id: 44,
     name: "KHAHINI BI",
@@ -596,9 +613,10 @@ export const studentMembers: Members[] = [
     linkedin: "https://www.linkedin.com/in/khahiniboopathi6",
     mailid: "khahini.off.216@gmail.com",
     image: "/images/members/25/Khahini.jpg",
+    term: "2025-2026",
     year: "2025",
 },
-{
+{term: "2025-2026",
     id: 45,
     name: "SANJAY S",
     designation: "Recording Secretary",
@@ -611,6 +629,7 @@ export const studentMembers: Members[] = [
     id: 46,
     name: "Harini M",
     designation: "Communication Lead",
+    term: "2025-2026",
     linkedin: "https://www.linkedin.com/in/harini-m-b4743329b",
     mailid: "mharinimadan@gmail.com",
     image: "/images/members/25/Harini.jpg",
@@ -621,6 +640,7 @@ export const studentMembers: Members[] = [
     id: 47,
     name: "Kavyasri B",
     designation: "Member",
+    term: "2025-2026",
     linkedin: "https://www.linkedin.com/in/kavyasri-b-091447292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     mailid: "bkavyasri10@gmail.com",
     image: "/images/members/25/kavyasri.jpg",
