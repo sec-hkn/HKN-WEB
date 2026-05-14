@@ -3601,6 +3601,227 @@ service.</div>
   tags: ["Industrial Visit", "IEEE HKN", "Automation", "PLCs", "Robotics"],
   date: "February 17th, 2026",
   year: 2026,
+},
+{
+  id: 32,
+  title: "KINGSLAYER CTF – HAVOC 5.0",
+  paragraph: `
+  <style>
+    body {
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+    p {
+      text-align: justify;
+    }
+    img {
+      display: block;
+      margin: 25px auto;
+      max-width: 70%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+  </style>
+
+  <h1>KINGSLAYER CTF – HAVOC 5.0</h1>
+  <h2>Capture The Flag Cybersecurity Competition</h2>
+
+  <h3>OBJECTIVE</h3>
+  <p>
+    The objective of KINGSLAYER CTF – HAVOC 5.0 was to provide students with
+    hands-on exposure to cybersecurity through a Capture The Flag (CTF)
+    competition, fostering practical skills in areas such as Web Exploitation,
+    Open-Source Intelligence (OSINT), Cryptography, and LLM security challenges.
+    The event aimed to challenge participants, encourage teamwork, and build a
+    strong cybersecurity culture within the institution.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The IEEE HKN – Nu Eta Chapter of Sri Sairam Engineering College organized
+    <b>KINGSLAYER CTF – HAVOC 5.0</b> on <b>16th April 2026</b> at
+    <b>Apple Hall, Sri Sairam Engineering College, Chennai</b> from
+    <b>9:00 AM to 4:00 PM</b>.
+  </p>
+
+  <p>
+    The event was conducted in collaboration with the CSE (Cyber Security)
+    departments of SEC & SIT and the WiCyS Sri Sairam Engineering College
+    Chapter. A total of <b>170 students</b> from various departments actively
+    participated in the competition, showcasing technical knowledge,
+    analytical thinking, and problem-solving abilities throughout the event.
+  </p>
+
+  <img src="/images/events/19/cfg3.jpg" alt="KINGSLAYER CTF INAUGURAL SESSION">
+
+  <h3>EVENT FLOW</h3>
+  <p>
+    The event commenced with an inaugural session, followed by an insightful
+    address delivered by the Chief Guest, <b>Kasthuri Ganeshguru</b>, who spoke
+    about the significance of cybersecurity and ethical hacking in today's
+    digital era.
+    <br><br>
+    Participants were then briefed on the competition rules, challenge
+    categories, and platform access procedures before the official start of
+    the CTF competition.
+    <br><br>
+    The competition featured multiple cybersecurity domains including:
+    <br><br>
+    1. Web Exploitation – Identifying and exploiting web vulnerabilities.<br>
+    2. Open-Source Intelligence (OSINT) – Information gathering and analysis.<br>
+    3. Cryptography – Solving encryption and decryption challenges.<br>
+    4. LLM Security Challenges – Exploring vulnerabilities and security concepts
+    in Large Language Models.<br><br>
+
+    Participants worked individually and in teams to solve practical,
+    challenge-based problems within the allocated competition duration.
+    The event concluded with a prize distribution ceremony recognizing the
+    top-performing participants and teams.
+  </p>
+
+  <img src="/images/events/19/cfg2.jpg" alt="CTF COMPETITION SESSION">
+
+  <h3>EVENT HIGHLIGHTS</h3>
+  <p>
+    - Successfully organized a large-scale Capture The Flag (CTF) competition
+    with active student participation.<br>
+    - Conducted in collaboration with HKN, CSE (Cyber Security) departments of
+    SEC & SIT, and WiCyS Sri Sairam Engineering College Chapter.<br>
+    - Covered diverse cybersecurity domains including Web Exploitation, OSINT,
+    Cryptography, and LLM Security.<br>
+    - Featured an expert talk by Chief Guest Kasthuri Ganeshguru on the
+    importance of cybersecurity.<br>
+    - Designed practical challenges to enhance analytical thinking and
+    technical problem-solving skills.<br>
+    - Encouraged teamwork, collaboration, and strategic thinking among
+    participants.<br>
+    - Provided hands-on exposure to real-world cybersecurity scenarios and
+    ethical hacking concepts.<br>
+    - Maintained a structured and engaging event flow from inauguration to
+    final evaluation.<br>
+    - Witnessed enthusiastic participation and competitive spirit throughout
+    the competition.<br>
+    - Concluded with a prize distribution ceremony honoring top performers.<br>
+    - Strengthened the cybersecurity culture within the institution.
+  </p>
+
+  <img src="/images/events/19/cfg4.jpg" alt="PRIZE DISTRIBUTION CEREMONY">
+
+  <h3>EVENT OUTCOMES</h3>
+  <p>
+    - Successfully executed the chapter's first CTF event, creating a strong
+    foundation for future editions.<br>
+    - Enhanced practical cybersecurity awareness and technical skills among
+    students.<br>
+    - Strengthened collaboration between departments and student chapters
+    within Sairam Institutions.<br>
+    - Motivated participants to explore cybersecurity as a professional and
+    academic domain.<br>
+    - Reinforced the importance of student-led technical initiatives and
+    experiential learning.
+  </p>
+
+  <h3>PARTICIPANTS’ FEEDBACK</h3>
+  <p>
+    Participants appreciated the practical and immersive nature of the event.
+    Students found the challenges engaging, informative, and technically
+    enriching. The real-world cybersecurity scenarios and exposure to multiple
+    domains helped participants improve their analytical thinking,
+    collaboration, and problem-solving skills while boosting their confidence
+    in cybersecurity practices.
+  </p>
+
+  <h3>CHIEF GUEST</h3>
+  <p>
+    Kasthuri Ganeshguru – Cybersecurity Professional & Guest Speaker
+  </p>
+
+  <h3>VOLUNTEERS INVOLVED</h3>
+  <p>
+    Arokiya Swetha K – III Year IT<br>
+    Aruni B – III Year IT<br>
+    Abhirami S – III Year CSE (AIML)<br>
+    Saravanan R K – III Year ECE<br>
+    Alagappan A – III Year ECE<br>
+    Nakul S – III Year EEE<br>
+    Rohit – III Year AIDS<br>
+    Muthuswetha M – III Year CSE<br>
+    Harini M – III Year CSE<br>
+    Prahaladhan – III Year CSE<br>
+    Aathika N M – III Year IT<br>
+    Keerthika S – III Year CSBS<br>
+    Sanjay S – III Year M-Tech CSE
+  </p>
+
+  <h3>PARTICIPANTS</h3>
+  <p>
+    A total of <b>170 students</b> from various departments actively
+    participated in KINGSLAYER CTF – HAVOC 5.0. Participants demonstrated
+    strong technical skills, enthusiasm, and teamwork while solving challenges
+    across multiple cybersecurity domains, contributing to a collaborative and
+    competitive learning environment.
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    KINGSLAYER CTF – HAVOC 5.0 was a highly successful and impactful event that
+    effectively achieved its objective of providing practical exposure to
+    cybersecurity. The competition enabled participants to apply theoretical
+    knowledge to real-world challenges, thereby enhancing technical competence,
+    analytical thinking, and problem-solving abilities.
+    <br><br>
+    The event fostered teamwork, collaboration, and strategic thinking while
+    creating awareness about the growing importance of cybersecurity in the
+    digital world. The insightful session by the Chief Guest further enriched
+    the learning experience and inspired participants to explore advanced
+    cybersecurity domains.
+    <br><br>
+    Overall, the event served as a valuable platform for skill development,
+    ethical hacking awareness, and strengthening the cybersecurity culture
+    within the institution, marking a successful collaboration between HKN,
+    the CSE (Cyber Security) departments of SEC & SIT, and the WiCyS Sri
+    Sairam Engineering College Chapter.
+  </p>
+  `,
+  cover_image: "/images/events/19/cfg1.jpg",
+  main_image: "/images/events/19/cfg1.jpg",
+  venue: {
+    name: "Apple Hall, Sri Sairam Engineering College",
+    image: "/images/events/location-icon.jpg",
+    location: "Chennai, Tamil Nadu",
+  },
+  tags: [
+    "Cybersecurity",
+    "CTF",
+    "IEEE HKN",
+    "Ethical Hacking",
+    "OSINT",
+    "Cryptography",
+    "LLM Security"
+  ],
+  date: "April 16th, 2026",
+  year: 2026,
 }
 
 
