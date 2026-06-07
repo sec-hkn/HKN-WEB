@@ -2,6 +2,7 @@ export type Members = {
   id: number;
   name: string;
   designation: string;
+  term: string;
   linkedin: string;
   mailid:string;
   image: string;
