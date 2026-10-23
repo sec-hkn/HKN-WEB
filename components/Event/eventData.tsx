@@ -3822,7 +3822,284 @@ service.</div>
   ],
   date: "April 16th, 2026",
   year: 2026,
+},
+{
+  id: 33,
+  title: "IEEE-HKN Nu Eta Chapter Officer Training Programme",
+  paragraph: `
+  <style>
+    .officer-training-report {
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: white;
+      max-width: 900px;
+    }
+    .officer-training-report h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    .officer-training-report h2 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+    .officer-training-report h3 {
+      font-size: 18px;
+      margin-top: 35px;
+    }
+    .officer-training-report p {
+      text-align: justify;
+    }
+    .officer-training-report img {
+      display: block;
+      margin: 25px auto;
+      max-width: 85%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+  </style>
+
+  <div class="officer-training-report">
+  <h1>IEEE-HKN Nu Eta Chapter Officer Training Programme</h1>
+  <h2>Event ID: SEC202608IEEEHKNO2 | 11 August 2026</h2>
+
+  <h3>OBJECTIVES</h3>
+  <p>
+    The programme oriented chapter officers and committee members on their roles and
+    responsibilities. It aimed to strengthen the Website and Report Committees, introduce
+    the Paper Conference and Recruitment Fair, explain Key Chapter and Outstanding Chapter
+    Award criteria, brief members on upcoming activities, and introduce hackathon and
+    mentorship opportunities.
+  </p>
+
+  <h3>EVENT OVERVIEW</h3>
+  <p>
+    The IEEE HKN Nu Eta Chapter of Sri Sairam Engineering College conducted the Officer
+    Training Programme on <b>11 August 2026, from 2:30 PM to 4:10 PM</b>, at
+    <b>Newton Hall, Sri Sairam Engineering College</b>. The session was coordinated by
+    <b>Dr. P. Sathyaraj</b> under the guidance of <b>Dr. Soma Prathiba</b>, Chapter Advisor.
+    Senior members briefed newly assigned committees on website management, event reporting,
+    research paper conferences, award eligibility, upcoming chapter activities, hackathons,
+    and mentorship.
+  </p>
+
+  <h3>EVENT PHOTOS</h3>
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; width: 100%; margin: 25px auto;">
+    <img src="/images/events/20/photo-1.jpg" alt="Officer training session presentation" style="width: 100%; max-width: none; margin: 0; height: auto;">
+    <img src="/images/events/20/photo-2.jpg" alt="Officer training session discussion" style="width: 100%; max-width: none; margin: 0; height: auto;">
+    <img src="/images/events/20/photo-3.jpg" alt="Officer training presentation at Newton Hall" style="width: 100%; max-width: none; margin: 0; height: auto;">
+    <img src="/images/events/20/photo-4.jpg" alt="Members attending the officer training programme" style="width: 100%; max-width: none; margin: 0; height: auto;">
+  </div>
+
+  <h3>SESSION HIGHLIGHTS</h3>
+  <p>
+    <b>Website Committee:</b> Members reviewed the chapter website and the committee's
+    responsibilities for maintaining the Events and Members pages. Professional members
+    recommended adding members' departments and consistent professional photographs.
+    <br><br>
+    <b>Report Committee:</b> Members were briefed on the standard event report format,
+    required report details, and the calculation and submission of HKN hours. Reports were
+    encouraged for events, meetings, tutoring, induction ceremonies, alumni outreach, and
+    Founders' Day.
+    <br><br>
+    <b>Paper Conference and Recruitment Fair:</b> The session covered collaborative paper
+    submissions from abstract through presentation, and a recruitment workshop introducing
+    participants to the hiring requirements of leading organisations.
+    <br><br>
+    <b>Key Chapter Award:</b> Members reviewed the chapter's three consecutive Key Chapter
+    Awards and the eligibility path toward the Outstanding Chapter Award, along with
+    opportunities for research publication and chapter updates.
+    <br><br>
+    <b>Upcoming events and sessions:</b> Members heard about Genesis, STEM, monthly tutoring,
+    invited professionals, and recording activities in the Annual Calendar.
+    <br><br>
+    <b>Mentorship and placement guidance:</b> The chapter's professor and professional
+    mentorship opportunities were introduced, with final-year students encouraged to share
+    placement experiences with junior members.
+  </p>
+
+  <h3>EVENT OUTCOMES</h3>
+  <p>
+    The programme clarified committee responsibilities and report procedures, including
+    calculating and submitting HKN hours. It introduced members to the Paper Conference,
+    Recruitment Fair, Key Chapter Award criteria, TEDx Hackathon, upcoming chapter activities,
+    and mentorship support for academic and professional growth.
+  </p>
+
+  <h3>CHAPTER LEADERSHIP</h3>
+  <p>
+    Dr. P. Sathyaraj – Event Coordinator, IEEE HKN Nu Eta Chapter<br>
+    Dr. Soma Prathiba – Chapter Advisor, IEEE HKN Nu Eta Chapter<br>
+    Dr. J. Raja – Principal, Sri Sairam Engineering College<br>
+    Dr. Sai Prakash LeoMuthu – Chairman &amp; CEO, Sairam Institutions
+  </p>
+
+  <h3>CONCLUSION</h3>
+  <p>
+    The Officer Training Programme equipped chapter officers with guidance on committee
+    responsibilities, reporting procedures, and upcoming opportunities, supporting the
+    chapter's future research, activities, and member development.
+  </p>
+  </div>
+  `,
+  cover_image: "/images/events/20/officer-training-poster.jpeg",
+  main_image: "/images/events/20/officer-training-poster.jpeg",
+  venue: {
+    name: "Newton Hall, Sri Sairam Engineering College",
+    image: "/images/events/location-icon.jpg",
+    location: "Sri Sairam Engineering College, Chennai, Tamil Nadu",
+  },
+  tags: ["Officer Training", "Leadership", "IEEE HKN", "Nu Eta"],
+  date: "August 11th, 2026",
+  year: 2026,
+},
+{
+  id: 34,
+  title: "Nu Minds Tutoring – Hello World! – Navigating C Programming",
+  paragraph: `
+  <style>
+    .c-programming-event {
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: white;
+      max-width: 900px;
+      line-height: 1.7;
+    }
+    .c-programming-event h1,
+    .c-programming-event h2 {
+      text-align: center;
+    }
+    .c-programming-event h1 {
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    .c-programming-event h2 {
+      font-size: 18px;
+      font-weight: normal;
+      margin: 4px 0 30px;
+    }
+    .c-programming-event h3 {
+      font-size: 18px;
+      margin-top: 32px;
+    }
+    .c-programming-event p {
+      text-align: justify;
+    }
+    .c-programming-event ul {
+      list-style: disc;
+      padding-left: 28px;
+    }
+    .c-programming-event .session-images {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin: 24px auto;
+    }
+    .c-programming-event img {
+      display: block;
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+    }
+    @media (max-width: 640px) {
+      .c-programming-event .session-images {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <div class="c-programming-event">
+    <h1>Nu Minds Tutoring – Navigating to New Heights</h1>
+    <h2>Hello World! – Navigating C Programming</h2>
+
+    <h3>OBJECTIVE</h3>
+    <p>
+      The five-day programme introduced first-year students to C programming through
+      beginner-friendly, interactive sessions. It developed programming fundamentals,
+      logical and problem-solving skills, and confidence in writing and understanding
+      C programs, including for students with little or no prior programming experience.
+    </p>
+
+    <h3>EVENT OVERVIEW</h3>
+    <p>
+      The IEEE HKN Nu Eta Chapter conducted the online programme from <b>16 September
+      2026 to 20 September 2026</b>, from <b>7:30 PM to 8:30 PM</b> each day via Google
+      Meet. Approximately <b>120 first-year students</b> participated. Sessions moved
+      from foundational concepts to practical coding through live demonstrations,
+      examples, quizzes, coding activities, and doubt clarification.
+    </p>
+
+    <h3>TOPICS COVERED</h3>
+    <ul>
+      <li>C programming fundamentals, variables, and data types</li>
+      <li>Input, output, and operators</li>
+      <li>Arrays and strings</li>
+      <li>Functions and pointers</li>
+      <li>Structures and organising related data</li>
+    </ul>
+
+    <h3>EVENT OUTCOMES</h3>
+    <ul>
+      <li>Built understanding of C syntax and core programming concepts.</li>
+      <li>Developed practical knowledge of arrays, strings, functions, pointers, and structures.</li>
+      <li>Strengthened logical thinking and problem-solving through coding exercises.</li>
+      <li>Helped participants gain confidence and interest in further programming study.</li>
+    </ul>
+
+    <h3>PARTICIPANTS’ FEEDBACK</h3>
+    <p>
+      Participants described the sessions as clear, interactive, informative, and easy
+      to follow. They especially valued the step-by-step teaching, live coding,
+      practical examples, quizzes, and doubt clarification. Students with limited
+      programming experience found the programme useful and engaging.
+    </p>
+
+    <h3>SESSION SCREENSHOTS</h3>
+    <div class="session-images">
+      <img src="/images/events/21/c-programming-session-day1.jpeg" alt="Day 1 online C programming session" loading="lazy">
+      <img src="/images/events/21/c-programming-session-day3.jpg" alt="Day 3 online session on arrays and strings" loading="lazy">
+    </div>
+
+    <h3>RESOURCE PERSONS</h3>
+    <ul>
+      <li>Dharshini V – 3rd Year CSBS, IEEE HKN Member</li>
+      <li>Dharshini S – 3rd Year AI&amp;DS, IEEE HKN Member</li>
+    </ul>
+
+    <h3>PARTICIPANTS</h3>
+    <p>
+      Over 120 first-year students participated in the C programming tutoring sessions.
+      The programme strengthened their programming foundations and confidence.
+    </p>
+
+    <h3>CONCLUSION</h3>
+    <p>
+      The five-day programme provided a structured and engaging introduction to C
+      programming. Live coding, quizzes, practical activities, and interactive
+      learning helped students from diverse backgrounds build their programming
+      fundamentals, confidence, and interest in coding, supporting IEEE HKN Nu Eta
+      Chapter’s goal of promoting knowledge sharing and technical learning.
+    </p>
+  </div>
+  `,
+  cover_image: "/images/events/21/c-programming-poster.jpeg",
+  main_image: "/images/events/21/c-programming-poster.jpeg",
+  venue: {
+    name: "Google Meet",
+    image: "/images/events/location-icon.jpg",
+    location: "Online",
+  },
+  tags: ["Nu Minds Tutoring", "C Programming", "IEEE HKN", "Online"],
+  date: "September 16th – 20th, 2026",
+  year: 2026,
 }
+
+
 
 
 
