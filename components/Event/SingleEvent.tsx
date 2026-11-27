@@ -16,9 +16,11 @@ const SingleEvent = ({ event }: { event: Event }) => {
             <Image src={cover_image} alt="image" fill/>
           </Link>
           <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8">
-            <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
-              {title}
-            </p>
+            <h3 className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-primary">
+              <Link href={"/events/" + event.id}>
+                {title}
+              </Link>
+            </h3>
             <div className="flex items-center">
               <div
                   className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">

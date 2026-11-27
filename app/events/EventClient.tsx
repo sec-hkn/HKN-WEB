@@ -28,8 +28,8 @@ const EventClient: React.FC<Props> = ({ events }) => {
   // Get events to display
   const visibleEvents =
     selectedYear === "all"
-      ? events.sort((a, b) => b.year - a.year) // optional: newest first
-      : eventsByYear[selectedYear];
+      ? [...events].sort((a, b) => b.year - a.year) // optional: newest first
+      : eventsByYear[selectedYear] || [];
 
   return (
     <section className="pb-[120px] pt-[60px]">
@@ -70,13 +70,12 @@ const EventClient: React.FC<Props> = ({ events }) => {
         {/* Event Cards Grid */}
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {visibleEvents.map((event) => (
-            <a
-              href={`/events/${event.id}`}
+            <div
               key={event.id}
-              className="transform transition duration-300 hover:scale-105"
+              className="transform transition duration-300 hover:scale-[1.02]"
             >
               <SingleEvent event={event} />
-            </a>
+            </div>
           ))}
         </div>
       </div>

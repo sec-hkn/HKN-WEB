@@ -20,24 +20,18 @@ const Genesis = () => {
       {/* Genesis Buttons */}
       <div className={styles.genesisButtons}>
         {/* GENESIS 1.0 Button with yellow theme */}
-        <Link href="genesis/genesis1">
-          <button className={`${styles.genesisButton} ${styles.genesis1}`}>
-            GENESIS 1.0
-          </button>
+        <Link href="/genesis/genesis1" className={`${styles.genesisButton} ${styles.genesis1}`}>
+          GENESIS 1.0
         </Link>
 
         {/* GENESIS 2.0 Button with night sky blue theme */}
-        <Link href="genesis/genesis2">
-          <button className={`${styles.genesisButton} ${styles.genesis2}`}>
-            GENESIS 2.0
-          </button>
+        <Link href="/genesis/genesis2" className={`${styles.genesisButton} ${styles.genesis2}`}>
+          GENESIS 2.0
         </Link>
 
         {/* NEW GENESIS 3.0 */}
-        <Link href="genesis/genesis3">
-          <button className={`${styles.genesisButton} ${styles.genesis3}`}>
-            GENESIS 3.0
-          </button>
+        <Link href="/genesis/genesis3" className={`${styles.genesisButton} ${styles.genesis3}`}>
+          GENESIS 3.0
         </Link>
       </div>
     </div>

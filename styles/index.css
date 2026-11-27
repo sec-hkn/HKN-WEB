@@ -11,7 +11,7 @@
 }
 
 @layer components {
-  input[type="checkbox"]:checked ~ label span svg {
+  input[type="checkbox"]:checked~label span svg {
     @apply inline-flex;
   }
 
@@ -23,11 +23,20 @@
     @apply opacity-70;
   }
 
-  input#togglePlan:checked ~ .dot {
+  input#togglePlan:checked~.dot {
     @apply translate-x-full;
   }
 
-  input#checkboxLabel:checked ~ .box span {
+  input#checkboxLabel:checked~.box span {
     @apply opacity-100;
+  }
+
+  svg.svg-inline--fa {
+    display: inline-block;
+    height: 1.25rem !important;
+    width: 1.25rem !important;
+    max-height: 1.5rem !important;
+    max-width: 1.5rem !important;
+    vertical-align: -0.125em;
   }
 }

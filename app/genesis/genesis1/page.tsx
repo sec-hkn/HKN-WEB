@@ -64,72 +64,117 @@ const Genesis1 = () => {
               className="mx-auto mt-4"
             />
           </section>
-          <section id="events">
-                <h3>Events</h3>
-                <div className="even-day">
-                    <h4>Day 1</h4>
-                    <div className="even">
-                        <h5>01:30 PM - 03:40 PM: <b>TECH TALK ON Connected Healthcare for Remote Moms</b></h5>
-                        <p>Join us for an insightful Tech Talk on Connected Healthcare for Remote Moms. This session will delve into the latest advancements in healthcare technology specifically designed to support mothers in remote areas. Discover innovative solutions that bridge the gap in healthcare access and improve maternal health outcomes.</p>
-                        <Image
-                src="/images/events/10/p11.jpeg"
-                width={400}
-                height={450}
-                className="w-full"
-                alt="Guest CEO"
-              />
+          <section id="events" className="mt-12">
+            <h3 className="animate-pulse bg-[#FFC52B] py-3 text-center text-2xl font-bold">
+              Events
+            </h3>
 
-                    </div>
-                    <div className="even">
-                        <h5>09:30 AM - 04:00 PM: <b>SustainFest: An Exhibition Promoting Sustainability</b></h5>
-                        <p>Visit SustainFest, an expo dedicated to promoting sustainability. Explore innovative projects, products, and ideas that focus on sustainable practices. This is a fantastic opportunity to learn about the latest trends in sustainability and get inspired to make a positive environmental impact.</p>
-                        <Image
-                src="/images/events/10/p12.jpeg"
-                width={400}
-                height={450}
-                className="w-full"
-                alt="Guest CEO"
-              />
+            {/* Day 1 */}
+            <div className="mt-8">
+              <h4 className="mb-6 text-2xl font-bold text-[#0C1326] border-b pb-2">
+                Day 1
+              </h4>
+              <div className="grid gap-6 md:grid-cols-2">
+                <div className="overflow-hidden rounded-xl bg-white text-[#0C1326] shadow-md flex flex-col justify-between">
+                  <div className="p-5">
+                    <h5 className="text-base font-bold text-primary mb-1">01:30 PM - 03:40 PM</h5>
+                    <h4 className="text-xl font-bold mb-2">TECH TALK: Connected Healthcare for Remote Moms</h4>
+                    <p className="text-sm text-gray-700 leading-relaxed mb-4">
+                      Join us for an insightful Tech Talk on Connected Healthcare for Remote Moms. This session will delve into the latest advancements in healthcare technology specifically designed to support mothers in remote areas. Discover innovative solutions that bridge the gap in healthcare access and improve maternal health outcomes.
+                    </p>
+                  </div>
+                  <div className="relative h-64 w-full">
+                    <Image
+                      src="/images/events/10/p11.jpeg"
+                      alt="Tech Talk"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
 
-                    </div>
+                <div className="overflow-hidden rounded-xl bg-white text-[#0C1326] shadow-md flex flex-col justify-between">
+                  <div className="p-5">
+                    <h5 className="text-base font-bold text-primary mb-1">09:30 AM - 04:00 PM</h5>
+                    <h4 className="text-xl font-bold mb-2">SustainFest: An Exhibition Promoting Sustainability</h4>
+                    <p className="text-sm text-gray-700 leading-relaxed mb-4">
+                      Visit SustainFest, an expo dedicated to promoting sustainability. Explore innovative projects, products, and ideas that focus on sustainable practices. This is a fantastic opportunity to learn about the latest trends in sustainability and get inspired to make a positive environmental impact.
+                    </p>
+                  </div>
+                  <div className="relative h-64 w-full">
+                    <Image
+                      src="/images/events/10/p12.jpeg"
+                      alt="SustainFest"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
-                <div className="even-day">
-                    <h4>Day 2</h4>
-                    <div className="even">
-                        <h5>10:30 AM - 12:30 PM: <b>IEEE SIGHT SESSION</b></h5>
-                        <p>Participate in the IEEE SIGHT Session where we will explore projects and initiatives aimed at leveraging technology for social good. Learn how engineers and technologists are using their skills to address pressing global challenges and contribute to sustainable development.</p>
-                        <Image
-                src="/images/events/10/p21.jpeg"
-                width={400}
-                height={450}
-                className="w-full"
-                alt="Guest CEO"
-              />
-                    </div>
-                    <div className="even">
-                        <h5>10:30 AM - 12:30 PM: <b>Think Tank</b></h5>
-                        <p>Join us for the Think Tank Event where you can showcase your strategic expertise and problem-solving skills to tackle real-world business challenges. This is a golden opportunity to engage with fellow innovators and make a significant impact!</p>
-                        <Image
-                src="/images/events/10/p22.jpeg"
-                width={400}
-                height={450}
-                className="w-full"
-                alt="Guest CEO"
-              />
-                    </div>
-                    <div className="even">
-                        <h5>01:30 PM - 02:30 PM: <b>SOCIAL ENTREPRENEURSHIP</b></h5>
-                        <p>Immerse yourself in the world of Social Entrepreneurship. This session will provide insights into how business principles can be applied to create social value. Learn from experienced social entrepreneurs and gain inspiration to start your own venture that addresses societal issues.</p>
-                        <Image
-                src="/images/events/10/p23.jpeg"
-                width={400}
-                height={450}
-                className="w-full"
-                alt="Guest CEO"
-              />
-                    </div>
+              </div>
+            </div>
+
+            {/* Day 2 */}
+            <div className="mt-12">
+              <h4 className="mb-6 text-2xl font-bold text-[#0C1326] border-b pb-2">
+                Day 2
+              </h4>
+              <div className="grid gap-6 md:grid-cols-3">
+                <div className="overflow-hidden rounded-xl bg-white text-[#0C1326] shadow-md flex flex-col justify-between">
+                  <div className="p-5">
+                    <h5 className="text-base font-bold text-primary mb-1">10:30 AM - 12:30 PM</h5>
+                    <h4 className="text-lg font-bold mb-2">IEEE SIGHT SESSION</h4>
+                    <p className="text-sm text-gray-700 leading-relaxed mb-4">
+                      Participate in the IEEE SIGHT Session exploring projects and initiatives aimed at leveraging technology for social good and sustainable development.
+                    </p>
+                  </div>
+                  <div className="relative h-56 w-full">
+                    <Image
+                      src="/images/events/10/p21.jpeg"
+                      alt="IEEE SIGHT"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
-            </section>
+
+                <div className="overflow-hidden rounded-xl bg-white text-[#0C1326] shadow-md flex flex-col justify-between">
+                  <div className="p-5">
+                    <h5 className="text-base font-bold text-primary mb-1">10:30 AM - 12:30 PM</h5>
+                    <h4 className="text-lg font-bold mb-2">Think Tank</h4>
+                    <p className="text-sm text-gray-700 leading-relaxed mb-4">
+                      Showcase strategic expertise and problem-solving skills to tackle real-world business challenges alongside fellow innovators.
+                    </p>
+                  </div>
+                  <div className="relative h-56 w-full">
+                    <Image
+                      src="/images/events/10/p22.jpeg"
+                      alt="Think Tank"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+
+                <div className="overflow-hidden rounded-xl bg-white text-[#0C1326] shadow-md flex flex-col justify-between">
+                  <div className="p-5">
+                    <h5 className="text-base font-bold text-primary mb-1">01:30 PM - 02:30 PM</h5>
+                    <h4 className="text-lg font-bold mb-2">SOCIAL ENTREPRENEURSHIP</h4>
+                    <p className="text-sm text-gray-700 leading-relaxed mb-4">
+                      Immerse yourself in social entrepreneurship. Gain insights into how business principles can be applied to create lasting social value.
+                    </p>
+                  </div>
+                  <div className="relative h-56 w-full">
+                    <Image
+                      src="/images/events/10/p23.jpeg"
+                      alt="Social Entrepreneurship"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
           {/* Guest Slideshow */}
           <section className="mt-10">
             <h3 className="text-2xl bg-[#FFC52B] text-center py-3 font-bold animate-pulse">

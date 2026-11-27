@@ -53,7 +53,7 @@ Explore this section to meet our Twilights and celebrate the stars who illuminat
                     <Image src={"/images/sairam-nu-eta.jpeg"}
                            alt={"Nu Eta Chapter"}
                            fill
-                           className={"drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"}/>
+                           className={"drop-shadow-three mx-auto max-w-full object-cover rounded-lg dark:drop-shadow-none lg:mr-0"}/>
                   </div>
                 </div>
 

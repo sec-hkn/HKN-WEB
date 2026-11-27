@@ -20,12 +20,13 @@ const Description: React.FC<DescriptionProps> = ({ imagePaths }) => {
 
     // Auto-scroll functionality
     useEffect(() => {
+        if (!imagePaths || imagePaths.length === 0) return;
         const interval = setInterval(() => {
-            handleNext();
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % imagePaths.length);
         }, 3000); // Change slide every 3 seconds
 
         return () => clearInterval(interval); // Cleanup interval on component unmount
-    }, [currentIndex]);
+    }, [imagePaths]);
 
     return (
         <div className="pt-10 pb-10 pl-10 pr-10 bg-gray-100">

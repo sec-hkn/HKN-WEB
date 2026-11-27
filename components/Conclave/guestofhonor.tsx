@@ -20,12 +20,13 @@ const GuestOfHonor: React.FC = () => {
 
     // Auto-scroll functionality
     useEffect(() => {
+        if (!guestData || guestData.length === 0) return;
         const interval = setInterval(() => {
-            handleNext();
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % guestData.length);
         }, 3000); // Change slide every 3 seconds
 
         return () => clearInterval(interval); // Cleanup interval on component unmount
-    }, [currentIndex]);
+    }, []);
 
     return (
         <div className="p-10">

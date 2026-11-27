@@ -45,7 +45,7 @@ const NuEtaSectionOne = () => {
                     <Image src={"/images/sairam-nu-eta.jpeg"}
                            alt={"Nu Eta Chapter"}
                            fill
-                           className={"drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"}/>
+                           className={"drop-shadow-three mx-auto max-w-full object-cover rounded-lg dark:drop-shadow-none lg:mr-0"}/>
                   </div>
                 </div>
 
@@ -54,18 +54,19 @@ const NuEtaSectionOne = () => {
           </div>
         </section>
         <div>
-          <h2 className={"mb-4 text-3xl font-bold !leading-tight text-black text-center dark:text-white sm:text-4xl md:text-[45px]"}>VISION
-            & MISSION</h2>
+          <h2 className={"mb-6 text-3xl font-bold !leading-tight text-black text-center dark:text-white sm:text-4xl md:text-[45px]"}>
+            VISION & MISSION
+          </h2>
           <div
-              className="wow fadeInUp mx-auto max-w-[800px] text-center"
+              className="wow fadeInUp mx-auto max-w-[800px] px-4"
               data-wow-delay=".2s"
           >
-            <ul className="text-black list-disc dark:text-body-color-dark mb-12 text-base !leading-relaxed sm:text-lg md:text-xl space-y-6">
+            <ul className="text-black list-disc list-inside dark:text-body-color-dark mb-12 text-base !leading-relaxed sm:text-lg md:text-xl space-y-4 text-left">
               <li>
                 Foster and support innovation in technology to build solutions to societal problems through student
                 fraternity.
               </li>
-              <li>Provide innovators with the right resources and a global platform for their success</li>
+              <li>Provide innovators with the right resources and a global platform for their success.</li>
               <li>Promote the values of the IEEE HKN society among students and professionals.</li>
             </ul>
           </div>

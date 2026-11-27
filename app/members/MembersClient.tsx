@@ -21,8 +21,8 @@ const MembersClient: React.FC<Props> = ({ members }) => {
   const membersByTerm = groupMembersByTerm(members);
   const sortedTerms = Object.keys(membersByTerm).sort((a, b) => {
     // Extract years and sort in descending order
-    const aYear = parseInt(a.split("-")[1]);
-    const bYear = parseInt(b.split("-")[1]);
+    const aYear = parseInt(a.split("-")[1] || a) || 0;
+    const bYear = parseInt(b.split("-")[1] || b) || 0;
     return bYear - aYear;
   });
 
@@ -31,12 +31,12 @@ const MembersClient: React.FC<Props> = ({ members }) => {
   // Get members to display
   const visibleMembers =
     selectedTerm === "all"
-      ? members.sort((a, b) => {
-          const aYear = parseInt(b.term.split("-")[1]);
-          const bYear = parseInt(a.term.split("-")[1]);
+      ? [...members].sort((a, b) => {
+          const aYear = parseInt(b.term?.split("-")[1] || b.term) || 0;
+          const bYear = parseInt(a.term?.split("-")[1] || a.term) || 0;
           return aYear - bYear;
         })
-      : membersByTerm[selectedTerm];
+      : membersByTerm[selectedTerm] || [];
 
   return (
     <section className="pb-[120px] pt-[60px]">

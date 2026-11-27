@@ -27,7 +27,7 @@ const AboutSectionTwo = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[470px]">
               <div className="mb-9">
-                <p className="text-xl font-medium leading-relaxed text-black text-justify sm:leading-relaxed">
+                <p className="text-xl font-medium leading-relaxed text-black dark:text-white text-justify sm:leading-relaxed">
                   Sri Sairam Engineering College, Chennai was established in the year 1995 by MJF. Ln. LeoMuthu,
                   Chairman of Sapthagiri Educational Trust. Our Institution is an Autonomous Institution, affiliated to
                   Anna University and approved by AICTE, New Delhi. Besides, the institution has been accredited by

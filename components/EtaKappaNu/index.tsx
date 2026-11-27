@@ -19,23 +19,14 @@ const EtaKappaNu = () => {
                                 src="/images/logo/IEEEEtaKappaNuStackedLogo.png"
                                 alt="IEEE HKN Logo"
                                 fill
-                                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                                className="drop-shadow-three dark:drop-shadow-none dark:brightness-110 object-contain"
                             />
-                            {/*<Image*/}
-                            {/*    src="/images/about/SUMMA-white.png"*/}
-                            {/*    alt="about image"*/}
-                            {/*    fill*/}
-                            {/*    className="drop-shadow-three hidden dark:block dark:drop-shadow-none"*/}
-                            {/*/>*/}
                         </div>
                     </div>
                     <div className="w-full px-4 lg:w-1/2">
                         <div className="max-w-[470px]">
                             <div className="mb-9">
-                                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                                    {/*Bug free code*/}
-                                </h3>
-                                <p className="text-black text-xl font-medium text-justify !leading-relaxed">
+                                <p className="text-black dark:text-white text-xl font-medium text-justify !leading-relaxed">
                                     The IEEE HKN (Institute of Electrical and Electronics Engineers Eta Kappa Nu)
                                     Society is a prestigious honor society for students and professionals in the fields
                                     of electrical engineering, computer engineering, and related disciplines. The
