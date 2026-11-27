@@ -575,9 +575,9 @@ export const studentMembers: Members[] = [
     term: "2025-2026",
     name: "SARAVANAN R K",
     designation: "HKN Member",
-    linkedin: "www.linkedin.com/in/saravanan-rk/",
+    linkedin: "https://www.linkedin.com/in/saravanan-rk/",
     mailid: "rks17102005@gmail.com",
-    image: "/images/members/25/SARAVANAN R K .jpg",
+    image: "/images/members/25/SARAVANAN R K .jpeg",
     year: "2025",
 
   },
